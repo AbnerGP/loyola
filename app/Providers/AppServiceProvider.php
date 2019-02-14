@@ -24,7 +24,7 @@ class AppServiceProvider extends ServiceProvider
 
        AbstractPaginator::defaultView("pagination::bootstrap-4");
        AbstractPaginator::defaultSimpleView("pagination::simple-bootstrap-4");
-        $this->app['request']->server->set('HTTPS','on');
+       //$this->app['request']->server->set('HTTPS','on');
     }
 
     /**
