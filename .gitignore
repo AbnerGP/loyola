@@ -12,6 +12,5 @@ npm-debug.log
 yarn-error.log
 .env
 **/.DS_Store
-/public/media
 /public/db/files
 /public/db/.DS_Store

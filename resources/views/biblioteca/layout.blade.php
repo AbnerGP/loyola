@@ -70,36 +70,7 @@
    @yield('content')
 </div>
 
-
-<div class="container-fluid footer-main ">
-    <div class="row footer-top ">
-        <div class="col-sm-4 col-xs-12 text-center">
-            <img class="img-fluid" style="padding-top: 40px" src="{{ url('images/gobmorelos.png') }}">
-        </div>
-
-        <div class="col-sm-4">
-            <h4 class="ft-text-title">Páginas de Interés</h4>
-            <ul class="footer-list">
-                <li><a href="http://iedm.morelos.gob.mx/" target="_blank">Instituto Estatal de Documentación</a></li>
-                <li><a href="http://morelos.gob.mx" target="_blank">Gobierno del Estado de Morelos</a></li>
-                <li><a href="http://turismoycultura.morelos.gob.mx" target="_blank">Secretaría de Turismo y Cultura</a></li>
-            </ul>
-
-        </div>
-        <div class="col-sm-4 text-center">
-            <img style="padding-top: 40px; padding-bottom: 30px" class="img-fluid" src="{{ url('images/logo-fonca.png') }}">
-        </div>
-    </div>
-    <div class="row ft-copyright pt-2 pb-2" style="padding-left: 25px;">
-        <div class="col-sm-4 text-pp-crt">Gobierno del Estado de Morelos 2018-2024</div>
-        <div class="col-sm-4 text-pp-crt-rg">Instituto Estatal de Documentación</div>
-        <div class="col-sm-4 developer">
-            <a href="https://fonca.cultura.gob.mx/" target="_blank" class="text-pp-crt">FONCA</a>
-        </div>
-    </div>
-</div>
-
-
+@include('biblioteca.footer')
 
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
@@ -110,6 +81,7 @@
         interval: 100
     })
 </script>
+
 
 </body>
 
