@@ -1,36 +1,276 @@
-<style type="text/css">
-p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: justify; font: 12.0px 'Helvetica Neue'; color: #454545}
-p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: justify; font: 12.0px 'Helvetica Neue'; color: #454545; min-height: 14.0px}
-p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Helvetica Neue'; color: #454545}
-</style>
+<div class="container">
+<h3>¿Quiénes somos?</h3>
+    <div class="row">
+        <div class="col-md-6 mb-4">
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img class="d-block w-100" src="/images/inst_080-300x199.jpg" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/jDZ2B7V6dv8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+        </div>
+        <div class="col-md-6 mb-4">
+            <h5>Grupo Educativo Loyola</h5>
+            <p>
+                Una tradición en educación que ha trascendido de generación a generación.
+            </p>
+            <p>
+                Desde su fundación, el Grupo Educativo Loyola ha tenido por norma adecuar sus programas académicos a la dinámica social para estar al día en el campo de la enseñanza, lo cual nos ha permitido mantenernos a la vanguardia en la preparación y la formación de nuestros alumnos, lo que a su vez les permite a ellos responder adecuadamente a las expectativas de una sociedad globalizada altamente competitiva.
+            </p>
+            <p>
+                Nuestra calidad académica nos ha convertido en una institución de prestigio y calidad, con importantes logros académicos y deportivos que motivan a nuestros alumnos a superarse y ser mejores.
+            </p>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6 mb-4">
+            <div class="accordion" id="accordionExample">
+              <div class="card z-depth-0 bordered">
+                <div class="card-header" id="headingOne">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne"
+                      aria-expanded="true" aria-controls="collapseOne">
+                      Misión
+                    </button>
+                  </h5>
+                </div>
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                  <div class="card-body">
+                    Formar personas capaces de realizarse y de contribuir a la realización de la sociedad, con una visión comprehensiva orientada por la armonía, la verdad y la humildad.
+                  </div>
+                </div>
+              </div>
+              <div class="card z-depth-0 bordered">
+                <div class="card-header" id="headingTwo">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo"
+                      aria-expanded="false" aria-controls="collapseTwo">
+                      Nuestra Visión Filosófica
+                    </button>
+                  </h5>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                  <div class="card-body">
+                    El Colegio Loyola define su filosofía educativa como una Filosofía Comprehensiva, en tanto que:
+                    <ol>
+                        <li>Concibe la existencia humana como incardinada en una totalidad incluyente y dinámica.</li>
+                        <li>Se plantea el desarrollo de la persona y de la colectividad, dentro de un proceso posible y necesario de armonización positiva, “de” y “con” dicha totalidad.</li>
+                    </ol>
+                  </div>
+                </div>
+              </div>
+              <div class="card z-depth-0 bordered">
+                <div class="card-header" id="headingThree">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree"
+                      aria-expanded="false" aria-controls="collapseThree">
+                      El Colegio Loyola y la Dimensión Humana
+                    </button>
+                  </h5>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                  <div class="card-body">
+                    La dimensión humana, ingrediente esencial de la Filosofía Comprehensiva del Colegio Loyola, plantea, entre sus valores fundamentales los siguientes:
+                    <ul>
+                        <li>Amor y compromiso hacia nuestros semejantes, en un marco de justicia y apertura a la diferencia.</li>
+                        <li>Búsqueda de la verdad, proceso en el cual la ciencia, el autoconocimiento y el pensamiento creativo cumplen funciones clave.</li>
+                        <li>Búsqueda de la realización exitosa de individuos y sociedad, como proyectos en permanente construcción y reconstrucción y en un marco de libertad responsable.</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="card z-depth-0 bordered">
+                              <div class="card-header" id="headingTwo">
+                                <h5 class="mb-0">
+                                  <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo"
+                                    aria-expanded="false" aria-controls="collapseTwo">
+                                    Nuestros Valores
+                                  </button>
+                                </h5>
+                              </div>
+                              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                <div class="card-body">
+                                  Los siguientes principios clave orientan a nuestro proyecto educativo en todos sus ámbitos:
+                                  <ol>
+                                      <li>Amor.</li>
+                                      <li>Humildad.</li>
+                                      <li>Verdad.</li>
+                                      <li>Libertad.</li>
+                                      <li>Justicia.</li>
+                                      <li>Respeto.</li>
+                                      <li>Responsabilidad.</li>
+                                      <li>Lealtad</li>
+                                  </ol>
+                                </div>
+                              </div>
+                            </div>
+            </div>
+        </div>
+        <div class="col-md-6 mb-4">
+            <h5>Nuestros logros</h5>
+            <p class="mdb-color white-text">Académicos 95</p>
+            <p class="mdb-color white-text">Fútbol 92</p>
+            <p class="mdb-color white-text">Tae Kwon Do 92</p>
+            <p class="mdb-color white-text">Porras 89</p>
+        </div>
+    </div>
 
 
-<p class="p1"><span style="font-weight: bolder;">CONOCENOS</span></p><p class="p1"><br></p><p class="p1"><img src="<:url:>/media/Barras-01.jpg" style="width: 100%;"><br></p>
-<p class="p2"><br><br></p>
-<p class="p1"><b>Misión</b></p>
-<p class="p1">Promover el contenido de todas las obras a la comunidad e instituciones para su consulta con calidad.</p>
-<p class="p2"><br></p>
-<p class="p1"><b>Visión</b></p>
-<p class="p1"><i>LA BIBLIOTECA MORELOS</i> será un modelo digital que establecerá alianzas con redes afines y con otras organizaciones.</p>
-<p class="p2"><br></p>
-<p class="p1"><b>Objetivo</b></p>
-<p class="p1">Reunir un legado bibliografico y hacerlo accesible al publico.</p>
-<p class="p2"><br></p>
-<p class="p1"><b>¿Que es la Biblioteca Morelos?</b></p>
-<p class="p2"><br></p>
-<p class="p1">Los acervos bibliográficos depositan la memoria escrita de una cultura; preservarla y difundirla nos permite aproximarnos a una sociedad en un determinado tiempo y espacio y lo que concierne a ella a las mentalidades, la cultura popular, sus usos y costumbres, la vida cotidiana, etc.<span class="Apple-converted-space">&nbsp;</span></p>
-<p class="p1">Bajo esta premisa en julio de 2017, Grupo Kósmos conformado por Julia Jayme, Laura Paredes y Miriam Sánchez, se postuló en la convocatoria del Programa de Fomento a Proyectos y Coinversiones Culturales con el proyecto: Biblioteca digital: 100 Años de Cocina Mexicana y 150 Años de Historia de Morelos, de la coleccionista Rosario C. Quintero, resultando seleccionado en enero de 2018. En donde el Instituto Estatal de Documentación de Morelos (IEDM) apoya en coinversión y en especie correspondiente a infraestructura (Instalaciones), equipo e insumos lo aporta el Instituto de Cultura y Turismo de Morelos, a través de un convenio para llevar proyectos culturales.</p>
-<p class="p1">Dicho proyecto se desarrollo en varias etapas. Dentro de los procesos se hizo la preparación física, catalogación bibliográfica, digitalización en dos métodos: fotográfico y scanner de cama plana, limpieza digital, preparación para su publicación y ponerlas al alcance del público en general y especializado para ofrecer y acercar herramientas a favor de la generación del conocimiento.</p>
-<p class="p2"><br></p>
-<p class="p2"><br></p>
-<p class="p1"><b>BIBLIOTECA DIGITAL<br><br></b></p>
-<p class="p2"><img src="<:url:>/media/FOTO 11-1200X300.jpg" style="width: 100%;"><br></p>
-<p class="p3"><br>Esta sección está dedicada al patrimonio documental. Los Acervos electrónicos de la Biblioteca Digital son páginas que profundizan en el conocimiento de las colecciones bibliográficas.</p>
-<p class="p1">Se ha reunido aquí los recursos de información electrónica y digital mediante los cuales podemos localizar textos completos de: libros, revistas, folletos y periodicos, que se encuentran disponibles, para ser consultados por el público en general.</p>
-<p class="p2"><br></p>
-<p class="p1">100 Años de Cocina Mexicana y 150 Años de Historia de Morelos, tienen una selección de antigüedad, información iconográfica y documental que difícilmente se encuentran en la actualidad.</p>
-<p class="p2"><br></p>
-<p class="p1"><b>COLECCIÓN ROSARIO CASTRO QUINTERO</b></p>
-<p class="p2"><br></p>
-<p class="p1">Nació en el municipio de Tlaltizapán, Morelos en el año de 1945. Fue en el ámbito de la familia, del pueblo y del campo, donde se inició y desarrolló su vínculo estrecho con la cocina. Otros elementos más determinaron sus gustos y su carácter, tales como la religión, la pintura, las fiestas y los libros.</p>
-<p class="p1">Son su manera de compartir su gusto por la cocina y todo lo que ella significa en la vida cotidiana, que la hizo, compartirnos parte de su colección sobre Cocina Mexicana y la Historia de Morelos. La Colección Rosario Castro Quintero, se encuentra conformado por libros, revistas, folletos y periodicos.</p>
+    <!-- Cards -->
+    <div class="row text-center">
+
+        <!-- Grid column -->
+        <div class="col-md-6 mb-4">
+
+            <div class="card blue-grey lighten-5">
+                <div class="card-body">
+                    <h2 class="font-weight-bold amber-lighter-hover mb-3">Principios pedagógicos</h2>
+                    <p class="white-darker-hover">
+                    La labor educativa del Colegio Loyola está cimentada firmemente en tres referentes pedagógicos, el tercero de los cuales es una expresión derivada de nuestra Filosofía Comprehensiva:
+                        <ol>
+                            <li>El Aprendizaje Significativo.</li>
+                            <li>El Aprendizaje Basado en Competencias.</li>
+                            <li>Una Educación Comprehensiva.</li>
+                        </ol>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-6 mb-4">
+
+            <div class="card blue-grey lighten-5">
+                <div class="card-body">
+                    <h2 class="font-weight-bold cyan-lighter-hover mb-3">El Aprendizaje Significativo</h2>
+                    <p class="white-darker-hover">
+                        Este principio pedagógico, congruente con el paradigma constructivista, nos pide promover activamente aquellas experiencias de aprendizaje en las que los participantes:
+                        <ol>
+                            <li>Valoran lo que aprenden.</li>
+                            <li>Comprenden lo que aprenden.</li>
+                            <li>Aplican lo que aprenden.</li>
+                            <li>Mejoran lo que aprenden.</li>
+                            <li>Aprenden a aprender.</li>
+                        </ol>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+        <!-- Grid column -->
+
+    </div>
+    <!-- Cards -->
+
+    <!-- Cards -->
+        <div class="row text-center">
+
+            <!-- Grid column -->
+            <div class="col-md-6 mb-4">
+
+                <div class="card blue-grey lighten-5">
+                    <div class="card-body">
+                        <h2 class="font-weight-bold amber-lighter-hover mb-3">El Aprendizaje Basado en Competencias</h2>
+                        <p class="white-darker-hover">
+                        Este principio pedagógico nos pide hacer todo lo posible para asegurarnos de que:
+
+                        <ol>
+                            <li>El aprendizaje escolar sea una vía efectiva para el desarrollo integral.</li>
+                            <li>Nuestros alumnos pueden desempeñarse exitosamente en escenarios reales y complejos, acordes a su etapa de desarrollo y a los desafíos del mundo actual.</li>
+                            <li>Nuestros alumnos puedan contribuir de manera efectiva a la transformación de sí mismos y de su entorno inmediato, mediato y global.</li>
+                        </ol>
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-6 mb-4">
+
+                <div class="card blue-grey lighten-5">
+                    <div class="card-body">
+                        <h2 class="font-weight-bold cyan-lighter-hover mb-3">Una Educación Comprehensiva</h2>
+                        <p class="white-darker-hover">
+                            Desde este principio nos planteamos:
+
+                            <ol>
+                                <li>Concebir la educación como un acto de amor.</li>
+                                <li>Contribuir de manera efectiva al desarrollo completo del ser del alumno, en armonía con el planeta y el universo.</li>
+                                <li>Educar en atención a las etapas de desarrollo de los alumnos, en donde la integración neuropsicológica, la introspección y la integración a la vida, son algunos de los vectores clave.</li>
+                            </ol>
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+            <!-- Grid column -->
+
+        </div>
+        <!-- Cards -->
+
+        <!-- Cards -->
+        <div class="row text-center">
+
+            <!-- Grid column -->
+            <div class="col-lg-12">
+
+                <div class="card blue-grey lighten-5">
+                    <div class="card-body">
+                        <h2 class="font-weight-bold amber-lighter-hover mb-3">Recursos metodológicos</h2>
+                        <p class="white-darker-hover">
+                        El modelo educativo del Colegio Loyola se ve enriquecido por plataformas teórico-metodológicas diversas, en permanente actualización y congruentes con nuestra filosofía educativa y nuestra visión pedagógica, entre las que destacan:<br><br>
+
+                        El aprendizaje activo.<br>
+                        El aprendizaje situado.<br>
+                        Inteligencias múltiples.<br>
+                        Disciplina inteligente.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+            <!-- Grid column -->
+        </div>
+        <!-- Cards -->
+
+        <!-- Cards -->
+        <div class="row">
+
+            <!-- Grid column -->
+            <div class="col-lg-12">
+
+                <div class="card mdb-color white-text">
+                    <div class="card-body">
+                        <h2 class="font-weight-bold amber-lighter-hover mb-3">GRUPO EDUCATIVO LOYOLA ORGULLOSO MIEMBRO DE</h2>
+                        <p class="white-darker-hover">
+                        <ul>
+                            <li>COPARMEX (Confederación Patronal de la República Mexicana)</li>
+                            <li>ALPES (Alianza por la Educación Superior)</li>
+                            <li>FUPAMOR (Federación de Universidades Particulares)</li>
+                        </ul>
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+            <!-- Grid column -->
+        </div>
+        <!-- Cards -->
+</div>

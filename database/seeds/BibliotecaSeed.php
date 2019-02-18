@@ -35,12 +35,42 @@ class BibliotecaSeed extends Seeder
         ]);
 
         $about = $this->getContentPage('about');
-        $name_about = "¿Quíenes Somos?";
+        $name_about = "¿Quienes Somos?";
 
         Page::create([
            'titulo' => $name_about,
             'slug' => str_slug($name_about),
             'contenido' => $about,
+            'status' => 1,
+        ]);
+
+        $level = $this->getContentPage('level');
+        $name_level = "Niveles Educativos";
+
+        Page::create([
+            'titulo' => $name_level,
+            'slug' => str_slug($name_level),
+            'contenido' => $level,
+            'status' => 1,
+        ]);
+
+        $logros = $this->getContentPage('logros');
+        $name_logros = "Nuestros logros";
+
+        Page::create([
+            'titulo' => $name_logros,
+            'slug' => str_slug($name_logros),
+            'contenido' => $logros,
+            'status' => 1,
+        ]);
+
+        $instalaciones = $this->getContentPage('instalaciones');
+        $name_instalaciones = "Instalaciones";
+
+        Page::create([
+            'titulo' => $name_instalaciones,
+            'slug' => str_slug($name_instalaciones),
+            'contenido' => $instalaciones,
             'status' => 1,
         ]);
 

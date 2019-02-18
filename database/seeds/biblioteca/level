@@ -1,0 +1,50 @@
+<div class="container">
+<h3>Niveles Educativos</h3>
+    <div class="row">
+        <div class="col-md-6 mb-4">
+            <img src="/images/kinder.jpg" width="100%" />
+        </div>
+        <div class="col-md-6 mb-4">
+            <p>
+                Nuestro programa integra actividades creativas que llevan al niño a entrar en contacto con sus potencialidades y desarrollarlas, a la vez que construye conocimientos que le permiten encontrarle sentido a su mundo. Nuestras técnicas de enseñanza alientan a la creatividad y la imaginación infantil, logrando una óptima combinación de entretenimiento y educación, en un entorno de armonía y bienestar para sus pequeños.
+            </p>
+            <button class="btn btn-info">Kinder</button>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6 mb-4">
+            <p>
+                En primaria nuestra misión se dirige a lograr que esta etapa de crecimiento del niño fortalezca su desarrollo integral y formativo, inculcándole a la vez hábitos y valores que habrán de acompañarlo a lo largo de su vida. , integrando a los padres y docentes como pilares fundamentales de la educación, así creamos en ellos principios que nutren su conciencia y formación, logrando con esto una experiencia educativa basada en valores y vanguardia académica que les permite lograr su aprendizaje de manera efectiva.
+            </p>
+            <button class="btn btn-info">Primaria</button>
+        </div>
+        <div class="col-md-6 mb-4">
+            <img src="/images/primaria.jpg" width="100%" />
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6 mb-4">
+            <img src="/images/secundaria.jpg" width="100%" />
+        </div>
+        <div class="col-md-6 mb-4">
+            <p>
+                Nuestros alumnos aprenden bajo un contexto dinámico y participativo que impulsa la libre expresión de sus ideas en un marco de convivencia y respeto. acompañamos a nuestros jóvenes en su formación y los preparamos no sólo académicamente sino seguros de sí mismos, con pensamiento crítico y analítico, con alta calidad humana y conciencia ecológica, comprometidos a lograr un cambio positivo en ellos mismos y en su entorno, responsables de sus actos y conscientes de la realidad actual.
+            </p>
+            <button class="btn btn-info">Secundaria</button>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6 mb-4">
+            <p>
+                La preparatoria Loyola es una institución educativa que promueve planes y programas de estudio en ciencias y humanidades. Nuestra estrategia educativa fomenta el desarrollo personal de valores, habitos y actitudes que forman a nuestros alumnos como personas éticas, con gran dedicación y compromiso con ellos mismos y con los demás.
+            </p>
+            <button class="btn btn-info">Preparatoria</button>
+        </div>
+        <div class="col-md-6 mb-4">
+            <img src="/images/preparatoria.jpg" width="100%" />
+        </div>
+    </div>
+</div>

@@ -1,3 +1,106 @@
-<div class="col-md-8">
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1559.6017278225456!2d-99.2374224796992!3d18.92174616118219!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cdde52a9ce8193%3A0x3f0a31fdf9bb77a9!2sPalacio+de+gobierno%2C+Cuernavaca+Centro%2C+Centro%2C+62000+Cuernavaca%2C+Mor.!5e0!3m2!1ses-419!2smx!4v1549641393004" width="600" height="450" frameborder="0" style="border:0" allowfullscreen=""></iframe></div>
-<div class="col-md-3">Calle: Teotihuacan&nbsp;</div>
+<div class="container">
+    <div class="row">
+        <!--Section: Contact v.2-->
+        <section class="col-lg-12">
+
+            <!--Section heading-->
+            <h2 class="h1-responsive font-weight-bold text-center my-4">Contáctanos</h2>
+            <!--Section description-->
+            <p class="text-center w-responsive mx-auto mb-5">¿Tienes preguntas? Por favor, no dudes en contactarnos. Deja tus datos y nuestro equipo responderá a la brevedad.</p>
+
+            <div class="row">
+
+                <!--Grid column-->
+                <div class="col-md-9 mb-md-0 mb-5">
+                    <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                        <!--Grid row-->
+                        <div class="row">
+
+                            <!--Grid column-->
+                            <div class="col-md-6">
+                                <div class="md-form mb-0">
+                                    <input type="text" id="name" name="name" class="form-control">
+                                    <label for="name" class="">Nombre</label>
+                                </div>
+                            </div>
+                            <!--Grid column-->
+
+                            <!--Grid column-->
+                            <div class="col-md-6">
+                                <div class="md-form mb-0">
+                                    <input type="text" id="email" name="email" class="form-control">
+                                    <label for="email" class="">Correo electrónico</label>
+                                </div>
+                            </div>
+                            <!--Grid column-->
+
+                        </div>
+                        <!--Grid row-->
+
+                        <!--Grid row-->
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="md-form mb-0">
+                                    <input type="text" id="subject" name="subject" class="form-control">
+                                    <label for="subject" class="">Teléfono</label>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Grid row-->
+
+                        <!--Grid row-->
+                        <div class="row">
+
+                            <!--Grid column-->
+                            <div class="col-md-12">
+
+                                <div class="md-form">
+                                    <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                                    <label for="message">Mensaje</label>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!--Grid row-->
+
+                    </form>
+
+                    <div class="text-center text-md-left">
+                        <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Enviar</a>
+                    </div>
+                    <div class="status"></div>
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-md-3 text-center">
+                    <ul class="list-unstyled mb-0">
+                        <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                            <p>
+                                Zapote No. 2<br>
+                                Col. Las Palmas<br>
+                                Cuernavaca, Morelos.
+                            </p>
+                        </li>
+
+                        <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                            <p>
+                                (777) 318-1359
+                                (777) 318-4471
+                            </p>
+                        </li>
+
+                        <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                            <p>majomkting@hotmail.com</p>
+                        </li>
+                    </ul>
+                </div>
+                <!--Grid column-->
+
+            </div>
+
+        </section>
+        <!--Section: Contact v.2-->
+    </div>
+</div>

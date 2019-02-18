@@ -1,0 +1,19 @@
+<div class="container">
+<h3>Nuestros logros</h3>
+    <div class="row">
+        <div class="col-md-6 mb-4">
+            <p>
+                El Grupo Educativo Loyola, Se caracteriza por siempre campear en sus actividades extracurriculares, tanto deportivas como intelectuales, esta sección dará a nuestros deportistas y estudiantes el reconocimiento que se merecen, al participar y demostrar un desempeño sobresaliente en cada uno de nuestros talleres y en la participación de cada uno de los eventos en los que el Grupo Educativo Loyola participa.
+            </p>
+            <p>
+                Como verán hemos sido parte importante de hechos deportivos, culturales y sociales y todo es gracias a nuestros chicos que ponen empeño, esfuerzo y dedicación.
+            </p>
+            <p><strong>
+                ¡Felicidades a nuestros estudiantes y maestros!
+            </strong></p>
+        </div>
+        <div class="col-md-6 mb-4">
+            <img src="/images/logros.jpg" width="100%" />
+        </div>
+    </div>
+</div>
