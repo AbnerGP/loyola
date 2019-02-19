@@ -1,0 +1,50 @@
+<div class="container">
+<h3>Viajes</h3>
+    <div class="row">
+        <div class="col-lg-12">
+            <p>
+                En Loyola brindamos a nuestros alumnos la oportunidad de desarrollar una visión global a través de viajes internacionales, participando de una experiencia memorable de aprendizaje práctico y vivencial del manejo del idioma,  podrán explorar nuevas culturas, órdenes sociales, economía, arquitectura y sistemas de gobierno diferentes.
+            </p>
+            <p>
+                 <strong>UN EGRESADO LOYOLA HABRÁ VISITADO LOS SIGUIENTES DESTINOS:</strong>
+            </p>
+            <p>
+                <strong>PRIMARIA:</strong> ORLANDO, FLORIDA DISNEY WORLD
+            </p>
+            <p>
+                <strong>SECUNDARIA:</strong> CANADA, MONTREAL, TORONTO, QUEBEC Y OTTAWA
+            </p>
+            <p>
+                <strong>PREPARATORIA:</strong> SAN FRANCISCO, SILLICON VALLEY (FACEBOOK, APPLE, GOOGLE, TESLA MOTORS, YOUTUBE, TWITTER, ETC.)
+            </p>
+            <p>
+                EUROPA: MADRID, PARIS, ROMA, BARCELONA
+            </p>
+            
+            <div class="lightBoxGallery">
+                <a href="images/viajes/1.jpg" data-gallery=""><img src="images/viajes/1.jpg" width="250" height="175"></a>
+                <a href="images/viajes/2.jpg" data-gallery=""><img src="images/viajes/2.jpg" width="250" height="175"></a>
+                <a href="images/viajes/3.jpg" data-gallery=""><img src="images/viajes/3.jpg" width="250" height="175"></a>
+                <a href="images/viajes/4.jpg" data-gallery=""><img src="images/viajes/4.jpg" width="250" height="175"></a>
+                <a href="images/viajes/5.jpg" data-gallery=""><img src="images/viajes/5.jpg" width="250" height="175"></a>
+                <a href="images/viajes/6.jpg" data-gallery=""><img src="images/viajes/6.jpg" width="250" height="175"></a>
+                <a href="images/viajes/7.jpg" data-gallery=""><img src="images/viajes/7.jpg" width="250" height="175"></a>
+                <a href="images/viajes/8.jpg" data-gallery=""><img src="images/viajes/8.jpg" width="250" height="175"></a>
+                <a href="images/viajes/9.jpg" data-gallery=""><img src="images/viajes/9.jpg" width="250" height="175"></a>
+                <a href="images/viajes/10.jpg" data-gallery=""><img src="images/viajes/10.jpg" width="250" height="175"></a>
+                <a href="images/viajes/11.jpg" data-gallery=""><img src="images/viajes/11.jpg" width="250" height="175"></a>
+                <a href="images/viajes/12.jpg" data-gallery=""><img src="images/viajes/12.jpg" width="250" height="175"></a>
+        
+                <div id="blueimp-gallery" class="blueimp-gallery">
+                    <div class="slides"></div>
+                    <h3 class="title"></h3>
+                    <a class="prev">‹</a>
+                    <a class="next">›</a>
+                    <a class="close">×</a>
+                    <a class="play-pause"></a>
+                    <ol class="indicator"></ol>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

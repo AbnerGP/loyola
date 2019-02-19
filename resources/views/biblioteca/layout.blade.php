@@ -36,9 +36,44 @@
     <div class="collapse navbar-collapse " id="is">
         <div class="navbar-nav w-100 justify-content-lg-center flex-md-wrap">
             @foreach($links as $link)
-            <div class="nav-item">
-                <a href="{{ Url($link->slug) }}" class="nav-link px-5 py-2 ">{{ $link->titulo }}</a>
-            </div>
+                @if($link->slug != 'directorio' && $link->slug != 'ubicacion' && $link->slug != 'kinder' && $link->slug != 'primaria' && $link->slug != 'secundaria' && $link->slug != 'preparatoria' && $link->slug != 'language-school' && $link->slug != 'viajes' && $link->slug != 'academicos')
+                    @if($link->slug == 'quienes-somos')
+                        <div class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">{{ $link->titulo }}</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="{{ Url($link->slug) }}">{{ $link->titulo }}</a>
+                                <a class="dropdown-item" href="{{ Url('directorio') }}">Directorio</a>
+                                <a class="dropdown-item" href="{{ Url('ubicacion') }}">Ubicación</a>
+                            </div>
+                        </div>
+                    @elseif($link->slug == 'niveles-educativos')
+                        <div class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">{{ $link->titulo }}</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="{{ Url($link->slug) }}">{{ $link->titulo }}</a>
+                                <a class="dropdown-item" href="{{ Url('kinder') }}">Kinder</a>
+                                <a class="dropdown-item" href="{{ Url('primaria') }}">Primaria</a>
+                                <a class="dropdown-item" href="{{ Url('secundaria') }}">Secundaria</a>
+                                <a class="dropdown-item" href="{{ Url('preparatoria') }}">Preparatoria</a>
+                                <a class="dropdown-item" href="http://universidadloyola.edu.mx/">Universidad</a>
+                                <a class="dropdown-item" href="{{ Url('language-school') }}">Language school</a>
+                                <a class="dropdown-item" href="{{ Url('viajes') }}">Viajes</a>
+                            </div>
+                        </div>
+                    @elseif($link->slug == 'logros')
+                        <div class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">{{ $link->titulo }}</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="{{ Url($link->slug) }}">{{ $link->titulo }}</a>
+                                <a class="dropdown-item" href="{{ Url('academicos') }}">Académicos</a>
+                            </div>
+                        </div>
+                    @else
+                        <div class="nav-item">
+                            <a href="{{ Url($link->slug) }}" class="nav-link px-5 py-2 ">{{ $link->titulo }}</a>
+                        </div>
+                    @endif
+                @endif
             @endforeach
         </div>
     </div>

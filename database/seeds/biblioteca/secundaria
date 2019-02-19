@@ -1,0 +1,153 @@
+<div class="container">
+<h3>Secundaria</h3>
+    <div class="row">
+        <div class="col-lg-12">
+            <p>
+                <strong>Clave de Incorporación a la SEP:</strong> 17PES0128Z / 20 de noviembre 2013
+            </p>
+            <div class="text-center">
+                <img src="/images/secundaria/1.jpg" class="img-fluid" />
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-8 mb-4">
+            <p>
+                En esta etapa se establece un vínculo entre el maestro y el alumno que permite entender mejor la infdividualidad infanto-juvenil, a modo de poder acompañar en un espacio de confianza, a los distintos alumnos en sus procesos de transformación.
+            </p>
+            <p>
+                Aquí el proceso se encamina a nutrir la individualidad, la capacidad de observación y el desarrollo de un pensamiento analítico. La misión de nuestros docentes se enfoca en fortalecer el pensamiento individual llevado a cabo desde una expresión madura que conduzca a realizar en nuestros estudiantes acciones responsables, para que a través de ello, forjen su interior, desarrollen su personalidad y se asuman en su independencia de manera responsable.
+            </p>
+            <p>
+                Nuestra currícula cuenta con los talleres de:
+            </p>
+            <ul>
+                <li>Gastronomía.</li>
+                <li>Música.</li>
+                <li>Teatro.</li>
+                <li>Modelado de barro.</li>
+            </ul>
+        </div>
+        <div class="col-md-4 mb-4">
+            <img src="/images/secundaria/2.jpg" />
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-12">
+        <h3>Programa académico</h3>
+            <p>
+                NUESTRO PROGRAMA ACADÉMICO INCLUYE:
+            </p>
+            
+            <ul>
+                <li>EVALUACIÓN DIAGNOSTICA.</li>
+                <li>Curso propedéutico.</li>
+                <li>Certificación en paquetería Microsoft Office.</li>
+                <li>Departamento Psicopedagógico.</li>
+                <li>Coaching para padres e hijos.</li>
+                <li>Inglés por niveles con certificación por Cambridge University.</li>
+                <li>Francés como segundo idioma por niveles con certificación DELF.</li>
+                <li>Programa de lectura.</li>
+                <li>Tutores por grupo.</li>
+                <li>Horticultura.</li>
+                <li>Visitas culturalesTALLERES EXTRACURRICULARES (OPCIONAL).</li>
+                <li>PORRAS, FÚTBOL, VOLEIBOL, AJEDREZ, ITALIANO Y BAILE.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-8 mb-4">
+            <h3>Actividades Extraescolares</h3>
+            <p>
+                El desarrollo de las habilidades de aprendizaje es complemento de la formación de hábitos de disciplina deportiva a través del crecimiento físico y emocional, es por ello que ofrecemos las siguientes actividades extra escolares:
+            </p>
+            <ul>
+                <li>Futbol (Varonil y Femenil).</li>
+                <li>Porras.</li>
+            </ul>
+            <p>
+                Las actividades extra escolares tienen un costo adicional.
+            </p>
+        </div>
+        <div class="col-md-4 mb-4">
+            <img src="/images/secundaria/3.jpg" />
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-12">
+            <h3>Horarios</h3>
+            <p>
+                Llegar a la hora adecuada, a los alumnos les permite desarrollar excelentes hábitos de responsabilidad respeto y compromiso.
+            </p>
+            <ul>
+                <li>Hora de entrada: 7:20am.</li>
+                <li>Hora de salida: 2:40pm.</li>
+                <li>La recepción de los alumnos puede ser desde las 7:00 a.m. sin costo adicional.</li>
+                <li>La hora máxima para recoger a sus hijos es a las 3:00 p.m.</li>
+                <li>En caso de acudir a las actividades extraescolares el horario de salida será según la actividad a desarrollar.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-12">
+            <h3>Instalaciones</h3>
+            <ul>
+                <li>Salones adecuados.</li>
+                <li>Biblioteca con servicio de Internet.</li>
+                <li>Centro de cómputo.</li>
+                <li>Laboratorio.</li>
+                <li>Área para taller de cocina.</li>
+                <li>Internet inalámbrico.</li>
+                <li>Mobiliario propicio.</li>
+                <li>Cafetería (sólo se expenden alimentos nutritivos).</li>
+                <li>Estacionamiento.</li>
+                <li>Alberca.</li>
+                <li>Amplios jardines.</li>
+                <li>Cancha de usos múltiples.</li>
+                <li>Baños adecuados.</li>
+                <li>Espacios para el recreo y diversión de los alumnos.</li>
+            </ul>
+            
+            <div class="lightBoxGallery">
+                <a href="images/secundaria/4.jpg" data-gallery=""><img src="images/secundaria/4.jpg" width="250" height="175"></a>
+                <a href="images/secundaria/5.jpg" data-gallery=""><img src="images/secundaria/5.jpg" width="250" height="175"></a>
+                <a href="images/secundaria/6.jpg" data-gallery=""><img src="images/secundaria/6.jpg" width="250" height="175"></a>
+                <a href="images/secundaria/7.jpg" data-gallery=""><img src="images/secundaria/7.jpg" width="250" height="175"></a>
+                <a href="images/secundaria/8.jpg" data-gallery=""><img src="images/secundaria/8.jpg" width="250" height="175"></a>
+                <a href="images/secundaria/9.jpg" data-gallery=""><img src="images/secundaria/9.jpg" width="250" height="175"></a>
+                <a href="images/secundaria/10.jpg" data-gallery=""><img src="images/secundaria/10.jpg" width="250" height="175"></a>
+        
+                <div id="blueimp-gallery" class="blueimp-gallery">
+                    <div class="slides"></div>
+                    <h3 class="title"></h3>
+                    <a class="prev">‹</a>
+                    <a class="next">›</a>
+                    <a class="close">×</a>
+                    <a class="play-pause"></a>
+                    <ol class="indicator"></ol>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-12">
+            <h3>Requisitos de Inscripción</h3>
+            <ul>
+                <li>Solicitud de Inscripción.</li>
+                <li>Acta de nacimiento (Original y 2 copias).</li>
+                <li>Certificado de Primaria (Original).</li>
+                <li>Carta de Buena Conducta.</li>
+                <li>Boleta oficial de (2° y 3° año).</li>
+                <li>3 Fotografías t/infantil a color.</li>
+                <li>CURP (1 Copia).</li>
+                <li>Cartilla Nacional de Salud.</li>
+            </ul>
+        </div>
+    </div>
+</div>

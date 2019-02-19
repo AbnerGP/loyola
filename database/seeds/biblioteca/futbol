@@ -1,0 +1,56 @@
+<div class="container">
+<h3>Fútbol</h3>
+    <div class="row">
+        <div class="col-lg-12">
+            <h5>
+                Kinder
+            </h5>
+            <p>
+                <strong>Mixto</strong>
+            </p>
+            <ul>
+                <li>Campeones Kinder Torneo Bicentenario (Emilie Durkeim Noviembre 2010)</li>
+            </ul>
+            <div class="text-center">
+                <img src="/images/logros/academicos/1.jpg" class="img-fluid"/>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-12">
+            <h5>
+                Olimpiada Nacional de Matemáticas
+            </h5>
+            <p>
+                <strong>CAMPEÓN NACIONAL OLIMPIADA DE MATEMÁTICAS</strong> Kenny Vercaemer González de 6o de primaria trae medalla de oro para nuestro estado de Morelos de la Olimpiada Nacional de Matemáticas 2014 efectuada en Mazatlán Sinaloa.
+            </p>
+            <div class="text-center">
+                <img src="/images/logros/academicos/2.jpg" class="img-fluid"/>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-12">
+            <h5>
+                Interpretación del Himno Nacional Mexicano
+            </h5>
+            <p>
+                <strong>Sección Primaria:</strong>
+
+                <ul>
+                    <li>3er Lugar en el Concurso de interpretación del himno Nacional Mexicano de Zona.</li>
+                </ul>
+            </p>
+            <p>
+                <strong>Sección Secundaria:</strong>
+
+                <ul>
+                    <li>1er Lugar en el Concurso de interpretación del Himno Nacional Mexicano de Zona.</li>
+                    <li>3er Lugar en el Concurso de Interpretación del Himno Nacional Mexicano de Región.</li>
+                </ul>
+            </p>
+        </div>
+    </div>
+</div>
