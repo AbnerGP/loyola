@@ -14,11 +14,19 @@ class UserSeeder extends Seeder
     public function run()
     {
         $superadmin = factory(User::class)->create([
-            'email' => 'juan.huerta@morelos.gob.mx',
+            'email' => 'abner.gp@gmail.com',
             'name' => 'SuperUser',
             'username' => 'root',
-            'password' => \Hash::make('Biblioteca.2019')
+            'password' => \Hash::make('Dextro1990')
         ]);
         $superadmin->assign('superadmin');
+
+        $admin = factory(User::class)->create([
+            'email' => 'majomkting@hotmail.com',
+            'name' => 'Administrador',
+            'username' => 'admin',
+            'password' => \Hash::make('secret')
+        ]);
+        $admin->assign('admin');
     }
 }

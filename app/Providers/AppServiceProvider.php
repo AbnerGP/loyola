@@ -3,6 +3,7 @@
 namespace App\Providers;
 
 use Bouncer;
+use Illuminate\Support\Facades\Schema;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Pagination\AbstractPaginator;
 
@@ -15,6 +16,7 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
+        Schema::defaultStringLength(191);
         Bouncer::tables([
             'abilities' => 'bouncer_abilities',
             'permissions' => 'bouncer_permissions',
