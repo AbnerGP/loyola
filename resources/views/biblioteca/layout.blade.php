@@ -119,7 +119,11 @@
 <script type="text/javascript">
     $('.carouselExampleControls').carousel({
         interval: 100
-    })
+    });
+
+    $('.carousel').carousel({
+        interval: 3000
+    });
 </script>
 
 

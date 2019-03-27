@@ -1,55 +1,39 @@
 <div class="container">
-<h3>Primaria</h3>
-    <div class="row">
+    <div class="row text-center">
         <div class="col-lg-12">
-            <p>
-                <strong>Clave de Incorporación a la SEP:</strong> 17PPR0191I / 08 de octubre de 2013
-            </p>
-            <div class="text-center">
-                <img src="/images/primaria/1.jpg" class="img-fluid" />
-            </div>
+            <h2><strong>Primaria (Sentimiento)</strong></h2>
+            <h4><strong>Clave de Incorporación a la SEP:</strong> 17PPR0191</h4>
         </div>
     </div>
 
-    <div class="row">
-        <div class="col-md-8 mb-4">
-            <p>
-                En esta etapa el niño aprende los hábitos que lo acompañaran en su vida adulta, gracias a lo cual en su interior se desarrollará la parte anímica. Los alumnos se interesan más por su entorno despertando en ellos un deseo por conocerlo a través de las diferentes materias y actividades. Por ello en nuestra primaria generamos un ambiente de aprendizaje que les permite vivenciar y hacer suyo el nuevo conocimiento que la currícula de esta edad le presenta.
-            </p>
-            <p>
-                Creamos espacios educativos donde acompañamos al niño a estar en contacto con la educación verde y así poder explorar con sus sentidos la belleza y esencia que nos brinda la naturaleza con actividades que les permiten estar en contacto con fibras y elementos naturales como:
-            </p>
-        </div>
-        <div class="col-md-4 mb-4">
-            <img src="/images/primaria/2.jpg" />
+    <div class="row text-center">
+        <div class="col-lg-12">
+            <img src="/images/primaria/p1.jpg" />
         </div>
     </div>
 
     <div class="row">
         <div class="col-lg-12">
-            <p><strong>
-                Acuarela, estambre, lana, ceras, barro y madera.
-            </strong></p>
-            <p>
-                Sistema bilingüe con opción de certificación por la Universidad de Cambridge, 6to grado certificación obligatoria sin costo por la Universidad de San Diego
-            </p>
-            
-            <ul>
-                <li>Francés.</li>
-                <li>Aulas multimedia.</li>
-                <li>Sistema AMCO.</li>
-                <li>Coaching padres e hijos.</li>
-                <li>Educación física, computación, música y arte (tejido, modelado de barro, acuarela, manualidades). <strong>PROGRAMA EXTRACURRICULAR (opcional).</strong></li>
-                <li>Club de tareas, fútbol, taekwondo y porras.</li>
-            </ul>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="col-lg-12">
-            <h3>Un lugar para crecer</h3>
+            <h4 class="text-center"><strong>Un lugar para crecer</strong></h4>
             <p>
                 En primaria nuestra misión se dirige a lograr que esta etapa de crecimiento del niño fortalezca su desarrollo integral y formativo, inculcándole a la vez hábitos y valores que habrán de acompañarlo a lo largo de su vida.
+            </p>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-12">
+            <h4 class="text-center"><strong>Objetivo Primaria:</strong></h4>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6 mb-4">
+            <img src="/images/primaria/p2.jpg" width="100%" />
+        </div>
+        <div class="col-md-6 mb-4">
+            <p>
+                Nuestro principal objetivo es lograr que este importante momento en la vida de nuestros niños, se fortalezca a través de un desarrollo integral y formativo  que los ayude a adquirir los hábitos y valores que serán bases importantes a lo largo de su vida, integrando a los padres y docentes como pilares fundamentales de la educación, asumiendo cada uno la participación y formación permanentes que impulsen su desarrollo social para crear en ellos principios que nutran su conciencia y formación, logrando así una experiencia educativa basada en valores y vanguardia académica que les permite lograr su aprendizaje de manera efectiva.
             </p>
             <p>
                 Lograr esto requiere de un extraordinario grupo de maestros, como el que tiene la Primaria Loyola, capaces de que los alumnos se sientan en familia y con ello, sean mucho más receptivos a los procesos de enseñanza que impartimos, idóneos para garantizar su éxito académico.
@@ -58,92 +42,100 @@
     </div>
 
     <div class="row">
-        <div class="col-md-6 mb-4">
-            <h3>Objetivos</h3>
-            <p>
-                <img src="/images/primaria/3.jpg" class="img-fluid float-right" alt="Responsive image">
-                Nuestro principal objetivo es lograr que este importante momento en la vida de nuestros niños, se fortalezca a través de un desarrollo integral y formativo  que los ayude a adquirir los hábitos y valores que serán bases importantes a lo largo de su vida, integrando a los padres y docentes como pilares fundamentales de la educación, asumiendo cada uno la participación y formación permanentes que impulsen su desarrollo social para crear en ellos principios que nutran su conciencia y formación, logrando así una experiencia educativa basada en valores y vanguardia académica que les permite lograr su aprendizaje de manera efectiva.
-            </p>
-        </div>
+            <div class="col-lg-12">
+                <p>
+                    En esta etapa el niño aprende los hábitos que lo acompañaran en su vida adulta, gracias a lo cual en su interior se desarrollará la parte anímica. Los alumnos se interesan más por su entorno, despertando en ellos un deseo por conocerlo a través de las diferentes materias y actividades. Por ello en nuestra primaria generamos un ambiente de aprendizaje que les permite vivenciar y hacer suyo el nuevo conocimiento que la currícula de esta edad le presenta.
+                </p>
 
-        <div class="col-md-6 mb-4">
-            <h3>Horarios</h3>
-            <p>
-                <img src="/images/primaria/4.jpg" class="img-fluid float-right" >
-                Llegar a la hora adecuada a la escuela permite que los niños desarrollen buenos hábitos de puntualidad, respeto y compromiso.
+                <div class="lightBoxGallery text-center">
+                    <a href="images/primaria/p3.jpg" data-gallery=""><img src="images/primaria/p3.jpg" width="250" height="175"></a>
+                    <a href="images/primaria/p4.jpg" data-gallery=""><img src="images/primaria/p4.jpg" width="250" height="175"></a>
+                    <a href="images/primaria/p5.jpg" data-gallery=""><img src="images/primaria/p5.jpg" width="250" height="175"></a>
+
+                    <div id="blueimp-gallery" class="blueimp-gallery">
+                        <div class="slides"></div>
+                        <h3 class="title"></h3>
+                        <a class="prev">‹</a>
+                        <a class="next">›</a>
+                        <a class="close">×</a>
+                        <a class="play-pause"></a>
+                        <ol class="indicator"></ol>
+                    </div>
+                </div>
+
+                <p>
+                    Creamos espacios educativos donde acompañamos al niño a estar en contacto con la educación verde y así poder explorar con sus sentidos la belleza y esencia que nos brinda la naturaleza con actividades que les permiten estar en contacto con fibras y elementos naturales como:
+                </p>
+                <p>
+                    <i>
+                        <strong>Acuarela, estambre, lana, ceras, barro y madera.</strong>
+                    </i>
+                </p>
+
+                <div class="lightBoxGallery text-center">
+                    <a href="images/primaria/p6.jpg" data-gallery=""><img src="images/primaria/p6.jpg" width="250" height="175"></a>
+                    <a href="images/primaria/p7.jpg" data-gallery=""><img src="images/primaria/p7.jpg" width="250" height="175"></a>
+                    <a href="images/primaria/p8.jpg" data-gallery=""><img src="images/primaria/p8.jpg" width="250" height="175"></a>
+                    <a href="images/primaria/p9.jpg" data-gallery=""><img src="images/primaria/p9.jpg" width="250" height="175"></a>
+
+                    <div id="blueimp-gallery" class="blueimp-gallery">
+                        <div class="slides"></div>
+                        <h3 class="title"></h3>
+                        <a class="prev">‹</a>
+                        <a class="next">›</a>
+                        <a class="close">×</a>
+                        <a class="play-pause"></a>
+                        <ol class="indicator"></ol>
+                    </div>
+                </div>
+
+                <p>
+                    Sistema bilingüe con opción de certificación por la Universidad de Cambridge, 6to grado certificación obligatoria sin costo por la Universidad de San Diego.
+                </p>
                 <ul>
-                    <li>Hora de entrada: 7:50am.</li>
-                    <li>Hora de salida: 2:20pm.</li>
-                    <li>La recepción de los niños puede ser desde las 7:00 a.m. sin costo adicional.</li>
-                    <li>La hora máxima para recoger a los niños es a las 3:00 p.m.</li>
-                    <li>En caso de acudir a las actividades extraescolares el horario de salida será según la actividad a desarrollar.</li>
+                    <li>Francés.</li>
+                    <li>Aulas multimedia.</li>
+                    <li>Sistema AMCO.</li>
+                    <li>Coaching padres e hijos.</li>
+                    <li>Robótica.</li>
                 </ul>
-            </p>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="col-lg-12">
-            <h3>Requisitos de inscripción</h3>
-            <ul>
-                <li>Solicitud de Inscripción.</li>
-                <li>Acta de nacimiento (Original y 2 copias).</li>
-                <li>Copia de la cartilla  Nacional de Salud (1er. año).</li>
-                <li>Certificado de Kínder (1er. Año).</li>
-                <li>Boleta oficial de calificaciones (Original, 2° a 6° año).</li>
-                <li>3 Fotografías t/infantil a color.</li>
-            </ul>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="col-md-6 mb-4">
-            <h3>Instalaciones</h3>
-            <ul>
-                <li>Salones amplios con mobiliario propicio.</li>
-                <li>Biblioteca.</li>
-                <li>Salón de música.</li>
-                <li>Salones interactivos de inglés.</li>
-                <li>Sala audiovisual.</li>
-                <li>Sala de Cómputo.</li>
-                <li>Cafetería (sólo se expenden alimentos nutritivos).</li>
-                <li>Cancha de usos múltiples.</li>
-                <li>Baños adecuados.</li>
-                <li>Enfermería.</li>
-                <li>Espacios para el recreo y diversión de los niños.</li>
-                <li>Pizarrón de avisos y tareas en nuestra página web.</li>
-            </ul>
+            </div>
         </div>
 
-        <div class="col-md-6 mb-4">
-            <img src="/images/primaria/5.jpg" width="100%" />
+        <div class="row text-center">
+            <div class="col-lg-12">
+                <img src="/images/primaria/p10.jpg" width="50%"/>
+            </div>
         </div>
-    </div>
 
-    <div class="row>
-        <div class="col-lg-12">
-            <h3>Lobos Loyola</h3>
-            <p>
-                Para nosotros es importante promover el deporte, por ello se brinda también el espacio a nuestros alumnos de pertenecer a nuestro equipo profesional de futbol “Lobos de Loyola” el cual ha logrado posicionarse fuertemente como un equipo campeón, obteniendo numerosos triunfos como la Copa Coca Cola, la Copa Jetix, la Copa Bimbo, y el Campeonato Nacional, entre otros.
-            </p>
-        </div>
         <div class="row">
-            <div class="col-md-6 mb-4">
-                <img src="/images/primaria/6.jpg" width="100%" />
-            </div>
+            <div class="col-lg-12">
+                <div class="lightBoxGallery text-center">
+                    <a href="images/primaria/p11.jpg" data-gallery=""><img src="images/primaria/p11.jpg" width="250" height="175"></a>
+                    <a href="images/primaria/p12.jpg" data-gallery=""><img src="images/primaria/p12.jpg" width="250" height="175"></a>
+                    <a href="images/primaria/p13.jpg" data-gallery=""><img src="images/primaria/p13.jpg" width="250" height="175"></a>
+                    <a href="images/primaria/p14.jpg" data-gallery=""><img src="images/primaria/p14.jpg" width="250" height="175"></a>
+                    <a href="images/primaria/p15.jpg" data-gallery=""><img src="images/primaria/p15.jpg" width="250" height="175"></a>
+                    <a href="images/primaria/p16.jpg" data-gallery=""><img src="images/primaria/p16.jpg" width="250" height="175"></a>
+                    <a href="images/primaria/p17.jpg" data-gallery=""><img src="images/primaria/p17.jpg" width="250" height="175"></a>
 
-            <div class="col-md-6 mb-4">
-                <img src="/images/primaria/7.jpg" width="100%" />
+                    <div id="blueimp-gallery" class="blueimp-gallery">
+                        <div class="slides"></div>
+                        <h3 class="title"></h3>
+                        <a class="prev">‹</a>
+                        <a class="next">›</a>
+                        <a class="close">×</a>
+                        <a class="play-pause"></a>
+                        <ol class="indicator"></ol>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
 
-    <div class="row">
-        <div class="col-md-6 mb-4">
-            <h3>Actividades</h3>
-
-            <h5>Español</h5>
-            <ul>
+    <div class="row text-center">
+        <div class="col-lg-12">
+            <h4><strong>Festejos en la Primaria Loyola:</strong></h4>
+            <ul style="list-style: none">
                 <li>Mañanita mexicana.</li>
                 <li>Festejo del Día de Muertos.</li>
                 <li>Festejo de Navidad.</li>
@@ -153,33 +145,50 @@
                 <li>Festejo de la Semana del Niño.</li>
                 <li>Festejo del Día de las Madres.</li>
                 <li>Festejo del Día del Padre.</li>
-                <li>Concurso de Poesía.</li>
                 <li>Evento de Clausura y Graduación.</li>
             </ul>
 
-            <h5>Inglés</h5>
-            <ul>
+            <h4><strong>Inglés</strong></h4>
+
+            <ul style="list-style: none">
                 <li>Halloween.</li>
                 <li>Thanks giving.</li>
                 <li>Holidays.</li>
                 <li>San Valentine’s Day.</li>
                 <li>Easter Day and Sant Patrick’s Day.</li>
             </ul>
-        </div>
 
-        <div class="col-md-6 mb-4">
-            <img src="/images/primaria/8.jpg" width="100%" />
+            <div class="lightBoxGallery text-center">
+                <a href="images/primaria/p18.jpg" data-gallery=""><img src="images/primaria/p18.jpg" width="250" height="175"></a>
+                <a href="images/primaria/p19.jpg" data-gallery=""><img src="images/primaria/p19.jpg" width="250" height="175"></a>
+                <a href="images/primaria/p20.jpg" data-gallery=""><img src="images/primaria/p20.jpg" width="250" height="175"></a>
+                <a href="images/primaria/p21.jpg" data-gallery=""><img src="images/primaria/p21.jpg" width="250" height="175"></a>
+                <a href="images/primaria/p22.jpg" data-gallery=""><img src="images/primaria/p22.jpg" width="250" height="175"></a>
+                <a href="images/primaria/p23.jpg" data-gallery=""><img src="images/primaria/p23.jpg" width="250" height="175"></a>
+                <a href="images/primaria/p24.jpg" data-gallery=""><img src="images/primaria/p24.jpg" width="250" height="175"></a>
+                <a href="images/primaria/p25.jpg" data-gallery=""><img src="images/primaria/p25.jpg" width="250" height="175"></a>
+                <a href="images/primaria/p26.jpg" data-gallery=""><img src="images/primaria/p26.jpg" width="250" height="175"></a>
+                <a href="images/primaria/p27.jpg" data-gallery=""><img src="images/primaria/p27.jpg" width="250" height="175"></a>
+
+                <div id="blueimp-gallery" class="blueimp-gallery">
+                    <div class="slides"></div>
+                    <h3 class="title"></h3>
+                    <a class="prev">‹</a>
+                    <a class="next">›</a>
+                    <a class="close">×</a>
+                    <a class="play-pause"></a>
+                    <ol class="indicator"></ol>
+                </div>
+            </div>
         </div>
     </div>
 
     <div class="row">
-        <div class="col-md-6 mb-4">
-            <h3>Actividades para papás</h3>
-
+        <div class="col-lg-12">
+            <h4 class="text-center">Actividades para papás</h4>
             <p>
-                A fin de involucrar a nuestros papitos en esta importante etapa de sus hijos y que ellos se sientan contentos de compartir estas vivencias con ustedes; Se les brinda el espacio donde podrán  colaborar en  su formación escolar, invitándolos a participar en las siguientes actividades mismas que se llevan a cabo a lo largo del ciclo escolar:
+                A fin de involucrar a nuestros papitos en esta importante etapa de sus hijos y que ellos se sientan contentos de compartir estas vivencias con ustedes; Se les brinda el espacio donde podrán colaborar en su formación escolar, invitándolos a participar en las siguientes actividades mismas que se llevan a cabo a lo largo del ciclo escolar:
             </p>
-
             <ul>
                 <li>Escuela para padres.</li>
                 <li>Open Class.</li>
@@ -188,34 +197,222 @@
                 <li>Encendido del árbol navideño.</li>
                 <li>Entrega de las cajas de Amor.</li>
             </ul>
-        </div>
+            <div class="lightBoxGallery text-center">
+                <a href="images/primaria/p28.jpg" data-gallery=""><img src="images/primaria/p28.jpg" width="250" height="175"></a>
+                <a href="images/primaria/p29.jpg" data-gallery=""><img src="images/primaria/p29.jpg" width="250" height="175"></a>
+                <a href="images/primaria/p30.jpg" data-gallery=""><img src="images/primaria/p30.jpg" width="250" height="175"></a>
+                <a href="images/primaria/p31.jpg" data-gallery=""><img src="images/primaria/p31.jpg" width="250" height="175"></a>
+                <a href="images/primaria/p32.jpg" data-gallery=""><img src="images/primaria/p32.jpg" width="250" height="175"></a>
 
-        <div class="col-md-6 mb-4">
-            <img src="/images/primaria/9.jpg" width="100%" />
+                <div id="blueimp-gallery" class="blueimp-gallery">
+                    <div class="slides"></div>
+                    <h3 class="title"></h3>
+                    <a class="prev">‹</a>
+                    <a class="next">›</a>
+                    <a class="close">×</a>
+                    <a class="play-pause"></a>
+                    <ol class="indicator"></ol>
+                </div>
+            </div>
         </div>
     </div>
 
     <div class="row">
         <div class="col-lg-12">
-            <h3>Actividades Extraescolares (opcional)</h3>
+            <h4 class="text-center">Actividades Extraescolares (opcional)</h4>
+            <p>
+                El desarrollo de las habilidades de aprendizaje es complemento de la formación de hábitos de disciplina deportiva a través del crecimiento físico y emocional, es por ello que ofrecemos las siguientes actividades extra escolares:
+            </p>
+            <ul>
+                <li>Orquesta Sinfónica.</li>
+                <li>Porras.</li>
+                <li>Taekwando.</li>
+                <li>Club de tareas.</li>
+                <li>Fútbol.</li>
+            </ul>
+
+            <small>*Las actividades extra escolares tienen un costo adicional.</small>
+
+            <div class="lightBoxGallery text-center">
+                <a href="images/primaria/p33.jpg" data-gallery=""><img src="images/primaria/p33.jpg" width="250" height="175"></a>
+                <a href="images/primaria/p34.jpg" data-gallery=""><img src="images/primaria/p34.jpg" width="250" height="175"></a>
+                <a href="images/primaria/p35.jpg" data-gallery=""><img src="images/primaria/p35.jpg" width="250" height="175"></a>
+                <a href="images/primaria/p36.jpg" data-gallery=""><img src="images/primaria/p36.jpg" width="250" height="175"></a>
+                <a href="images/primaria/p37.jpg" data-gallery=""><img src="images/primaria/p37.jpg" width="250" height="175"></a>
+                <a href="images/primaria/p38.jpg" data-gallery=""><img src="images/primaria/p38.jpg" width="250" height="175"></a>
+
+                <div id="blueimp-gallery" class="blueimp-gallery">
+                    <div class="slides"></div>
+                    <h3 class="title"></h3>
+                    <a class="prev">‹</a>
+                    <a class="next">›</a>
+                    <a class="close">×</a>
+                    <a class="play-pause"></a>
+                    <ol class="indicator"></ol>
+                </div>
+            </div>
+
+            <p>
+                Educación física, computación, música y arte (tejido, modelado de barro, acuarela, manualidades).PROGRAMA EXTRACURRICULAR (opcional).
+                Club de tareas, fútbol, taekwondo, ajedrez, baile y porras.
+            </p>
+
+            <div class="lightBoxGallery text-center">
+                <a href="images/primaria/p39.jpg" data-gallery=""><img src="images/primaria/p39.jpg" width="250" height="175"></a>
+                <a href="images/primaria/p40.jpg" data-gallery=""><img src="images/primaria/p40.jpg" width="250" height="175"></a>
+                <a href="images/primaria/p41.jpg" data-gallery=""><img src="images/primaria/p41.jpg" width="250" height="175"></a>
+                <a href="images/primaria/p42.jpg" data-gallery=""><img src="images/primaria/p42.jpg" width="250" height="175"></a>
+                <a href="images/primaria/p43.jpg" data-gallery=""><img src="images/primaria/p43.jpg" width="250" height="175"></a>
+
+                <div id="blueimp-gallery" class="blueimp-gallery">
+                    <div class="slides"></div>
+                    <h3 class="title"></h3>
+                    <a class="prev">‹</a>
+                    <a class="next">›</a>
+                    <a class="close">×</a>
+                    <a class="play-pause"></a>
+                    <ol class="indicator"></ol>
+                </div>
+            </div>
+
+            <h4 class="text-center"><strong>Lobos Loyola</strong></h4>
+
+            <p>
+                Para nosotros es importante promover el deporte, por ello se brinda también el espacio a nuestros alumnos de pertenecer a nuestro equipo profesional de fútbol “Lobos de Loyola”, el cual ha logrado posicionarse fuertemente como un equipo campeón, obteniendo numerosos triunfos
+            </p>
         </div>
-        <div class="col-sm mb-4">
-          <p>
-            El desarrollo de las habilidades de aprendizaje es complemento de la formación de hábitos de disciplina deportiva a través del crecimiento físico y emocional, es por ello que ofrecemos las siguientes actividades extra escolares:
-          </p>
-          <ul>
-            <li>Taekwondo.</li>
-            <li>Porras.</li>
-            <li>Club de tareas.</li>
-            <li>Fútbol.</li>
-          </ul>
-          <p class="light-blue white-text">*Las actividades extra escolares tienen un costo adicional.</p>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6 mb-4">
+            <img src="/images/primaria/p44.jpg" width="100%" />
         </div>
-        <div class="col-sm mb-4">
-          <img src="/images/primaria/10.jpg" width="100%" />
+        <div class="col-md-6 mb-4">
+            <img src="/images/primaria/p45.jpg" width="100%" />
         </div>
-        <div class="col-sm mb-4">
-          <img src="/images/primaria/11.jpg" width="100%" />
+    </div>
+
+    <div class="row">
+        <div class="col-lg-12">
+            <img src="/images/primaria/p44.jpg" width="100%" />
+        </div>
+    </div>
+
+
+    <div class="row text-center">
+        <div class="col-lg-12">
+            <h4><strong>Horarios</strong></h4>
+            <p>
+                Llegar a la hora adecuada a la escuela permite que los niños desarrollen un ritmo adecuado que desarrolla la responsabilidad, de igual forma les permite integrarse a sus actividades a tiempo para que puedan llevar a cabo las dinámicas completas.
+            </p>
+            <small>* Recibimos alumnos en Maternal a partir del 1.4 años y en Preescolar a partir de los 3 años.</small>
+
+            <table class="table table-striped">
+              <tbody>
+                <tr>
+                  <td>Orugas (Maternal)</td>
+                  <td>
+                    8:50 am a 2:00 pm
+                  </td>
+                </tr>
+                <tr>
+                  <td>Concunas (Kínder 1)</td>
+                  <td>
+                    8:00 am a 2:00 pm
+                  </td>
+                </tr>
+                <tr>
+                  <td>Monarcas (Kínder 2) </td>
+                  <td>
+                    8:00 am a 2:00 pm
+                  </td>
+                </tr>
+                <tr>
+                  <td>Santuario  (Kínder 3) </td>
+                  <td>
+                    8:00 am a 2:00 pm
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <h3>HORARIO EXTENDIDO HASTA LAS 5:00 PM SIN COSTO ADICIONAL</h3>
+        </div>
+    </div>
+
+    <div class="row text-center">
+        <div class="col-lg-12">
+            <h4><strong>Instalaciones</strong></h4>
+            <ul style="list-style: none">
+                <li>Salones amplios con mobiliario adecuado a las edades.</li>
+                <li>Salón de usos múltiples.</li>
+                <li>Cancha de usos múltiples.</li>
+                <li>Áreas verdes.</li>
+                <li>Patio de juegos.</li>
+                <li>Baños adaptados para uso de infantes.</li>
+                <li>Material didáctico apropiado para cada edad.</li>
+                <li>Servicio de cafetería (sólo se expenden alimentos nutritivos).</li>
+                <li>Estacionamiento.</li>
+                <li>Juegos para diversión de los niños.</li>
+            </ul>
+
+            <div class="lightBoxGallery text-center">
+                <a href="images/kinder/k19.jpg" data-gallery=""><img src="images/kinder/k19.jpg" width="250" height="175"></a>
+                <a href="images/kinder/k20.jpg" data-gallery=""><img src="images/kinder/k20.jpg" width="250" height="175"></a>
+                <a href="images/kinder/k21.jpg" data-gallery=""><img src="images/kinder/k21.jpg" width="250" height="175"></a>
+                <a href="images/kinder/k22.jpg" data-gallery=""><img src="images/kinder/k22.jpg" width="250" height="175"></a>
+                <a href="images/kinder/k23.jpg" data-gallery=""><img src="images/kinder/k23.jpg" width="250" height="175"></a>
+
+                <div id="blueimp-gallery" class="blueimp-gallery">
+                    <div class="slides"></div>
+                    <h3 class="title"></h3>
+                    <a class="prev">‹</a>
+                    <a class="next">›</a>
+                    <a class="close">×</a>
+                    <a class="play-pause"></a>
+                    <ol class="indicator"></ol>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row text-center">
+        <div class="col-lg-12">
+            <h4><strong>Actividades con papás</strong></h4>
+
+            <div class="lightBoxGallery text-center">
+                <a href="images/kinder/k24.jpg" data-gallery=""><img src="images/kinder/k24.jpg" width="250" height="175"></a>
+                <a href="images/kinder/k25.jpg" data-gallery=""><img src="images/kinder/k25.jpg" width="250" height="175"></a>
+                <a href="images/kinder/k26.jpg" data-gallery=""><img src="images/kinder/k26.jpg" width="250" height="175"></a>
+                <a href="images/kinder/k27.jpg" data-gallery=""><img src="images/kinder/k27.jpg" width="250" height="175"></a>
+
+                <div id="blueimp-gallery" class="blueimp-gallery">
+                    <div class="slides"></div>
+                    <h3 class="title"></h3>
+                    <a class="prev">‹</a>
+                    <a class="next">›</a>
+                    <a class="close">×</a>
+                    <a class="play-pause"></a>
+                    <ol class="indicator"></ol>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-12">
+            <h3 class="text-center">Requisitos de Inscripción</h3>
+            <h4>DOCUMENTACIÓN KINDER</h4>
+            <ul>
+                <li>Solicitud de Inscripción.</li>
+                <li>Acta de nacimiento.</li>
+                <li>Copia actualizada de la Cartilla Nacional de Salud. (No obligatoria).</li>
+                <li>CURP.</li>
+                <li>Certificado médico con tipo sanguíneo.</li>
+                <li>3 Fotografías t/infantil a color o blanco y negro con adherible.</li>
+                <li>Boleta o reporte del grado anterior cursado oficial.</li>
+                <li>Boleta y carta de traslado (alumnos de inscripción extemporánea).</li>
+            </ul>
+            <h3><strong>NOTA:</strong> Toda la documentación debe entregarse en original y 2 copias.</h3>
         </div>
     </div>
 </div>
