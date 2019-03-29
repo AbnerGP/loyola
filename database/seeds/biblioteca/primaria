@@ -48,9 +48,9 @@
                 </p>
 
                 <div class="lightBoxGallery text-center">
-                    <a href="images/primaria/p3.jpg" data-gallery=""><img src="images/primaria/p3.jpg" width="250" height="175"></a>
-                    <a href="images/primaria/p4.jpg" data-gallery=""><img src="images/primaria/p4.jpg" width="250" height="175"></a>
-                    <a href="images/primaria/p5.jpg" data-gallery=""><img src="images/primaria/p5.jpg" width="250" height="175"></a>
+                    <a href="images/primaria/p3.jpg" data-gallery=""><img src="images/primaria/p3.jpg"  height="175"></a>
+                    <a href="images/primaria/p4.jpg" data-gallery=""><img src="images/primaria/p4.jpg"  height="175"></a>
+                    <a href="images/primaria/p5.jpg" data-gallery=""><img src="images/primaria/p5.jpg"  height="175"></a>
 
                     <div id="blueimp-gallery" class="blueimp-gallery">
                         <div class="slides"></div>
@@ -73,10 +73,10 @@
                 </p>
 
                 <div class="lightBoxGallery text-center">
-                    <a href="images/primaria/p6.jpg" data-gallery=""><img src="images/primaria/p6.jpg" width="250" height="175"></a>
-                    <a href="images/primaria/p7.jpg" data-gallery=""><img src="images/primaria/p7.jpg" width="250" height="175"></a>
-                    <a href="images/primaria/p8.jpg" data-gallery=""><img src="images/primaria/p8.jpg" width="250" height="175"></a>
-                    <a href="images/primaria/p9.jpg" data-gallery=""><img src="images/primaria/p9.jpg" width="250" height="175"></a>
+                    <a href="images/primaria/p6.jpg" data-gallery=""><img src="images/primaria/p6.jpg"  height="175"></a>
+                    <a href="images/primaria/p7.jpg" data-gallery=""><img src="images/primaria/p7.jpg"  height="175"></a>
+                    <a href="images/primaria/p8.jpg" data-gallery=""><img src="images/primaria/p8.jpg"  height="175"></a>
+                    <a href="images/primaria/p9.jpg" data-gallery=""><img src="images/primaria/p9.jpg"  height="175"></a>
 
                     <div id="blueimp-gallery" class="blueimp-gallery">
                         <div class="slides"></div>
@@ -111,13 +111,13 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="lightBoxGallery text-center">
-                    <a href="images/primaria/p11.jpg" data-gallery=""><img src="images/primaria/p11.jpg" width="250" height="175"></a>
-                    <a href="images/primaria/p12.jpg" data-gallery=""><img src="images/primaria/p12.jpg" width="250" height="175"></a>
-                    <a href="images/primaria/p13.jpg" data-gallery=""><img src="images/primaria/p13.jpg" width="250" height="175"></a>
-                    <a href="images/primaria/p14.jpg" data-gallery=""><img src="images/primaria/p14.jpg" width="250" height="175"></a>
-                    <a href="images/primaria/p15.jpg" data-gallery=""><img src="images/primaria/p15.jpg" width="250" height="175"></a>
-                    <a href="images/primaria/p16.jpg" data-gallery=""><img src="images/primaria/p16.jpg" width="250" height="175"></a>
-                    <a href="images/primaria/p17.jpg" data-gallery=""><img src="images/primaria/p17.jpg" width="250" height="175"></a>
+                    <a href="images/primaria/p11.jpg" data-gallery=""><img src="images/primaria/p11.jpg"  height="175"></a>
+                    <a href="images/primaria/p12.jpg" data-gallery=""><img src="images/primaria/p12.jpg"  height="175"></a>
+                    <a href="images/primaria/p13.jpg" data-gallery=""><img src="images/primaria/p13.jpg"  height="175"></a>
+                    <a href="images/primaria/p14.jpg" data-gallery=""><img src="images/primaria/p14.jpg"  height="175"></a>
+                    <a href="images/primaria/p15.jpg" data-gallery=""><img src="images/primaria/p15.jpg"  height="175"></a>
+                    <a href="images/primaria/p16.jpg" data-gallery=""><img src="images/primaria/p16.jpg"  height="175"></a>
+                    <a href="images/primaria/p17.jpg" data-gallery=""><img src="images/primaria/p17.jpg"  height="175"></a>
 
                     <div id="blueimp-gallery" class="blueimp-gallery">
                         <div class="slides"></div>
@@ -159,16 +159,16 @@
             </ul>
 
             <div class="lightBoxGallery text-center">
-                <a href="images/primaria/p18.jpg" data-gallery=""><img src="images/primaria/p18.jpg" width="250" height="175"></a>
-                <a href="images/primaria/p19.jpg" data-gallery=""><img src="images/primaria/p19.jpg" width="250" height="175"></a>
-                <a href="images/primaria/p20.jpg" data-gallery=""><img src="images/primaria/p20.jpg" width="250" height="175"></a>
-                <a href="images/primaria/p21.jpg" data-gallery=""><img src="images/primaria/p21.jpg" width="250" height="175"></a>
-                <a href="images/primaria/p22.jpg" data-gallery=""><img src="images/primaria/p22.jpg" width="250" height="175"></a>
-                <a href="images/primaria/p23.jpg" data-gallery=""><img src="images/primaria/p23.jpg" width="250" height="175"></a>
-                <a href="images/primaria/p24.jpg" data-gallery=""><img src="images/primaria/p24.jpg" width="250" height="175"></a>
-                <a href="images/primaria/p25.jpg" data-gallery=""><img src="images/primaria/p25.jpg" width="250" height="175"></a>
-                <a href="images/primaria/p26.jpg" data-gallery=""><img src="images/primaria/p26.jpg" width="250" height="175"></a>
-                <a href="images/primaria/p27.jpg" data-gallery=""><img src="images/primaria/p27.jpg" width="250" height="175"></a>
+                <a href="images/primaria/p18.jpg" data-gallery=""><img src="images/primaria/p18.jpg"  height="175"></a>
+                <a href="images/primaria/p19.jpg" data-gallery=""><img src="images/primaria/p19.jpg"  height="175"></a>
+                <a href="images/primaria/p20.jpg" data-gallery=""><img src="images/primaria/p20.jpg"  height="175"></a>
+                <a href="images/primaria/p21.jpg" data-gallery=""><img src="images/primaria/p21.jpg"  height="175"></a>
+                <a href="images/primaria/p22.jpg" data-gallery=""><img src="images/primaria/p22.jpg"  height="175"></a>
+                <a href="images/primaria/p23.jpg" data-gallery=""><img src="images/primaria/p23.jpg"  height="175"></a>
+                <a href="images/primaria/p24.jpg" data-gallery=""><img src="images/primaria/p24.jpg"  height="175"></a>
+                <a href="images/primaria/p25.jpg" data-gallery=""><img src="images/primaria/p25.jpg"  height="175"></a>
+                <a href="images/primaria/p26.jpg" data-gallery=""><img src="images/primaria/p26.jpg"  height="175"></a>
+                <a href="images/primaria/p27.jpg" data-gallery=""><img src="images/primaria/p27.jpg"  height="175"></a>
 
                 <div id="blueimp-gallery" class="blueimp-gallery">
                     <div class="slides"></div>
@@ -198,11 +198,11 @@
                 <li>Entrega de las cajas de Amor.</li>
             </ul>
             <div class="lightBoxGallery text-center">
-                <a href="images/primaria/p28.jpg" data-gallery=""><img src="images/primaria/p28.jpg" width="250" height="175"></a>
-                <a href="images/primaria/p29.jpg" data-gallery=""><img src="images/primaria/p29.jpg" width="250" height="175"></a>
-                <a href="images/primaria/p30.jpg" data-gallery=""><img src="images/primaria/p30.jpg" width="250" height="175"></a>
-                <a href="images/primaria/p31.jpg" data-gallery=""><img src="images/primaria/p31.jpg" width="250" height="175"></a>
-                <a href="images/primaria/p32.jpg" data-gallery=""><img src="images/primaria/p32.jpg" width="250" height="175"></a>
+                <a href="images/primaria/p28.jpg" data-gallery=""><img src="images/primaria/p28.jpg"  height="175"></a>
+                <a href="images/primaria/p29.jpg" data-gallery=""><img src="images/primaria/p29.jpg"  height="175"></a>
+                <a href="images/primaria/p30.jpg" data-gallery=""><img src="images/primaria/p30.jpg"  height="175"></a>
+                <a href="images/primaria/p31.jpg" data-gallery=""><img src="images/primaria/p31.jpg"  height="175"></a>
+                <a href="images/primaria/p32.jpg" data-gallery=""><img src="images/primaria/p32.jpg"  height="175"></a>
 
                 <div id="blueimp-gallery" class="blueimp-gallery">
                     <div class="slides"></div>
@@ -234,12 +234,12 @@
             <small>*Las actividades extra escolares tienen un costo adicional.</small>
 
             <div class="lightBoxGallery text-center">
-                <a href="images/primaria/p33.jpg" data-gallery=""><img src="images/primaria/p33.jpg" width="250" height="175"></a>
-                <a href="images/primaria/p34.jpg" data-gallery=""><img src="images/primaria/p34.jpg" width="250" height="175"></a>
-                <a href="images/primaria/p35.jpg" data-gallery=""><img src="images/primaria/p35.jpg" width="250" height="175"></a>
-                <a href="images/primaria/p36.jpg" data-gallery=""><img src="images/primaria/p36.jpg" width="250" height="175"></a>
-                <a href="images/primaria/p37.jpg" data-gallery=""><img src="images/primaria/p37.jpg" width="250" height="175"></a>
-                <a href="images/primaria/p38.jpg" data-gallery=""><img src="images/primaria/p38.jpg" width="250" height="175"></a>
+                <a href="images/primaria/p33.jpg" data-gallery=""><img src="images/primaria/p33.jpg"  height="175"></a>
+                <a href="images/primaria/p34.jpg" data-gallery=""><img src="images/primaria/p34.jpg"  height="175"></a>
+                <a href="images/primaria/p35.jpg" data-gallery=""><img src="images/primaria/p35.jpg"  height="175"></a>
+                <a href="images/primaria/p36.jpg" data-gallery=""><img src="images/primaria/p36.jpg"  height="175"></a>
+                <a href="images/primaria/p37.jpg" data-gallery=""><img src="images/primaria/p37.jpg"  height="175"></a>
+                <a href="images/primaria/p38.jpg" data-gallery=""><img src="images/primaria/p38.jpg"  height="175"></a>
 
                 <div id="blueimp-gallery" class="blueimp-gallery">
                     <div class="slides"></div>
@@ -258,11 +258,11 @@
             </p>
 
             <div class="lightBoxGallery text-center">
-                <a href="images/primaria/p39.jpg" data-gallery=""><img src="images/primaria/p39.jpg" width="250" height="175"></a>
-                <a href="images/primaria/p40.jpg" data-gallery=""><img src="images/primaria/p40.jpg" width="250" height="175"></a>
-                <a href="images/primaria/p41.jpg" data-gallery=""><img src="images/primaria/p41.jpg" width="250" height="175"></a>
-                <a href="images/primaria/p42.jpg" data-gallery=""><img src="images/primaria/p42.jpg" width="250" height="175"></a>
-                <a href="images/primaria/p43.jpg" data-gallery=""><img src="images/primaria/p43.jpg" width="250" height="175"></a>
+                <a href="images/primaria/p39.jpg" data-gallery=""><img src="images/primaria/p39.jpg"  height="175"></a>
+                <a href="images/primaria/p40.jpg" data-gallery=""><img src="images/primaria/p40.jpg"  height="175"></a>
+                <a href="images/primaria/p41.jpg" data-gallery=""><img src="images/primaria/p41.jpg"  height="175"></a>
+                <a href="images/primaria/p42.jpg" data-gallery=""><img src="images/primaria/p42.jpg"  height="175"></a>
+                <a href="images/primaria/p43.jpg" data-gallery=""><img src="images/primaria/p43.jpg"  height="175"></a>
 
                 <div id="blueimp-gallery" class="blueimp-gallery">
                     <div class="slides"></div>
@@ -340,11 +340,11 @@
             </ol>
 
             <div class="lightBoxGallery text-center">
-                <a href="images/primaria/p48.jpg" data-gallery=""><img src="images/primaria/p48.jpg" width="250" height="175"></a>
-                <a href="images/primaria/p49.jpg" data-gallery=""><img src="images/primaria/p49.jpg" width="250" height="175"></a>
-                <a href="images/primaria/p50.jpg" data-gallery=""><img src="images/primaria/p50.jpg" width="250" height="175"></a>
-                <a href="images/primaria/p51.jpg" data-gallery=""><img src="images/primaria/p51.jpg" width="250" height="175"></a>
-                <a href="images/primaria/p52.jpg" data-gallery=""><img src="images/primaria/p52.jpg" width="250" height="175"></a>
+                <a href="images/primaria/p48.jpg" data-gallery=""><img src="images/primaria/p48.jpg"  height="175"></a>
+                <a href="images/primaria/p49.jpg" data-gallery=""><img src="images/primaria/p49.jpg"  height="175"></a>
+                <a href="images/primaria/p50.jpg" data-gallery=""><img src="images/primaria/p50.jpg"  height="175"></a>
+                <a href="images/primaria/p51.jpg" data-gallery=""><img src="images/primaria/p51.jpg"  height="175"></a>
+                <a href="images/primaria/p52.jpg" data-gallery=""><img src="images/primaria/p52.jpg"  height="175"></a>
 
                 <div id="blueimp-gallery" class="blueimp-gallery">
                     <div class="slides"></div>

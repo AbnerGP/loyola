@@ -1,127 +1,82 @@
 <div class="container">
-<h3>Secundaria</h3>
-    <div class="row">
+    <div class="row text-center">
         <div class="col-lg-12">
-            <p>
-                <strong>Clave de Incorporación a la SEP:</strong> 17PES0128Z / 20 de noviembre 2013
-            </p>
-            <div class="text-center">
-                <img src="/images/secundaria/1.jpg" class="img-fluid" />
-            </div>
+            <h2><strong>Secundaria (Pensamiento)</strong></h2>
+            <h4><strong>Clave de Incorporación a la SEP:</strong> 17PES0128Z</h4>
+        </div>
+    </div>
+
+    <div class="row text-center">
+        <div class="col-lg-12">
+            <img src="/images/secundaria/s1.jpg" width="100%" />
         </div>
     </div>
 
     <div class="row">
-        <div class="col-md-8 mb-4">
+        <div class="col-lg-12">
+            <h4 class="text-center"><strong>Un lugar para desarrollarse</strong></h4>
             <p>
-                En esta etapa se establece un vínculo entre el maestro y el alumno que permite entender mejor la infdividualidad infanto-juvenil, a modo de poder acompañar en un espacio de confianza, a los distintos alumnos en sus procesos de transformación.
+                En esta etapa se establece un vínculo entre el maestro y el alumno que permite entender mejor la individualidad infanto-juvenil, a modo de poder acompañar en un espacio de confianza, a los distintos alumnos en sus procesos de transformación.
             </p>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-12">
+            <h4 class="text-center"><strong>Objetivo Secundaria:</strong></h4>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6 mb-4">
+            <img src="/images/secundaria/s2.jpg" width="100%" />
+        </div>
+        <div class="col-md-6 mb-4">
             <p>
-                Aquí el proceso se encamina a nutrir la individualidad, la capacidad de observación y el desarrollo de un pensamiento analítico. La misión de nuestros docentes se enfoca en fortalecer el pensamiento individual llevado a cabo desde una expresión madura que conduzca a realizar en nuestros estudiantes acciones responsables, para que a través de ello, forjen su interior, desarrollen su personalidad y se asuman en su independencia de manera responsable.
+                Aquí el proceso se encamina a fortalecer la individualidad, la capacidad de observación y el desarrollo de un pensamiento analítico. La misión de nuestros docentes se enfoca el progreso del pensamiento individual llevado a cabo desde una expresión madura que conduzca a realizar en nuestros estudiantes acciones responsables, para que a través de ello, forjen su interior, desarrollen su personalidad y se asuman en su independencia de manera responsable.
             </p>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="lightBoxGallery text-center">
+                <a href="images/secundaria/s3.jpg" data-gallery=""><img src="images/secundaria/s3.jpg"  height="175"></a>
+                <a href="images/secundaria/s4.jpg" data-gallery=""><img src="images/secundaria/s4.jpg"  height="175"></a>
+                <a href="images/secundaria/s5.jpg" data-gallery=""><img src="images/secundaria/s5.jpg"  height="175"></a>
+                <a href="images/secundaria/s6.jpg" data-gallery=""><img src="images/secundaria/s6.jpg"  height="175"></a>
+                <a href="images/secundaria/s7.jpg" data-gallery=""><img src="images/secundaria/s7.jpg"  height="175"></a>
+                <a href="images/secundaria/s8.jpg" data-gallery=""><img src="images/secundaria/s8.jpg"  height="175"></a>
+                <a href="images/secundaria/s9.jpg" data-gallery=""><img src="images/secundaria/s9.jpg"  height="175"></a>
+                <a href="images/secundaria/s10.jpg" data-gallery=""><img src="images/secundaria/s10.jpg"  height="175"></a>
+
+                <div id="blueimp-gallery" class="blueimp-gallery">
+                    <div class="slides"></div>
+                    <h3 class="title"></h3>
+                    <a class="prev">‹</a>
+                    <a class="next">›</a>
+                    <a class="close">×</a>
+                    <a class="play-pause"></a>
+                    <ol class="indicator"></ol>
+                </div>
+            </div>
+
             <p>
-                Nuestra currícula cuenta con los talleres de:
+                Nuestra curricula cuenta con los talleres de:
             </p>
+
             <ul>
                 <li>Gastronomía.</li>
                 <li>Música.</li>
-                <li>Teatro.</li>
-                <li>Modelado de barro.</li>
+                <li>Arte.</li>
             </ul>
-        </div>
-        <div class="col-md-4 mb-4">
-            <img src="/images/secundaria/2.jpg" />
-        </div>
-    </div>
 
-    <div class="row">
-        <div class="col-lg-12">
-        <h3>Programa académico</h3>
-            <p>
-                NUESTRO PROGRAMA ACADÉMICO INCLUYE:
-            </p>
-            
-            <ul>
-                <li>EVALUACIÓN DIAGNOSTICA.</li>
-                <li>Curso propedéutico.</li>
-                <li>Certificación en paquetería Microsoft Office.</li>
-                <li>Departamento Psicopedagógico.</li>
-                <li>Coaching para padres e hijos.</li>
-                <li>Inglés por niveles con certificación por Cambridge University.</li>
-                <li>Francés como segundo idioma por niveles con certificación DELF.</li>
-                <li>Programa de lectura.</li>
-                <li>Tutores por grupo.</li>
-                <li>Horticultura.</li>
-                <li>Visitas culturalesTALLERES EXTRACURRICULARES (OPCIONAL).</li>
-                <li>PORRAS, FÚTBOL, VOLEIBOL, AJEDREZ, ITALIANO Y BAILE.</li>
-            </ul>
-        </div>
-    </div>
+            <div class="lightBoxGallery text-center">
+                <a href="images/secundaria/s11.jpg" data-gallery=""><img src="images/secundaria/s11.jpg" height="175"></a>
+                <a href="images/secundaria/s12.jpg" data-gallery=""><img src="images/secundaria/s12.jpg" height="175"></a>
+                <a href="images/secundaria/s13.jpg" data-gallery=""><img src="images/secundaria/s13.jpg" height="175"></a>
+                <a href="images/secundaria/s14.jpg" data-gallery=""><img src="images/secundaria/s14.jpg" height="175"></a>
 
-    <div class="row">
-        <div class="col-md-8 mb-4">
-            <h3>Actividades Extraescolares</h3>
-            <p>
-                El desarrollo de las habilidades de aprendizaje es complemento de la formación de hábitos de disciplina deportiva a través del crecimiento físico y emocional, es por ello que ofrecemos las siguientes actividades extra escolares:
-            </p>
-            <ul>
-                <li>Futbol (Varonil y Femenil).</li>
-                <li>Porras.</li>
-            </ul>
-            <p>
-                Las actividades extra escolares tienen un costo adicional.
-            </p>
-        </div>
-        <div class="col-md-4 mb-4">
-            <img src="/images/secundaria/3.jpg" />
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="col-lg-12">
-            <h3>Horarios</h3>
-            <p>
-                Llegar a la hora adecuada, a los alumnos les permite desarrollar excelentes hábitos de responsabilidad respeto y compromiso.
-            </p>
-            <ul>
-                <li>Hora de entrada: 7:20am.</li>
-                <li>Hora de salida: 2:40pm.</li>
-                <li>La recepción de los alumnos puede ser desde las 7:00 a.m. sin costo adicional.</li>
-                <li>La hora máxima para recoger a sus hijos es a las 3:00 p.m.</li>
-                <li>En caso de acudir a las actividades extraescolares el horario de salida será según la actividad a desarrollar.</li>
-            </ul>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="col-lg-12">
-            <h3>Instalaciones</h3>
-            <ul>
-                <li>Salones adecuados.</li>
-                <li>Biblioteca con servicio de Internet.</li>
-                <li>Centro de cómputo.</li>
-                <li>Laboratorio.</li>
-                <li>Área para taller de cocina.</li>
-                <li>Internet inalámbrico.</li>
-                <li>Mobiliario propicio.</li>
-                <li>Cafetería (sólo se expenden alimentos nutritivos).</li>
-                <li>Estacionamiento.</li>
-                <li>Alberca.</li>
-                <li>Amplios jardines.</li>
-                <li>Cancha de usos múltiples.</li>
-                <li>Baños adecuados.</li>
-                <li>Espacios para el recreo y diversión de los alumnos.</li>
-            </ul>
-            
-            <div class="lightBoxGallery">
-                <a href="images/secundaria/4.jpg" data-gallery=""><img src="images/secundaria/4.jpg" width="250" height="175"></a>
-                <a href="images/secundaria/5.jpg" data-gallery=""><img src="images/secundaria/5.jpg" width="250" height="175"></a>
-                <a href="images/secundaria/6.jpg" data-gallery=""><img src="images/secundaria/6.jpg" width="250" height="175"></a>
-                <a href="images/secundaria/7.jpg" data-gallery=""><img src="images/secundaria/7.jpg" width="250" height="175"></a>
-                <a href="images/secundaria/8.jpg" data-gallery=""><img src="images/secundaria/8.jpg" width="250" height="175"></a>
-                <a href="images/secundaria/9.jpg" data-gallery=""><img src="images/secundaria/9.jpg" width="250" height="175"></a>
-                <a href="images/secundaria/10.jpg" data-gallery=""><img src="images/secundaria/10.jpg" width="250" height="175"></a>
-        
                 <div id="blueimp-gallery" class="blueimp-gallery">
                     <div class="slides"></div>
                     <h3 class="title"></h3>
@@ -137,17 +92,165 @@
 
     <div class="row">
         <div class="col-lg-12">
-            <h3>Requisitos de Inscripción</h3>
+            <h4>Programa académico</h4>
+            <p>
+                NUESTRO PROGRAMA ACADÉMICO INCLUYE:
+            </p>
+
+            <ul>
+                <li>EVALUACIÓN DIAGNOSTICA.</li>
+                <li>Curso propedéutico.</li>
+                <li>Certificación en paquetería Microsoft Office a nivel curricular.</li>
+                <li>Departamento Psicopedagógico.</li>
+                <li>Coaching para padres e hijos.</li>
+                <li>Inglés por niveles con certificación por Cambridge University.</li>
+                <li>Francés como segundo idioma por niveles con certificación DELF.</li>
+                <li>Programa de lectura.</li>
+                <li>Tutores por grupo.</li>
+                <li>Robótica.</li>
+                <li>Modelado en Barro.</li>
+                <li>Visitas culturales.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6 mb-4">
+            <img src="/images/secundaria/s15.jpg" width="100%" />
+        </div>
+        <div class="col-md-6 mb-4">
+            <img src="/images/secundaria/s16.jpg" width="100%" />
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-12">
+            <h4>Actividades Extraescolares</h4>
+            <p>
+                El desarrollo de las habilidades de aprendizaje es complemento de la formación de hábitos de disciplina deportiva a través del crecimiento físico y emocional, es por ello que ofrecemos las siguientes actividades extra escolares:
+            </p>
+
+            <ul>
+                <li>Fútbol (Varonil y Femenil).</li>
+                <li>Básquetbol.</li>
+                <li>Voleibol.</li>
+                <li>Porras.</li>
+                <li>Baile.</li>
+                <li>Ajedrez.</li>
+            </ul>
+
+            <small>Las actividades extra escolares tienen un costo adicional.</small>
+
+            <div class="lightBoxGallery text-center">
+                <a href="images/secundaria/s17.jpg" data-gallery=""><img src="images/secundaria/s17.jpg" height="175"></a>
+                <a href="images/secundaria/s18.jpg" data-gallery=""><img src="images/secundaria/s18.jpg" height="175"></a>
+                <a href="images/secundaria/s19.jpg" data-gallery=""><img src="images/secundaria/s19.jpg" height="175"></a>
+                <a href="images/secundaria/s20.jpg" data-gallery=""><img src="images/secundaria/s20.jpg" height="175"></a>
+                <a href="images/secundaria/s21.jpg" data-gallery=""><img src="images/secundaria/s21.jpg" height="175"></a>
+                <a href="images/secundaria/s22.jpg" data-gallery=""><img src="images/secundaria/s22.jpg" height="175"></a>
+                <a href="images/secundaria/s23.jpg" data-gallery=""><img src="images/secundaria/s23.jpg" height="175"></a>
+
+                <div id="blueimp-gallery" class="blueimp-gallery">
+                    <div class="slides"></div>
+                    <h3 class="title"></h3>
+                    <a class="prev">‹</a>
+                    <a class="next">›</a>
+                    <a class="close">×</a>
+                    <a class="play-pause"></a>
+                    <ol class="indicator"></ol>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-12">
+            <h4 class="text-center">Horarios</h4>
+
+            <p>
+                Llegar a la hora adecuada, a los alumnos les permite desarrollar excelentes hábitos de responsabilidad respeto y compromiso.
+            </p>
+
+            <ul>
+                <li>Hora de entrada: 7:20 a.m.</li>
+                <li>Hora de salida: 2:50 p.m.</li>
+                <li>La recepción de los alumnos puede ser desde las 7:00 a.m. sin costo adicional.</li>
+                <li>La hora máxima para recoger a sus hijos es a las 3:00 p.m.</li>
+                <li>En caso de acudir a las actividades extraescolares, el horario de salida será según la actividad a desarrollar.</li>
+            </ul>
+
+            <h4 class="text-center">Viajes de Graduación</h4>
+
+            <div class="lightBoxGallery text-center">
+                <a href="images/secundaria/s24.jpg" data-gallery=""><img src="images/secundaria/s24.jpg" height="175"></a>
+                <a href="images/secundaria/s25.jpg" data-gallery=""><img src="images/secundaria/s25.jpg" height="175"></a>
+                <a href="images/secundaria/s26.jpg" data-gallery=""><img src="images/secundaria/s26.jpg" height="175"></a>
+
+                <div id="blueimp-gallery" class="blueimp-gallery">
+                    <div class="slides"></div>
+                    <h3 class="title"></h3>
+                    <a class="prev">‹</a>
+                    <a class="next">›</a>
+                    <a class="close">×</a>
+                    <a class="play-pause"></a>
+                    <ol class="indicator"></ol>
+                </div>
+            </div>
+
+            <h4 class="text-center">Instalaciones</h4>
+
+            <ul>
+                <li>Salones adecuados.</li>
+                <li>Biblioteca.</li>
+                <li>Centro de cómputo.</li>
+                <li>Laboratorio.</li>
+                <li>Área para taller de gastronomía.</li>
+                <li>Internet inalámbrico.</li>
+                <li>Mobiliario propicio.</li>
+                <li>Cafetería.</li>
+                <li>Estacionamiento.</li>
+                <li>Alberca.</li>
+                <li>Amplios jardines.</li>
+                <li>Cancha de usos múltiples.</li>
+                <li>Baños adecuados.</li>
+                <li>Espacios para el recreo y diversión de los alumnos.</li>
+            </ul>
+
+            <div class="lightBoxGallery text-center">
+                <a href="images/secundaria/s27.jpg" data-gallery=""><img src="images/secundaria/s27.jpg" height="175"></a>
+                <a href="images/secundaria/s28.jpg" data-gallery=""><img src="images/secundaria/s28.jpg" height="175"></a>
+                <a href="images/secundaria/s29.jpg" data-gallery=""><img src="images/secundaria/s29.jpg" height="175"></a>
+                <a href="images/secundaria/s30.jpg" data-gallery=""><img src="images/secundaria/s30.jpg" height="175"></a>
+                <a href="images/secundaria/s31.jpg" data-gallery=""><img src="images/secundaria/s31.jpg" height="175"></a>
+                <a href="images/secundaria/s32.jpg" data-gallery=""><img src="images/secundaria/s32.jpg" height="175"></a>
+
+                <div id="blueimp-gallery" class="blueimp-gallery">
+                    <div class="slides"></div>
+                    <h3 class="title"></h3>
+                    <a class="prev">‹</a>
+                    <a class="next">›</a>
+                    <a class="close">×</a>
+                    <a class="play-pause"></a>
+                    <ol class="indicator"></ol>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-12">
+            <h3 class="text-center">Requisitos de inscripción</h3>
+            <h4>DOCUMENTACIÓN</h4>
             <ul>
                 <li>Solicitud de Inscripción.</li>
-                <li>Acta de nacimiento (Original y 2 copias).</li>
-                <li>Certificado de Primaria (Original).</li>
+                <li>Acta de Nacimiento.</li>
+                <li>Certificado de Primaria.</li>
+                <li>Boleta Oficial de calificaciones (2° y 3°).</li>
+                <li>CURP.</li>
                 <li>Carta de Buena Conducta.</li>
-                <li>Boleta oficial de (2° y 3° año).</li>
-                <li>3 Fotografías t/infantil a color.</li>
-                <li>CURP (1 Copia).</li>
-                <li>Cartilla Nacional de Salud.</li>
+                <li>3 Fotografías t/infantil a color o blanco y negro con adherible.</li>
             </ul>
+            <h3><strong>NOTA:</strong> Toda la documentación debe entregarse en original y 2 copias.</h3>
         </div>
     </div>
 </div>

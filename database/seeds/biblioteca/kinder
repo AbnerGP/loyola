@@ -39,10 +39,10 @@
                 </i>
             </p>
             <div class="lightBoxGallery text-center">
-                <a href="images/kinder/k2.jpg" data-gallery=""><img src="images/kinder/k2.jpg" width="250" height="175"></a>
-                <a href="images/kinder/k3.jpg" data-gallery=""><img src="images/kinder/k3.jpg" width="250" height="175"></a>
-                <a href="images/kinder/k4.jpg" data-gallery=""><img src="images/kinder/k4.jpg" width="250" height="175"></a>
-                <a href="images/kinder/k5.jpg" data-gallery=""><img src="images/kinder/k5.jpg" width="250" height="175"></a>
+                <a href="images/kinder/k2.jpg" data-gallery=""><img src="images/kinder/k2.jpg"  height="175"></a>
+                <a href="images/kinder/k3.jpg" data-gallery=""><img src="images/kinder/k3.jpg"  height="175"></a>
+                <a href="images/kinder/k4.jpg" data-gallery=""><img src="images/kinder/k4.jpg"  height="175"></a>
+                <a href="images/kinder/k5.jpg" data-gallery=""><img src="images/kinder/k5.jpg"  height="175"></a>
 
                 <div id="blueimp-gallery" class="blueimp-gallery">
                     <div class="slides"></div>
@@ -72,9 +72,9 @@
             </ul>
 
             <div class="lightBoxGallery text-center">
-                <a href="images/kinder/k6.jpg" data-gallery=""><img src="images/kinder/k6.jpg" width="250" height="175"></a>
-                <a href="images/kinder/k7.jpg" data-gallery=""><img src="images/kinder/k7.jpg" width="250" height="175"></a>
-                <a href="images/kinder/k8.jpg" data-gallery=""><img src="images/kinder/k8.jpg" width="250" height="175"></a>
+                <a href="images/kinder/k6.jpg" data-gallery=""><img src="images/kinder/k6.jpg"  height="175"></a>
+                <a href="images/kinder/k7.jpg" data-gallery=""><img src="images/kinder/k7.jpg"  height="175"></a>
+                <a href="images/kinder/k8.jpg" data-gallery=""><img src="images/kinder/k8.jpg"  height="175"></a>
 
                 <div id="blueimp-gallery" class="blueimp-gallery">
                     <div class="slides"></div>
@@ -121,15 +121,15 @@
             </ul>
 
             <div class="lightBoxGallery text-center">
-                <a href="images/kinder/k10.jpg" data-gallery=""><img src="images/kinder/k10.jpg" width="250" height="175"></a>
-                <a href="images/kinder/k11.jpg" data-gallery=""><img src="images/kinder/k11.jpg" width="250" height="175"></a>
-                <a href="images/kinder/k12.jpg" data-gallery=""><img src="images/kinder/k12.jpg" width="250" height="175"></a>
-                <a href="images/kinder/k13.jpg" data-gallery=""><img src="images/kinder/k13.jpg" width="250" height="175"></a>
-                <a href="images/kinder/k14.jpg" data-gallery=""><img src="images/kinder/k14.jpg" width="250" height="175"></a>
-                <a href="images/kinder/k15.jpg" data-gallery=""><img src="images/kinder/k15.jpg" width="250" height="175"></a>
-                <a href="images/kinder/k16.jpg" data-gallery=""><img src="images/kinder/k16.jpg" width="250" height="175"></a>
-                <a href="images/kinder/k17.jpg" data-gallery=""><img src="images/kinder/k17.jpg" width="250" height="175"></a>
-                <a href="images/kinder/k18.jpg" data-gallery=""><img src="images/kinder/k18.jpg" width="250" height="175"></a>
+                <a href="images/kinder/k10.jpg" data-gallery=""><img src="images/kinder/k10.jpg"  height="175"></a>
+                <a href="images/kinder/k11.jpg" data-gallery=""><img src="images/kinder/k11.jpg"  height="175"></a>
+                <a href="images/kinder/k12.jpg" data-gallery=""><img src="images/kinder/k12.jpg"  height="175"></a>
+                <a href="images/kinder/k13.jpg" data-gallery=""><img src="images/kinder/k13.jpg"  height="175"></a>
+                <a href="images/kinder/k14.jpg" data-gallery=""><img src="images/kinder/k14.jpg"  height="175"></a>
+                <a href="images/kinder/k15.jpg" data-gallery=""><img src="images/kinder/k15.jpg"  height="175"></a>
+                <a href="images/kinder/k16.jpg" data-gallery=""><img src="images/kinder/k16.jpg"  height="175"></a>
+                <a href="images/kinder/k17.jpg" data-gallery=""><img src="images/kinder/k17.jpg"  height="175"></a>
+                <a href="images/kinder/k18.jpg" data-gallery=""><img src="images/kinder/k18.jpg"  height="175"></a>
 
                 <div id="blueimp-gallery" class="blueimp-gallery">
                     <div class="slides"></div>
@@ -201,11 +201,11 @@
             </ul>
 
             <div class="lightBoxGallery text-center">
-                <a href="images/kinder/k19.jpg" data-gallery=""><img src="images/kinder/k19.jpg" width="250" height="175"></a>
-                <a href="images/kinder/k20.jpg" data-gallery=""><img src="images/kinder/k20.jpg" width="250" height="175"></a>
-                <a href="images/kinder/k21.jpg" data-gallery=""><img src="images/kinder/k21.jpg" width="250" height="175"></a>
-                <a href="images/kinder/k22.jpg" data-gallery=""><img src="images/kinder/k22.jpg" width="250" height="175"></a>
-                <a href="images/kinder/k23.jpg" data-gallery=""><img src="images/kinder/k23.jpg" width="250" height="175"></a>
+                <a href="images/kinder/k19.jpg" data-gallery=""><img src="images/kinder/k19.jpg"  height="175"></a>
+                <a href="images/kinder/k20.jpg" data-gallery=""><img src="images/kinder/k20.jpg"  height="175"></a>
+                <a href="images/kinder/k21.jpg" data-gallery=""><img src="images/kinder/k21.jpg"  height="175"></a>
+                <a href="images/kinder/k22.jpg" data-gallery=""><img src="images/kinder/k22.jpg"  height="175"></a>
+                <a href="images/kinder/k23.jpg" data-gallery=""><img src="images/kinder/k23.jpg"  height="175"></a>
 
                 <div id="blueimp-gallery" class="blueimp-gallery">
                     <div class="slides"></div>
@@ -225,10 +225,10 @@
             <h4><strong>Actividades con papás</strong></h4>
 
             <div class="lightBoxGallery text-center">
-                <a href="images/kinder/k24.jpg" data-gallery=""><img src="images/kinder/k24.jpg" width="250" height="175"></a>
-                <a href="images/kinder/k25.jpg" data-gallery=""><img src="images/kinder/k25.jpg" width="250" height="175"></a>
-                <a href="images/kinder/k26.jpg" data-gallery=""><img src="images/kinder/k26.jpg" width="250" height="175"></a>
-                <a href="images/kinder/k27.jpg" data-gallery=""><img src="images/kinder/k27.jpg" width="250" height="175"></a>
+                <a href="images/kinder/k24.jpg" data-gallery=""><img src="images/kinder/k24.jpg"  height="175"></a>
+                <a href="images/kinder/k25.jpg" data-gallery=""><img src="images/kinder/k25.jpg"  height="175"></a>
+                <a href="images/kinder/k26.jpg" data-gallery=""><img src="images/kinder/k26.jpg"  height="175"></a>
+                <a href="images/kinder/k27.jpg" data-gallery=""><img src="images/kinder/k27.jpg"  height="175"></a>
 
                 <div id="blueimp-gallery" class="blueimp-gallery">
                     <div class="slides"></div>

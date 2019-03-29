@@ -1,119 +1,305 @@
 <div class="container">
-<h3>Preparatoria</h3>
+    <div class="row text-center">
+        <div class="col-lg-12">
+            <h2><strong>Preparatoria (Decisión)</strong></h2>
+            <h4><strong>Clave de Incorporación a la UAEM:</strong> 73/LXII/12.P / 1973</h4>
+        </div>
+    </div>
+
+    <div class="row text-center">
+        <div class="col-lg-12">
+            <img src="/images/preparatoria/h1.jpg" width="50%" />
+        </div>
+    </div>
+
     <div class="row">
         <div class="col-lg-12">
+            <h4 class="text-center"><strong>Un lugar para decidir</strong></h4>
             <p>
-                <strong>Clave de Incorporación a la UAEM:</strong> 73/LXII/12.P / 1973
+                Nuestra estrategia educativa fomenta el desarrollo personal de valores, hábitos y actitudes que forman a nuestros alumnos como personas éticas, con gran sentido de responsabilidad, perseverancia, dedicación y compromiso con ellos mismos y con los demás.
             </p>
-            <div class="text-center">
-                <img src="/images/preparatoria/1.jpg" class="img-fluid"/>
+
+            <h4 class="text-center"><strong>Objetivo Prepa:</strong></h4>
+
+            <p>
+                En esta etapa, nuestros alumnos son guiados por profesores que los acompañan desde sus diferentes especialidades. Aquí encontrarán sus propios desafíos y en último término su propia identidad. En esta etapa conducimos a los jóvenes hacia su autonomía como individuos libres, capaces de tomar decisiones con sentido de responsabilidad, perseverancia, dedicación y compromiso para que puedan situarse en el mundo de forma exitosa como sujetos receptivos y conscientes de la época que les toca vivir.
+            </p>
+
+            <div class="lightBoxGallery text-center">
+                <a href="images/preparatoria/h2.jpg" data-gallery=""><img src="images/preparatoria/h2.jpg"  height="175"></a>
+                <a href="images/preparatoria/h3.jpg" data-gallery=""><img src="images/preparatoria/h3.jpg"  height="175"></a>
+                <a href="images/preparatoria/h4.jpg" data-gallery=""><img src="images/preparatoria/h4.jpg"  height="175"></a>
+                <a href="images/preparatoria/h5.jpg" data-gallery=""><img src="images/preparatoria/h5.jpg"  height="175"></a>
+
+                <div id="blueimp-gallery" class="blueimp-gallery">
+                    <div class="slides"></div>
+                    <h3 class="title"></h3>
+                    <a class="prev">‹</a>
+                    <a class="next">›</a>
+                    <a class="close">×</a>
+                    <a class="play-pause"></a>
+                    <ol class="indicator"></ol>
+                </div>
             </div>
         </div>
     </div>
 
     <div class="row">
         <div class="col-lg-12">
-            <p>
-                En esta etapa, nuestros alumnos son guiados por profesores que los acompañan desde sus diferentes especialidades. Aquí encontrarán sus propios desafíos y en último término su propia identidad. En esta etapa conducimos a los jóvenes hacia su autonomía como individuos libres, capaces de tomar decisiones con sentido de responsabilidad, perseverancia, dedicación y compromiso para que puedan situarse en el mundo de forma exitosa  como sujetos receptivos y conscientes de la época que les toca vivir.
-            </p>
-        </div>
-        <div class="col-md-8 mb-4">
-            <p>
-                PLANES Y PROGRAMAS DE ESTUDIOS EN CIENCIAS Y HUMANIDADES, CON ESPECIALIDADES EN LOS EJES DE:
-            </p>
+            <h4>PLANES Y PROGRAMAS DE ESTUDIOS EN CIENCIAS Y HUMANIDADES, CON ESPECIALIDADES EN LOS EJES DE:</h4>
+
             <ul>
-                <li>Formación de habilidades numéricas.</li>
-                <li>Formación de habilidades experimentales.</li>
-                <li>Formación de habilidades socio-históricas.</li>
+                <li>Formación de habilidades Ciencias Exactas.</li>
+                <li>Formación de habilidades Ciencias Naturales.</li>
+                <li>Formación de habilidades Ciencias Sociales y Humanidades.</li>
                 <li>ALTO NIVEL ACADÉMICO.</li>
                 <li>Examen diagnóstico.</li>
+                <li>Examen de colocación en idiomas.</li>
                 <li>Curso propedéutico.</li>
                 <li>Departamento psicopedagógico.</li>
                 <li>Coaching para padres y alumnos.</li>
                 <li>Tutor por grupo.</li>
                 <li>Aulas Multimedia.</li>
+                <li>Enfermería.</li>
             </ul>
-        </div>
-        <div class="col-md-4 mb-4">
-            <img src="/images/preparatoria/2.jpg" />
+
+            <!--Carousel Wrapper-->
+            <div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
+              <!--Indicators-->
+              <ol class="carousel-indicators">
+                <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-2" data-slide-to="1"></li>
+                <li data-target="#carousel-example-2" data-slide-to="2"></li>
+                <li data-target="#carousel-example-2" data-slide-to="3"></li>
+              </ol>
+              <!--/.Indicators-->
+              <!--Slides-->
+              <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                  <div class="view">
+                    <img class="d-block w-100" src="images/preparatoria/h6s.jpg" alt="First slide">
+                  </div>
+                  <div class="carousel-caption">
+                    <h3 class="h3-responsive">Curso Propedútico sin costo</h3>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <!--Mask color-->
+                  <div class="view">
+                    <img class="d-block w-100" src="images/preparatoria/h7s.jpg" alt="Second slide">
+                  </div>
+                  <div class="carousel-caption">
+                    <h3 class="h3-responsive">Reconocimientos Académicos</h3>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <!--Mask color-->
+                  <div class="view">
+                    <img class="d-block w-100" src="images/preparatoria/h8s.jpg" alt="Third slide">
+                  </div>
+                  <div class="carousel-caption">
+                    <h3>Programa de Valores “Madres, Padres e Hijos a Todo Terreno”</h3>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <!--Mask color-->
+                  <div class="view">
+                    <img class="d-block w-100" src="images/preparatoria/h9.jpg" alt="Fourth slide">
+                    <div class="mask rgba-black-slight"></div>
+                  </div>
+                  <div class="carousel-caption">
+                    <h3 class="h3-responsive">Nuestra currícula cuenta con los talleres de: gastronomía, música, teatro y baile.</h3>
+                  </div>
+                </div>
+              </div>
+              <!--/.Slides-->
+              <!--Controls-->
+              <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+              <!--/.Controls-->
+            </div>
+            <!--/.Carousel Wrapper-->
         </div>
     </div>
 
     <div class="row">
-        <div class="col-lg-12">
-        <h3>Un lugar para decidir</h3>
-            <p>
-                La Preparatoria Loyola es una Institución educativa que promueve Planes y Programas de Estudio en  Ciencias y  Humanidades, con especialidad en los ejes de:
-            </p>
-            
-            <ul>
-                <li>Formación de Habilidades Numéricas.</li>
-                <li>Formación de Habilidades Experimentales.</li>
-                <li>Formación de Habilidades Socio-Histórica.</li>
-            </ul>
-
-            <p>
-                Nuestra estrategia educativa fomenta  el desarrollo personal de valores, hábitos y actitudes que forman a nuestros alumnos como personas éticas, con gran sentido de responsabilidad, perseverancia,  dedicación y compromiso con ellos mismos y con los demás.
-            </p>
+        <div class="col-md-6 mb-4">
+            <img src="/images/preparatoria/h10.jpg" width="100%" />
         </div>
-    </div>
-
-    <div class="row">
-        <div class="col-lg-12">
-        <h3>Actividades culturales</h3>
+        <div class="col-md-6 mb-4">
+            <h4>Actividades culturales</h4>
             <ul>
                 <li>Conferencias de destacados expositores.</li>
                 <li>Visitas a lugares de relevancia histórica y cívica.</li>
                 <li>Jornadas académicas.</li>
+                <li>Jornadas deportivas.</li>
+                <li>Couching de liderazgo para jóvenes.</li>
+                <li>Clases de fotografía, barro y teatro para todos los alumnos.</li>
+                <li>Convenios con universidades de prestigio a nivel nacional.</li>
                 <li>Excursiones.</li>
                 <li>Proyecto de consciencia ecológica y sustentable.</li>
-                <li>Sede de la Olimpiada Estatal de Matemáticas.</li>
-                <li>Certificación en Photoshop y Dreamweaver (1ro y 3er años respectivamente).</li>
+                <li>Certificación en Photoshop y Excel Business (1ro y 3er años respectivamente).</li>
                 <li>Actividades de formación social con sentido comunitario.</li>
                 <li>Inglés por niveles con opción a Certificación por Cambridge University.</li>
                 <li>Francés como segundo idioma con opción de certificación DELF.</li>
                 <li>Aplicación del Test de habilidades y aptitudes vocacionales.</li>
             </ul>
+        </div>
+    </div>
 
-            <p>
-                Nuestra currícula cuenta con los talleres de: <strong>gastronomía, música, teatro y dibujo.</strong>
-            </p>
+
+
+
+
+
+
+
+
+
+
+    <div class="row">
+        <div class="col-md-6 mb-4">
+            <img src="/images/secundaria/s15.jpg" width="100%" />
+        </div>
+        <div class="col-md-6 mb-4">
+            <img src="/images/secundaria/s16.jpg" width="100%" />
         </div>
     </div>
 
     <div class="row">
         <div class="col-lg-12">
-            <h3>Horarios</h3>
+            <h4>Actividades Extraescolares</h4>
             <p>
-                Llegar a la hora adecuada, a los alumnos les permite desarrollar excelentes hábitos de puntualidad y socialización.
+                El desarrollo de las habilidades de aprendizaje es complemento de la formación de hábitos de disciplina deportiva a través del crecimiento físico y emocional, es por ello que ofrecemos las siguientes actividades extra escolares:
             </p>
+
             <ul>
-                <li>Hora de entrada: 7:20am.</li>
-                <li>Hora de salida: 2:00pm.</li>
-                <li>La recepción de los alumnos puede ser desde las 7:00 a.m.</li>
-                <li>La hora máxima de salida es a las 4:00 p.m.</li>
+                <li>Fútbol (Varonil y Femenil).</li>
+                <li>Básquetbol.</li>
+                <li>Voleibol.</li>
+                <li>Porras.</li>
+                <li>Baile.</li>
+                <li>Ajedrez.</li>
             </ul>
+
+            <small>Las actividades extra escolares tienen un costo adicional.</small>
+
+            <div class="lightBoxGallery text-center">
+                <a href="images/secundaria/s17.jpg" data-gallery=""><img src="images/secundaria/s17.jpg" height="175"></a>
+                <a href="images/secundaria/s18.jpg" data-gallery=""><img src="images/secundaria/s18.jpg" height="175"></a>
+                <a href="images/secundaria/s19.jpg" data-gallery=""><img src="images/secundaria/s19.jpg" height="175"></a>
+                <a href="images/secundaria/s20.jpg" data-gallery=""><img src="images/secundaria/s20.jpg" height="175"></a>
+                <a href="images/secundaria/s21.jpg" data-gallery=""><img src="images/secundaria/s21.jpg" height="175"></a>
+                <a href="images/secundaria/s22.jpg" data-gallery=""><img src="images/secundaria/s22.jpg" height="175"></a>
+                <a href="images/secundaria/s23.jpg" data-gallery=""><img src="images/secundaria/s23.jpg" height="175"></a>
+
+                <div id="blueimp-gallery" class="blueimp-gallery">
+                    <div class="slides"></div>
+                    <h3 class="title"></h3>
+                    <a class="prev">‹</a>
+                    <a class="next">›</a>
+                    <a class="close">×</a>
+                    <a class="play-pause"></a>
+                    <ol class="indicator"></ol>
+                </div>
+            </div>
         </div>
     </div>
 
     <div class="row">
         <div class="col-lg-12">
-            <h3>Requisitos de Inscripción</h3>
-            <ul>
-                <li>Solicitud de inscripción Acta de nacimiento (Original y 2 copias).</li>
-                <li>Carta de buena conducta (Original).</li>
-                <li>CURP (1 copia).</li>
-                <li>6 Fotografías t/infantil B/N ó color.</li>
-                <li>Certificado médico.</li>
-            </ul>
-        </div>
+            <h4 class="text-center">Horarios</h4>
 
-        <div class="col-lg-12">
-            <h5>SEGUNDO Y TERCER GRADO:</h5>
+            <p>
+                Llegar a la hora adecuada, a los alumnos les permite desarrollar excelentes hábitos de responsabilidad respeto y compromiso.
+            </p>
+
             <ul>
-                <li>Certificado Parcial de Estudios: Sólo para alumnos procedentes de escuelas incorporadas a SEP, UNAM, DEGTI ó de otros estados de la República.</li>
-                <li>Boletas Certificadas: Para alumnos procedentes de escuelas incorporadas a la UAEM.</li>
+                <li>Hora de entrada: 7:20 a.m.</li>
+                <li>Hora de salida: 2:50 p.m.</li>
+                <li>La recepción de los alumnos puede ser desde las 7:00 a.m. sin costo adicional.</li>
+                <li>La hora máxima para recoger a sus hijos es a las 3:00 p.m.</li>
+                <li>En caso de acudir a las actividades extraescolares, el horario de salida será según la actividad a desarrollar.</li>
             </ul>
+
+            <h4 class="text-center">Viajes de Graduación</h4>
+
+            <div class="lightBoxGallery text-center">
+                <a href="images/secundaria/s24.jpg" data-gallery=""><img src="images/secundaria/s24.jpg" height="175"></a>
+                <a href="images/secundaria/s25.jpg" data-gallery=""><img src="images/secundaria/s25.jpg" height="175"></a>
+                <a href="images/secundaria/s26.jpg" data-gallery=""><img src="images/secundaria/s26.jpg" height="175"></a>
+
+                <div id="blueimp-gallery" class="blueimp-gallery">
+                    <div class="slides"></div>
+                    <h3 class="title"></h3>
+                    <a class="prev">‹</a>
+                    <a class="next">›</a>
+                    <a class="close">×</a>
+                    <a class="play-pause"></a>
+                    <ol class="indicator"></ol>
+                </div>
+            </div>
+
+            <h4 class="text-center">Instalaciones</h4>
+
+            <ul>
+                <li>Salones adecuados.</li>
+                <li>Biblioteca.</li>
+                <li>Centro de cómputo.</li>
+                <li>Laboratorio.</li>
+                <li>Área para taller de gastronomía.</li>
+                <li>Internet inalámbrico.</li>
+                <li>Mobiliario propicio.</li>
+                <li>Cafetería.</li>
+                <li>Estacionamiento.</li>
+                <li>Alberca.</li>
+                <li>Amplios jardines.</li>
+                <li>Cancha de usos múltiples.</li>
+                <li>Baños adecuados.</li>
+                <li>Espacios para el recreo y diversión de los alumnos.</li>
+            </ul>
+
+            <div class="lightBoxGallery text-center">
+                <a href="images/secundaria/s27.jpg" data-gallery=""><img src="images/secundaria/s27.jpg" height="175"></a>
+                <a href="images/secundaria/s28.jpg" data-gallery=""><img src="images/secundaria/s28.jpg" height="175"></a>
+                <a href="images/secundaria/s29.jpg" data-gallery=""><img src="images/secundaria/s29.jpg" height="175"></a>
+                <a href="images/secundaria/s30.jpg" data-gallery=""><img src="images/secundaria/s30.jpg" height="175"></a>
+                <a href="images/secundaria/s31.jpg" data-gallery=""><img src="images/secundaria/s31.jpg" height="175"></a>
+                <a href="images/secundaria/s32.jpg" data-gallery=""><img src="images/secundaria/s32.jpg" height="175"></a>
+
+                <div id="blueimp-gallery" class="blueimp-gallery">
+                    <div class="slides"></div>
+                    <h3 class="title"></h3>
+                    <a class="prev">‹</a>
+                    <a class="next">›</a>
+                    <a class="close">×</a>
+                    <a class="play-pause"></a>
+                    <ol class="indicator"></ol>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-12">
+            <h3 class="text-center">Requisitos de inscripción</h3>
+            <h4>DOCUMENTACIÓN</h4>
+            <ul>
+                <li>Solicitud de Inscripción.</li>
+                <li>Acta de Nacimiento.</li>
+                <li>Certificado de Primaria.</li>
+                <li>Boleta Oficial de calificaciones (2° y 3°).</li>
+                <li>CURP.</li>
+                <li>Carta de Buena Conducta.</li>
+                <li>3 Fotografías t/infantil a color o blanco y negro con adherible.</li>
+            </ul>
+            <h3><strong>NOTA:</strong> Toda la documentación debe entregarse en original y 2 copias.</h3>
         </div>
     </div>
 </div>
