@@ -1,40 +1,4 @@
 <div class="container">
-    <div class="lightBoxGallery">
-        <a href="images/instalaciones/1.jpg" data-gallery=""><img src="images/instalaciones/1.jpg" width="250" height="175"></a>
-        <a href="images/instalaciones/2.jpg" data-gallery=""><img src="images/instalaciones/2.jpg" width="250" height="175"></a>
-        <a href="images/instalaciones/3.jpg" data-gallery=""><img src="images/instalaciones/3.jpg" width="250" height="175"></a>
-        <a href="images/instalaciones/4.jpg" data-gallery=""><img src="images/instalaciones/4.jpg" width="250" height="175"></a>
-        <a href="images/instalaciones/5.jpg" data-gallery=""><img src="images/instalaciones/5.jpg" width="250" height="175"></a>
-        <a href="images/instalaciones/6.jpg" data-gallery=""><img src="images/instalaciones/6.jpg" width="250" height="175"></a>
-        <a href="images/instalaciones/7.jpg" data-gallery=""><img src="images/instalaciones/7.jpg" width="250" height="175"></a>
-        <a href="images/instalaciones/8.jpg" data-gallery=""><img src="images/instalaciones/8.jpg" width="250" height="175"></a>
-        <a href="images/instalaciones/9.jpg" data-gallery=""><img src="images/instalaciones/9.jpg" width="250" height="175"></a>
-        <a href="images/instalaciones/10.jpg" data-gallery=""><img src="images/instalaciones/10.jpg" width="250" height="175"></a>
-        <a href="images/instalaciones/11.jpg" data-gallery=""><img src="images/instalaciones/11.jpg" width="250" height="175"></a>
-        <a href="images/instalaciones/12.jpg" data-gallery=""><img src="images/instalaciones/12.jpg" width="250" height="175"></a>
-        <a href="images/instalaciones/13.jpg" data-gallery=""><img src="images/instalaciones/13.jpg" width="250" height="175"></a>
-        <a href="images/instalaciones/14.jpg" data-gallery=""><img src="images/instalaciones/14.jpg" width="250" height="175"></a>
-        <a href="images/instalaciones/15.jpg" data-gallery=""><img src="images/instalaciones/15.jpg" width="250" height="175"></a>
-        <a href="images/instalaciones/16.jpg" data-gallery=""><img src="images/instalaciones/16.jpg" width="250" height="175"></a>
-        <a href="images/instalaciones/17.jpg" data-gallery=""><img src="images/instalaciones/17.jpg" width="250" height="175"></a>
-        <a href="images/instalaciones/18.jpg" data-gallery=""><img src="images/instalaciones/18.jpg" width="250" height="175"></a>
-        <a href="images/instalaciones/19.jpg" data-gallery=""><img src="images/instalaciones/19.jpg" width="250" height="175"></a>
-        <a href="images/instalaciones/20.jpg" data-gallery=""><img src="images/instalaciones/20.jpg" width="250" height="175"></a>
-        <a href="images/instalaciones/21.jpg" data-gallery=""><img src="images/instalaciones/21.jpg" width="250" height="175"></a>
-        <a href="images/instalaciones/22.jpg" data-gallery=""><img src="images/instalaciones/22.jpg" width="250" height="175"></a>
-
-        <div id="blueimp-gallery" class="blueimp-gallery">
-            <div class="slides"></div>
-            <h3 class="title"></h3>
-            <a class="prev">‹</a>
-            <a class="next">›</a>
-            <a class="close">×</a>
-            <a class="play-pause"></a>
-            <ol class="indicator"></ol>
-        </div>
-
-    </div>
-
     <div class="row">
         <div class="col-lg-12">
             <h3>Loyola PLUS</h3>
@@ -58,6 +22,28 @@
                 <li>Contacto con fauna amigable.</li>
                 <li>Maestros altamente capacitados con actualización continua  en  métodos de enseñanza y formación humana.</li>
             </ul>
+
+            <div class="lightBoxGallery text-center">
+                <a href="images/instalaciones/n1.jpg" data-gallery=""><img src="images/instalaciones/n1.jpg" height="175"></a>
+                <a href="images/instalaciones/n2.jpg" data-gallery=""><img src="images/instalaciones/n2.jpg" height="175"></a>
+                <a href="images/instalaciones/n3.jpg" data-gallery=""><img src="images/instalaciones/n3.jpg" height="175"></a>
+                <a href="images/instalaciones/n4.jpg" data-gallery=""><img src="images/instalaciones/n4.jpg" height="175"></a>
+                <a href="images/instalaciones/n5.jpg" data-gallery=""><img src="images/instalaciones/n5.jpg" height="175"></a>
+                <a href="images/instalaciones/n6.jpg" data-gallery=""><img src="images/instalaciones/n6.jpg" height="175"></a>
+                <a href="images/instalaciones/n7.jpg" data-gallery=""><img src="images/instalaciones/n7.jpg" height="175"></a>
+                <a href="images/instalaciones/n8.jpg" data-gallery=""><img src="images/instalaciones/n8.jpg" height="175"></a>
+                <a href="images/instalaciones/n9.jpg" data-gallery=""><img src="images/instalaciones/n9.jpg" height="175"></a>
+
+                <div id="blueimp-gallery" class="blueimp-gallery">
+                    <div class="slides"></div>
+                    <h3 class="title"></h3>
+                    <a class="prev">‹</a>
+                    <a class="next">›</a>
+                    <a class="close">×</a>
+                    <a class="play-pause"></a>
+                    <ol class="indicator"></ol>
+                </div>
+            </div>
         </div>
     </div>
 </div>

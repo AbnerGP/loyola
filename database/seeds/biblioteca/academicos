@@ -23,7 +23,7 @@
 
     <div class="row">
         <div class="col-lg-12">
-            <h5><strong><i class="far fa-futbol"></i> Futbol</strong></h5>
+            <h4><strong><i class="far fa-futbol"></i> Futbol</strong></h4>
             <h4>Kínder</h4>
         </div>
     </div>
@@ -68,9 +68,59 @@
 
     <div class="row">
         <div class="col-lg-12">
-            <h5><strong><i class="far fa-futbol"></i> Futbol</strong></h5>
-            <h4>Kínder</h4>
+            <h4><strong><i class="far fa-star"></i> Porristas</strong></h4>
+            <h4>Sección Primaria</h4>
+
+            <div class="lightBoxGallery text-center">
+                <a href="images/logros/academicos/l10.jpg" data-gallery=""><img src="images/logros/academicos/l10.jpg" height="175"></a>
+                <a href="images/logros/academicos/l11.jpg" data-gallery=""><img src="images/logros/academicos/l11.jpg" height="175"></a>
+                <a href="images/logros/academicos/l12.jpg" data-gallery=""><img src="images/logros/academicos/l12.jpg" height="175"></a>
+                <a href="images/logros/academicos/l13.jpg" data-gallery=""><img src="images/logros/academicos/l13.jpg" height="175"></a>
+
+                <div id="blueimp-gallery" class="blueimp-gallery">
+                    <div class="slides"></div>
+                    <h3 class="title"></h3>
+                    <a class="prev">‹</a>
+                    <a class="next">›</a>
+                    <a class="close">×</a>
+                    <a class="play-pause"></a>
+                    <ol class="indicator"></ol>
+                </div>
+            </div>
+
+            <h4>Sección Secundaria</h4>
+
+            <div class="lightBoxGallery text-center">
+                <a href="images/logros/academicos/l14.jpg" data-gallery=""><img src="images/logros/academicos/l14.jpg" height="175"></a>
+                <a href="images/logros/academicos/l15.jpg" data-gallery=""><img src="images/logros/academicos/l15.jpg" height="175"></a>
+                <a href="images/logros/academicos/l16.jpg" data-gallery=""><img src="images/logros/academicos/l16.jpg" height="175"></a>
+                <a href="images/logros/academicos/l17.jpg" data-gallery=""><img src="images/logros/academicos/l17.jpg" height="175"></a>
+
+                <div id="blueimp-gallery" class="blueimp-gallery">
+                    <div class="slides"></div>
+                    <h3 class="title"></h3>
+                    <a class="prev">‹</a>
+                    <a class="next">›</a>
+                    <a class="close">×</a>
+                    <a class="play-pause"></a>
+                    <ol class="indicator"></ol>
+                </div>
+            </div>
+
+            <h4>Sección Preparatoria</h4>
+
+            <img src="/images/logros/academicos/l18.jpg" width="100%" />
+
+            <h4><strong><i class="fas fa-chess-knight"></i> Ajedrez</strong></h4>
         </div>
     </div>
 
+    <div class="row">
+        <div class="col-md-6 mb-4">
+            <img src="/images/logros/academicos/l19.jpg" width="100%" />
+        </div>
+        <div class="col-md-6 mb-4">
+            <img src="/images/logros/academicos/l20.jpg" width="100%" />
+        </div>
+    </div>
 </div>
