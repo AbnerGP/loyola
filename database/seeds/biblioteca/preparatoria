@@ -153,51 +153,56 @@
         </div>
     </div>
 
-
-
-
-
-
-
-
-
-
-
     <div class="row">
-        <div class="col-md-6 mb-4">
-            <img src="/images/secundaria/s15.jpg" width="100%" />
-        </div>
-        <div class="col-md-6 mb-4">
-            <img src="/images/secundaria/s16.jpg" width="100%" />
+        <div class="col-lg-12">
+            <h4 class="text-center">Excursiones</h4>
+
+            <div class="lightBoxGallery text-center">
+                <a href="images/preparatoria/h11.jpg" data-gallery=""><img src="images/preparatoria/h11.jpg"  height="175"></a>
+                <a href="images/preparatoria/h12.jpg" data-gallery=""><img src="images/preparatoria/h12.jpg"  height="175"></a>
+                <a href="images/preparatoria/h13.jpg" data-gallery=""><img src="images/preparatoria/h13.jpg"  height="175"></a>
+                <a href="images/preparatoria/h14.jpg" data-gallery=""><img src="images/preparatoria/h14.jpg"  height="175"></a>
+                <a href="images/preparatoria/h15.jpg" data-gallery=""><img src="images/preparatoria/h15.jpg"  height="175"></a>
+                <a href="images/preparatoria/h16.jpg" data-gallery=""><img src="images/preparatoria/h16.jpg"  height="175"></a>
+                <a href="images/preparatoria/h17.jpg" data-gallery=""><img src="images/preparatoria/h17.jpg"  height="175"></a>
+                <a href="images/preparatoria/h18.jpg" data-gallery=""><img src="images/preparatoria/h18.jpg"  height="175"></a>
+
+                <div id="blueimp-gallery" class="blueimp-gallery">
+                    <div class="slides"></div>
+                    <h3 class="title"></h3>
+                    <a class="prev">‹</a>
+                    <a class="next">›</a>
+                    <a class="close">×</a>
+                    <a class="play-pause"></a>
+                    <ol class="indicator"></ol>
+                </div>
+            </div>
         </div>
     </div>
 
     <div class="row">
         <div class="col-lg-12">
-            <h4>Actividades Extraescolares</h4>
+            <h4 class="text-center">Actividades Extraescolares</h4>
+
             <p>
-                El desarrollo de las habilidades de aprendizaje es complemento de la formación de hábitos de disciplina deportiva a través del crecimiento físico y emocional, es por ello que ofrecemos las siguientes actividades extra escolares:
+                El desarrollo de las habilidades de aprendizaje es complemento de la formación de hábitos de disciplina deportiva a través del crecimiento físico y emocional, es por ello que ofrecemos las siguientes actividades extraescolares.
             </p>
 
             <ul>
                 <li>Fútbol (Varonil y Femenil).</li>
-                <li>Básquetbol.</li>
                 <li>Voleibol.</li>
-                <li>Porras.</li>
-                <li>Baile.</li>
-                <li>Ajedrez.</li>
+                <li>Basquetbol.</li>
+                <li>Baile y Porras</li>
             </ul>
 
             <small>Las actividades extra escolares tienen un costo adicional.</small>
 
             <div class="lightBoxGallery text-center">
-                <a href="images/secundaria/s17.jpg" data-gallery=""><img src="images/secundaria/s17.jpg" height="175"></a>
-                <a href="images/secundaria/s18.jpg" data-gallery=""><img src="images/secundaria/s18.jpg" height="175"></a>
-                <a href="images/secundaria/s19.jpg" data-gallery=""><img src="images/secundaria/s19.jpg" height="175"></a>
-                <a href="images/secundaria/s20.jpg" data-gallery=""><img src="images/secundaria/s20.jpg" height="175"></a>
-                <a href="images/secundaria/s21.jpg" data-gallery=""><img src="images/secundaria/s21.jpg" height="175"></a>
-                <a href="images/secundaria/s22.jpg" data-gallery=""><img src="images/secundaria/s22.jpg" height="175"></a>
-                <a href="images/secundaria/s23.jpg" data-gallery=""><img src="images/secundaria/s23.jpg" height="175"></a>
+                <a href="images/preparatoria/h19.jpg" data-gallery=""><img src="images/preparatoria/h19.jpg"  height="175"></a>
+                <a href="images/preparatoria/h20.jpg" data-gallery=""><img src="images/preparatoria/h20.jpg"  height="175"></a>
+                <a href="images/preparatoria/h21.jpg" data-gallery=""><img src="images/preparatoria/h21.jpg"  height="175"></a>
+                <a href="images/preparatoria/h22.jpg" data-gallery=""><img src="images/preparatoria/h22.jpg"  height="175"></a>
+                <a href="images/preparatoria/h23.jpg" data-gallery=""><img src="images/preparatoria/h23.jpg"  height="175"></a>
 
                 <div id="blueimp-gallery" class="blueimp-gallery">
                     <div class="slides"></div>
@@ -217,72 +222,15 @@
             <h4 class="text-center">Horarios</h4>
 
             <p>
-                Llegar a la hora adecuada, a los alumnos les permite desarrollar excelentes hábitos de responsabilidad respeto y compromiso.
+                Llegar a la hora adecuada, a los alumnos les permite desarrollar excelentes hábitos de puntualidad y socialización.
             </p>
 
             <ul>
                 <li>Hora de entrada: 7:20 a.m.</li>
-                <li>Hora de salida: 2:50 p.m.</li>
-                <li>La recepción de los alumnos puede ser desde las 7:00 a.m. sin costo adicional.</li>
-                <li>La hora máxima para recoger a sus hijos es a las 3:00 p.m.</li>
-                <li>En caso de acudir a las actividades extraescolares, el horario de salida será según la actividad a desarrollar.</li>
+                <li>Hora de salida: 2:00 p.m.</li>
+                <li>Tercer año 2:40.</li>
+                <li>La recepción de los alumnos puede ser desde las 7:00 a.m.</li>
             </ul>
-
-            <h4 class="text-center">Viajes de Graduación</h4>
-
-            <div class="lightBoxGallery text-center">
-                <a href="images/secundaria/s24.jpg" data-gallery=""><img src="images/secundaria/s24.jpg" height="175"></a>
-                <a href="images/secundaria/s25.jpg" data-gallery=""><img src="images/secundaria/s25.jpg" height="175"></a>
-                <a href="images/secundaria/s26.jpg" data-gallery=""><img src="images/secundaria/s26.jpg" height="175"></a>
-
-                <div id="blueimp-gallery" class="blueimp-gallery">
-                    <div class="slides"></div>
-                    <h3 class="title"></h3>
-                    <a class="prev">‹</a>
-                    <a class="next">›</a>
-                    <a class="close">×</a>
-                    <a class="play-pause"></a>
-                    <ol class="indicator"></ol>
-                </div>
-            </div>
-
-            <h4 class="text-center">Instalaciones</h4>
-
-            <ul>
-                <li>Salones adecuados.</li>
-                <li>Biblioteca.</li>
-                <li>Centro de cómputo.</li>
-                <li>Laboratorio.</li>
-                <li>Área para taller de gastronomía.</li>
-                <li>Internet inalámbrico.</li>
-                <li>Mobiliario propicio.</li>
-                <li>Cafetería.</li>
-                <li>Estacionamiento.</li>
-                <li>Alberca.</li>
-                <li>Amplios jardines.</li>
-                <li>Cancha de usos múltiples.</li>
-                <li>Baños adecuados.</li>
-                <li>Espacios para el recreo y diversión de los alumnos.</li>
-            </ul>
-
-            <div class="lightBoxGallery text-center">
-                <a href="images/secundaria/s27.jpg" data-gallery=""><img src="images/secundaria/s27.jpg" height="175"></a>
-                <a href="images/secundaria/s28.jpg" data-gallery=""><img src="images/secundaria/s28.jpg" height="175"></a>
-                <a href="images/secundaria/s29.jpg" data-gallery=""><img src="images/secundaria/s29.jpg" height="175"></a>
-                <a href="images/secundaria/s30.jpg" data-gallery=""><img src="images/secundaria/s30.jpg" height="175"></a>
-                <a href="images/secundaria/s31.jpg" data-gallery=""><img src="images/secundaria/s31.jpg" height="175"></a>
-                <a href="images/secundaria/s32.jpg" data-gallery=""><img src="images/secundaria/s32.jpg" height="175"></a>
-
-                <div id="blueimp-gallery" class="blueimp-gallery">
-                    <div class="slides"></div>
-                    <h3 class="title"></h3>
-                    <a class="prev">‹</a>
-                    <a class="next">›</a>
-                    <a class="close">×</a>
-                    <a class="play-pause"></a>
-                    <ol class="indicator"></ol>
-                </div>
-            </div>
         </div>
     </div>
 
@@ -291,13 +239,14 @@
             <h3 class="text-center">Requisitos de inscripción</h3>
             <h4>DOCUMENTACIÓN</h4>
             <ul>
-                <li>Solicitud de Inscripción.</li>
                 <li>Acta de Nacimiento.</li>
-                <li>Certificado de Primaria.</li>
-                <li>Boleta Oficial de calificaciones (2° y 3°).</li>
+                <li>Certificado de Secundaria.</li>
                 <li>CURP.</li>
                 <li>Carta de Buena Conducta.</li>
-                <li>3 Fotografías t/infantil a color o blanco y negro con adherible.</li>
+                <li>Boleta de calificaciones (2° y 3°)</li>
+                <li>Comprobante de domicilio (actualizado a la fecha de inicio de clases).</li>
+                <li>Certificado médico actualizado.</li>
+                <li>6 Fotografías t/infantil a color o blanco y negro con adherible.</li>
             </ul>
             <h3><strong>NOTA:</strong> Toda la documentación debe entregarse en original y 2 copias.</h3>
         </div>
