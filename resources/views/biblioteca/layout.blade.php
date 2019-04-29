@@ -3,13 +3,26 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
     <title>{{ env('APP_SITENAME') }} |  @yield('title')</title>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.1/css/mdb.min.css" rel="stylesheet">
-    <link href="{{ asset('css/style_frontend.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/plugins/blueimp/css/blueimp-gallery.min.css') }}" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great" rel="stylesheet">
+
+    <link rel="stylesheet" href="{{ asset('css/open-iconic-bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/animate_loy.css') }}">
+
+    <link rel="stylesheet" href="{{ asset('css/owl.carousel.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/owl.theme.default.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/magnific-popup.css') }}">
+
+    <link rel="stylesheet" href="{{ asset('css/aos.css') }}">
+
+    <link rel="stylesheet" href="{{ asset('css/ionicons.min.css') }}">
+
+    <link rel="stylesheet" href="{{ asset('css/flaticon.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/icomoon.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/style_loy.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/style_frontend.css') }}">
 
 
 
@@ -18,8 +31,35 @@
 </head>
 
 <body>
-
-<header id="page-top">
+<div class="py-2 bg-loyola-blue">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <img src="{{ url('images/banner.png') }}" width="100%">
+            </div>
+        </div>
+    </div>
+</div>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark ftco_navbar ftco-navbar-light" id="ftco-navbar">
+    <div class="container d-flex align-items-center">
+        <a class="navbar-brand" href="{{ route('site.index') }}">Instituto Cultural Loyola</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="oi oi-menu"></span> Menu
+        </button>
+        <div class="collapse navbar-collapse" id="ftco-nav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active"><a href="{{ route('site.index') }}" class="nav-link pl-0">Inicio</a></li>
+                <li class="nav-item"><a href="about.html" class="nav-link">¿Quienes somos?</a></li>
+                <li class="nav-item"><a href="teacher.html" class="nav-link">Niveles Educativos</a></li>
+                <li class="nav-item"><a href="courses.html" class="nav-link">Logros</a></li>
+                <li class="nav-item"><a href="pricing.html" class="nav-link">Instalaciones</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link">Contacto</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- END nav -->
+{{--<header id="page-top">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
@@ -77,10 +117,10 @@
             @endforeach
         </div>
     </div>
-</nav>
+</nav>--}}
 
 
-@if(url()->current() == url('/'))
+{{--@if(url()->current() == url('/'))
 <div id="carouselExampleControls" class="container carousel slide" data-ride="carousel">
     <div class="carousel-inner">
         <div class="carousel-item active">
@@ -102,29 +142,33 @@
         <span class="sr-only">Next</span>
     </a>
 </div>
-@endif
+@endif--}}
 
-<div class="bib-container container jumbotron clearfix my-lg-4" style="padding: 2rem 2rem">
+<div>
    @yield('content')
 </div>
 
 @include('biblioteca.footer')
 
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.1/js/mdb.min.js"></script>
-<!-- blueimp gallery -->
-<script src="{{ asset('js/plugins/blueimp/jquery.blueimp-gallery.min.js') }}"></script>
-<script type="text/javascript">
-    $('.carouselExampleControls').carousel({
-        interval: 100
-    });
+<!-- loader -->
+<div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
 
-    $('.carousel').carousel({
-        interval: 3000
-    });
-</script>
+
+<script src="{{ asset('js/jquery.min.js') }}"></script>
+<script src="{{ asset('js/jquery-migrate-3.0.1.min.js') }}"></script>
+<script src="{{ asset('js/popper.min.js') }}"></script>
+<script src="{{ asset('js/bootstrap.min.js') }}"></script>
+<script src="{{ asset('js/jquery.easing.1.3.js') }}"></script>
+<script src="{{ asset('js/jquery.waypoints.min.js') }}"></script>
+<script src="{{ asset('js/jquery.stellar.min.js') }}"></script>
+<script src="{{ asset('js/owl.carousel.min.js') }}"></script>
+<script src="{{ asset('js/jquery.magnific-popup.min.js') }}"></script>
+<script src="{{ asset('js/aos.js') }}"></script>
+<script src="{{ asset('js/jquery.animateNumber.min.js') }}"></script>
+<script src="{{ asset('js/scrollax.min.js') }}"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+<script src="{{ asset('js/google-map.js') }}"></script>
+<script src="{{ asset('js/main.js') }}"></script>
 
 
 </body>

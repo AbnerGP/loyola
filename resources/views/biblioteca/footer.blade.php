@@ -1,124 +1,67 @@
-<!-- Footer -->
-<footer class="page-footer font-small elegant-color">
-
-    <div class="elegant-color-dark">
-        <div class="container">
-
-            <!-- Grid row-->
-            <div class="row py-4 d-flex align-items-center">
-
-                <!-- Grid column -->
-                <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
-                    <h6 class="mb-0">Síguenos en nuestras redes sociales.</h6>
+<footer class="ftco-footer ftco-bg-dark ftco-section">
+    <div class="container">
+        <div class="row mb-5">
+            <div class="col-md-6 col-lg-3">
+                <div class="ftco-footer-widget mb-5">
+                    <h2 class="ftco-heading-2">Campus Palmas</h2>
+                    <div class="block-23 mb-3">
+                        <ul>
+                            <li><span class="icon icon-map-marker"></span><span class="text">Zapote No. 2, Col. Las Palmas, Cuernavaca, Morelos.</span></li>
+                            <li><span class="icon icon-phone"></span><span class="text">(777) 318-1359</span></li>
+                            <li><span class="icon icon-phone"></span><span class="text">(777) 318-4471</span></li>
+                            <li><span class="icon icon-envelope"></span><span class="text">info@example.com</span></li>
+                        </ul>
+                    </div>
                 </div>
-                <!-- Grid column -->
-
-                <!-- Grid column -->
-                <div class="col-md-6 col-lg-7 text-center text-md-right">
-
-                    <!-- Facebook -->
-                    <a class="fb-ic" href="https://www.facebook.com/GrupoEducativoLoyola/" target="_blank">
-                        <i class="fab fa-facebook-f white-text mr-4"> </i>
-                    </a>
-                    <!-- Twitter -->
-                    <a class="tw-ic" href="http://www.twitter.com/gpoloyola" target="_blank">
-                        <i class="fab fa-twitter white-text mr-4"> </i>
-                    </a>
-                    <!-- Youtube -->
-                    <a class="youtube-ic" href="http://www.youtube.com/grupoloyola" target="_blank">
-                        <i class="fab fa-youtube white-text mr-4"> </i>
-                    </a>
-
-                </div>
-                <!-- Grid column -->
-
             </div>
-            <!-- Grid row-->
+            <div class="col-md-6 col-lg-3">
+                <div class="ftco-footer-widget mb-5">
+                    <h2 class="ftco-heading-2">Campus Galeana</h2>
+                    <div class="block-23 mb-3">
+                        <ul>
+                            <li><span class="icon icon-map-marker"></span><span class="text">Galeana No. 157, Col. Las Palmas, Cuernavaca, Morelos.</span></li>
+                            <li><span class="icon icon-phone"></span><span class="text">(777) 318-9170</span></li>
+                            <li><span class="icon icon-phone"></span><span class="text">(777) 318-5966</span></li>
+                            <li><span class="icon icon-phone"></span><span class="text">(777) 318-1317</span></li>
+                            <li><span class="icon icon-envelope"></span><span class="text">info@example.com</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="ftco-footer-widget mb-5 ml-md-4">
+                    <h2 class="ftco-heading-2">Enlaces</h2>
+                    <ul class="list-unstyled">
+                        <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Inicio</a></li>
+                        <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>About</a></li>
+                        <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Services</a></li>
+                        <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Deparments</a></li>
+                        <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="ftco-footer-widget mb-5">
+                    <img src="images/logotipo.png" width="100%"/>
+                </div>
+                <div class="ftco-footer-widget mb-5">
+                    <h2 class="ftco-heading-2 mb-0">Síguenos en nuestras redes sociales</h2>
+                    <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-3">
+                        <li class="ftco-animate"><a href="http://www.twitter.com/gpoloyola"><span class="icon-twitter"></span></a></li>
+                        <li class="ftco-animate"><a href="https://www.facebook.com/GrupoEducativoLoyola/"><span class="icon-facebook"></span></a></li>
+                        <li class="ftco-animate"><a href="http://www.youtube.com/grupoloyola"><span class="icon-youtube"></span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <p>Instituto Cultural Loyola © 2019 Todos los derechos reservados.</p>
 
+                <p style="display: none;"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                    Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+            </div>
         </div>
     </div>
-
-    <!-- Footer Links -->
-    <div class="container text-center text-md-left mt-5">
-
-        <!-- Grid row -->
-        <div class="row mt-3">
-
-            <!-- Grid column -->
-            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-3">
-
-                <!-- Content -->
-                <h6 class="text-uppercase font-weight-bold">Campus Palmas</h6>
-                <hr class="unique-color accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-                <p>
-                    <i class="fas fa-home mr-3"></i> Zapote No. 2<br>
-                    Col. Las Palmas<br>
-                    Cuernavaca, Morelos.</p>
-                {{--<p>
-                    <i class="fas fa-envelope mr-3"></i> info@example.com</p>--}}
-                <p>
-                    <i class="fas fa-phone mr-3"></i> (777) 318-1359</p>
-                <p>
-                    <i class="fas fa-phone mr-3"></i> (777) 318-4471</p>
-
-            </div>
-            <!-- Grid column -->
-
-            <!-- Grid column -->
-            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-3">
-
-                <!-- Links -->
-                <h6 class="text-uppercase font-weight-bold">Campus Galeana</h6>
-                <hr class="unique-color accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-                <p><i class="fas fa-home mr-3"></i> Galeana No. 157<br>
-                Col. Las Palmas<br>
-                Cuernavaca, Morelos.</p>
-                {{--<p>
-                    <i class="fas fa-envelope mr-3"></i> info@example.com</p>--}}
-                <p>
-                    <i class="fas fa-phone mr-3"></i> (777) 318-9170</p>
-                <p>
-                    <i class="fas fa-phone mr-3"></i> (777) 318-5966</p>
-                <p>
-                    <i class="fas fa-phone mr-3"></i> (777) 318-1317</p>
-
-            </div>
-            <!-- Grid column -->
-
-            <!-- Grid column -->
-            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-3">
-
-                <img src="images/logotipo.png" width="100%"/>
-
-                <!-- Links -->
-                {{--<h6 class="text-uppercase font-weight-bold">Useful links</h6>
-                <hr class="unique-color accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-                <p>
-                    <a href="#!">Your Account</a>
-                </p>
-                <p>
-                    <a href="#!">Become an Affiliate</a>
-                </p>
-                <p>
-                    <a href="#!">Shipping Rates</a>
-                </p>
-                <p>
-                    <a href="#!">Help</a>
-                </p>--}}
-
-            </div>
-            <!-- Grid column -->
-
-        </div>
-        <!-- Grid row -->
-
-    </div>
-    <!-- Footer Links -->
-
-    <!-- Copyright -->
-    <div class="footer-copyright text-center py-3">Instituto Cultural Loyola © 2019 Todos los derechos reservados.
-    </div>
-    <!-- Copyright -->
-
 </footer>
-<!-- Footer -->

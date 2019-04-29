@@ -1,3 +1,17 @@
+.bg-loyola-blue {
+    background-color: #022852;
+}
+.bg-loyola-gold {
+    background: #7f5700;
+}
+.bg-loyola-red {
+    background: #e6001c;
+}
+.bg-loyola-yellow {
+    background: #f1bb00;
+}
+
+/*
 html {
     min-height: 100%;
     position: relative;
@@ -5,14 +19,14 @@ html {
 body {
     margin: 0;
     background-color: #022852;
-    /*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
-    /*margin-bottom: 230px;*/
+    !*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*!
+    !*margin-bottom: 230px;*!
 }
 
 @media (max-width: 700px) {
-    /*body {
+    !*body {
         margin-bottom: 500px;
-    }*/
+    }*!
 }
 
 .bib-container {
@@ -42,10 +56,10 @@ body {
     padding-top: .5rem !important;
 }
 
-/*.footer-top {
+!*.footer-top {
     background-color: #7E5700;
     border-bottom: 0px solid #FFFFFF;
-}*/
+}*!
 
 .text-center {
     text-align: center !important;
@@ -151,10 +165,10 @@ a.advertise:hover {
     background: #900;
 }
 
-/*footer p {
+!*footer p {
     color: #fff;
     margin-bottom: 10px;
-}*/
+}*!
 
 .text-pp-crt,
 .text-pp-crt-rg {
@@ -176,7 +190,7 @@ i.develop {
 }
 
 
-/*.footer-list a {
+!*.footer-list a {
     color: #FFFFFF;
     font-weight: bold;
 }
@@ -197,9 +211,9 @@ i.develop {
     display: inline-block;
     width: 1em;
     margin-left: -1em;
-}*/
+}*!
 .footer-main {
-    /*position: absolute;*/
+    !*position: absolute;*!
     bottom: 0;
     width: 100%;
 }
@@ -207,3 +221,4 @@ i.develop {
     color: black;
     font-size: large;
 }
+*/
