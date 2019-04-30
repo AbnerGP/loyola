@@ -2,6 +2,7 @@
 
 
 Route::get('/', 'HomeController@index')->name('site.index');
+Route::get('/quienes-somos', 'HomeController@about')->name('site.about');
 
 Route::get('/libros', 'BibliotecaController@ViewLibros');
 Route::post('/libros', 'BibliotecaController@ViewLibros')->name('libro.search');

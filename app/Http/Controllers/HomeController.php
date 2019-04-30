@@ -15,4 +15,9 @@ class HomeController extends Controller
     {
         return view('biblioteca.index');
     }
+
+    public function about()
+    {
+        return view('biblioteca.about');
+    }
 }

@@ -48,8 +48,8 @@
         </button>
         <div class="collapse navbar-collapse" id="ftco-nav">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item active"><a href="{{ route('site.index') }}" class="nav-link pl-0">Inicio</a></li>
-                <li class="nav-item"><a href="about.html" class="nav-link">¿Quienes somos?</a></li>
+                <li class="nav-item {{ request()->is('/') ? 'active' : '' }}"><a href="{{ route('site.index') }}" class="nav-link pl-0">Inicio</a></li>
+                <li class="nav-item {{ request()->is('quienes-somos') ? 'active' : '' }}"><a href="{{ route('site.about') }}" class="nav-link">¿Quiénes somos?</a></li>
                 <li class="nav-item"><a href="teacher.html" class="nav-link">Niveles Educativos</a></li>
                 <li class="nav-item"><a href="courses.html" class="nav-link">Logros</a></li>
                 <li class="nav-item"><a href="pricing.html" class="nav-link">Instalaciones</a></li>
