@@ -4,7 +4,7 @@
 
 @section('content')
     <section class="home-slider owl-carousel">
-        <div class="slider-item" style="background-image:url(images/slider-1.jpg);">
+        <div class="slider-item" style="background-image:url(/images/slider-1.jpg);">
             {{--<div class="overlay"></div>
             <div class="container">
                 <div class="row no-gutters slider-text align-items-center justify-content-center" data-scrollax-parent="true">
@@ -91,7 +91,7 @@
                                     Porque sabemos de la enorme importancia que para los pequeños tienen sus primeras experiencias educativas, nos ocupamos de desarrollar sus competencias con métodos y valores. Clave de Incorporación a la SEP: 17PJN0007E / 1 de Octubre 2013.
                                 </p>
                                 <ul class="ftco-social text-center">
-                                    <li class="ftco-animate"><a href="#"><span class="flaticon-reading"></span> Leer más</a></li>
+                                    <li class="ftco-animate"><a href="{{ route('site.levels.kinder') }}"><span class="flaticon-reading"></span> Leer más</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -110,7 +110,7 @@
                                     En primaria nuestra misión se dirige a lograr que esta etapa de crecimiento del niño fortalezca su desarrollo integral y formativo, inculcándole a la vez hábitos y valores que habrán de acompañarlo. Clave de Incorporación a la SEP: 17PPR0191I / 08 de octubre de 2013.
                                 </p>
                                 <ul class="ftco-social text-center">
-                                    <li class="ftco-animate"><a href="#"><span class="flaticon-reading"></span> Leer más</a></li>
+                                    <li class="ftco-animate"><a href="{{ route('site.levels.primaria') }}"><span class="flaticon-reading"></span> Leer más</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -129,7 +129,7 @@
                                     En Secundaria, nuestros alumnos aprenden bajo un contexto dinámico y participativo en un ambiente propicio que les permite la expresión libre de sus ideas en un marco de convivencia. Nuestra Clave de Incorporación a la SEP es: 17PES0128Z / 20 de noviembre 2013.
                                 </p>
                                 <ul class="ftco-social text-center">
-                                    <li class="ftco-animate"><a href="#"><span class="flaticon-reading"></span> Leer más</a></li>
+                                    <li class="ftco-animate"><a href="{{ route('site.levels.secundaria') }}"><span class="flaticon-reading"></span> Leer más</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -148,7 +148,7 @@
                                     La Preparatoria Loyola es una Institución educativa que promueve Planes y Programas de Estudio en Ciencias y Humanidades. Nuestra estrategia educativa fomenta el desarrollo personal de valores. Clave de Incorporación a la UAEM: 73/LXII/12.P / 1973.
                                 </p>
                                 <ul class="ftco-social text-center">
-                                    <li class="ftco-animate"><a href="#"><span class="flaticon-reading"></span> Leer más</a></li>
+                                    <li class="ftco-animate"><a href="{{ route('site.levels.prepa') }}"><span class="flaticon-reading"></span> Leer más</a></li>
                                 </ul>
                             </div>
                         </div>

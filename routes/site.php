@@ -3,6 +3,13 @@
 
 Route::get('/', 'HomeController@index')->name('site.index');
 Route::get('/quienes-somos', 'HomeController@about')->name('site.about');
+Route::get('/niveles-educativos', 'HomeController@levels')->name('site.levels');
+Route::get('/niveles-educativos/kinder', 'HomeController@kinder')->name('site.levels.kinder');
+Route::get('/niveles-educativos/primaria', 'HomeController@primaria')->name('site.levels.primaria');
+Route::get('/niveles-educativos/secundaria', 'HomeController@secundaria')->name('site.levels.secundaria');
+Route::get('/niveles-educativos/preparatoria', 'HomeController@prepa')->name('site.levels.prepa');
+Route::get('/niveles-educativos/language-school', 'HomeController@language')->name('site.levels.language');
+Route::get('/niveles-educativos/viajes', 'HomeController@viajes')->name('site.levels.viajes');
 
 Route::get('/libros', 'BibliotecaController@ViewLibros');
 Route::post('/libros', 'BibliotecaController@ViewLibros')->name('libro.search');
