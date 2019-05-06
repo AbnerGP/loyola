@@ -42,7 +42,7 @@
             </div>
             <div class="col-md-6 col-lg-3">
                 <div class="ftco-footer-widget mb-5">
-                    <img src="images/logotipo.png" width="100%"/>
+                    <img src="/images/logotipo.png" width="100%"/>
                 </div>
                 <div class="ftco-footer-widget mb-5">
                     <h2 class="ftco-heading-2 mb-0">Síguenos en nuestras redes sociales</h2>

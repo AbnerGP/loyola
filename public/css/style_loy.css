@@ -8572,6 +8572,28 @@ h1, h2, h3, h4, h5,
       font-size: 20px;
       font-weight: 500; }
 
+.services-3 {
+  margin-bottom: 30px; }
+.services-3 .icon {
+  line-height: 1;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  background: #022852;
+  /*background: #1eaaf1;*/
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%; }
+.services-3 .icon span {
+  font-size: 30px;
+  color: #fff; }
+.services-3 .text {
+  width: calc(100% - 80px); }
+.services-3 .text h3 {
+  font-size: 20px;
+  font-weight: 500; }
+
 .ftco-intro {
   padding: 8em 0;
   width: 100%;

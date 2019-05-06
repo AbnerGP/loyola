@@ -149,7 +149,6 @@
             <div class="row">
                 <div class="col-md-9">
                     <h2>Viajes</h2>
-                    <p class="mb-0">Language School</p>
                 </div>
                 <div class="col-md-3 d-flex align-items-center">
                     <p class="mb-0"><a href="{{ route('site.levels.viajes') }}" class="btn btn-secondary px-4 py-3">Leer más</a></p>
