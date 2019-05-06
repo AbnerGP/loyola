@@ -51,9 +51,9 @@
                 <li class="nav-item {{ request()->is('/') ? 'active' : '' }}"><a href="{{ route('site.index') }}" class="nav-link pl-0">Inicio</a></li>
                 <li class="nav-item {{ request()->is('quienes-somos') ? 'active' : '' }}"><a href="{{ route('site.about') }}" class="nav-link">¿Quiénes somos?</a></li>
                 <li class="nav-item {{ request()->is('niveles-educativos') ? 'active' : '' }}"><a href="{{ route('site.levels') }}" class="nav-link">Niveles Educativos</a></li>
-                <li class="nav-item"><a href="courses.html" class="nav-link">Logros</a></li>
-                <li class="nav-item"><a href="pricing.html" class="nav-link">Instalaciones</a></li>
-                <li class="nav-item"><a href="contact.html" class="nav-link">Contacto</a></li>
+                <li class="nav-item {{ request()->is('logros') ? 'active' : '' }}"><a href="{{ route('site.logros') }}" class="nav-link">Logros</a></li>
+                <li class="nav-item {{ request()->is('instalaciones') ? 'active' : '' }}"><a href="{{ route('site.instalaciones') }}" class="nav-link">Instalaciones</a></li>
+                <li class="nav-item {{ request()->is('contacto') ? 'active' : '' }}"><a href="{{ route('site.contact') }}" class="nav-link">Contacto</a></li>
             </ul>
         </div>
     </div>

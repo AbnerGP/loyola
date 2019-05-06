@@ -10,6 +10,9 @@ Route::get('/niveles-educativos/secundaria', 'HomeController@secundaria')->name(
 Route::get('/niveles-educativos/preparatoria', 'HomeController@prepa')->name('site.levels.prepa');
 Route::get('/niveles-educativos/language-school', 'HomeController@language')->name('site.levels.language');
 Route::get('/niveles-educativos/viajes', 'HomeController@viajes')->name('site.levels.viajes');
+Route::get('/logros', 'HomeController@logros')->name('site.logros');
+Route::get('/instalaciones', 'HomeController@instalaciones')->name('site.instalaciones');
+Route::get('/contacto', 'HomeController@contact')->name('site.contact');
 
 Route::get('/libros', 'BibliotecaController@ViewLibros');
 Route::post('/libros', 'BibliotecaController@ViewLibros')->name('libro.search');

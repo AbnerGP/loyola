@@ -55,4 +55,19 @@ class HomeController extends Controller
     {
         return view('biblioteca.levels.viajes');
     }
+
+    public function logros()
+    {
+        return view('biblioteca.logros');
+    }
+
+    public function instalaciones()
+    {
+        return view('biblioteca.instalaciones');
+    }
+
+    public function contact()
+    {
+        return view('biblioteca.contact');
+    }
 }
