@@ -10,7 +10,7 @@
                 <div class="row no-gutters slider-text align-items-center justify-content-center" data-scrollax-parent="true">
                     <div class="col-md-8 text-center ftco-animate">
                         <h1 class="mb-4">Kinder</h1>
-                        <h2 class="text-white">CENDI: Clave de Incorporación a la SEP: 17PDI0394R</h2>
+                        <h2 class="text-white">Voluntad</h2>
                     </div>
                 </div>
             </div>
@@ -22,7 +22,7 @@
                 <div class="row no-gutters slider-text align-items-center justify-content-center" data-scrollax-parent="true">
                     <div class="col-md-8 text-center ftco-animate">
                         <h1 class="mb-4">Kinder</h1>
-                        <h2 class="text-white">PREESCOLAR: Clave de Incorporación a la SEP: 17PJN0007E</h2>
+                        <h2 class="text-white">CENDI: Clave de Incorporación a la SEP: 17PDI0394R</h2>
                     </div>
                 </div>
             </div>
@@ -34,6 +34,7 @@
                 <div class="row no-gutters slider-text align-items-center justify-content-center" data-scrollax-parent="true">
                     <div class="col-md-8 text-center ftco-animate">
                         <h1 class="mb-4">Kinder</h1>
+                        <h2 class="text-white">PREESCOLAR: Clave de Incorporación a la SEP: 17PJN0007E</h2>
                     </div>
                 </div>
             </div>
@@ -382,28 +383,28 @@
                     <div class="img" style="background-image: url(/images/kinder/k9.jpg);"></div>
                     <div class="text bg-light p-4">
                         <h3><a href="#">Orugas (Maternal)</a></h3>
-                        <p class="subheading"><span>Horario:</span> 8:50am - 2:00am</p>
+                        <p class="subheading"><span>Horario:</span> 8:50am - 2:00pm</p>
                     </div>
                 </div>
                 <div class="col-md-6 course d-lg-flex ftco-animate">
                     <div class="img" style="background-image: url(/images/kinder/k2.jpg);"></div>
                     <div class="text bg-light p-4">
                         <h3><a href="#">Concunas (Kínder 1)</a></h3>
-                        <p class="subheading"><span>Horario:</span> 8:00am - 2:00am</p>
+                        <p class="subheading"><span>Horario:</span> 8:00am - 2:00pm</p>
                     </div>
                 </div>
                 <div class="col-md-6 course d-lg-flex ftco-animate">
                     <div class="img" style="background-image: url(/images/kinder/k4.jpg);"></div>
                     <div class="text bg-light p-4">
                         <h3><a href="#">Monarcas (Kínder 2)</a></h3>
-                        <p class="subheading"><span>Horario:</span> 8:00am - 2:00am</p>
+                        <p class="subheading"><span>Horario:</span> 8:00am - 2:00pm</p>
                     </div>
                 </div>
                 <div class="col-md-6 course d-lg-flex ftco-animate">
                     <div class="img" style="background-image: url(/images/kinder/k6.jpg);"></div>
                     <div class="text bg-light p-4">
                         <h3><a href="#">Santuario (Kínder 3)</a></h3>
-                        <p class="subheading"><span>Horario:</span> 8:00am - 2:00am</p>
+                        <p class="subheading"><span>Horario:</span> 8:00am - 2:00pm</p>
                     </div>
                 </div>
                 <div class="col-lg-12 text-center">
