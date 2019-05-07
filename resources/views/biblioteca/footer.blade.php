@@ -32,11 +32,12 @@
                 <div class="ftco-footer-widget mb-5 ml-md-4">
                     <h2 class="ftco-heading-2">Enlaces</h2>
                     <ul class="list-unstyled">
-                        <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Inicio</a></li>
-                        <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>About</a></li>
-                        <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Services</a></li>
-                        <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Deparments</a></li>
-                        <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Contact</a></li>
+                        <li><a href="{{ route('site.index') }}"><span class="ion-ios-arrow-round-forward mr-2"></span>Inicio</a></li>
+                        <li><a href="{{ route('site.about') }}"><span class="ion-ios-arrow-round-forward mr-2"></span>¿Quiénes somos?</a></li>
+                        <li><a href="{{ route('site.levels') }}"><span class="ion-ios-arrow-round-forward mr-2"></span>Niveles Educativos</a></li>
+                        <li><a href="{{ route('site.logros') }}"><span class="ion-ios-arrow-round-forward mr-2"></span>Logros</a></li>
+                        <li><a href="{{ route('site.instalaciones') }}"><span class="ion-ios-arrow-round-forward mr-2"></span>Instalaciones</a></li>
+                        <li><a href="{{ route('site.contact') }}"><span class="ion-ios-arrow-round-forward mr-2"></span>Contacto</a></li>
                     </ul>
                 </div>
             </div>

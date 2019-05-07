@@ -2,6 +2,15 @@
 
 @section('title', 'Inicio')
 
+@section('css')
+    {{--<style>
+        video {
+            width: 100%;
+            height: auto;
+        }
+    </style>--}}
+@endsection
+
 @section('content')
     <section class="home-slider owl-carousel">
         <div class="slider-item" style="background-image:url(/images/slider-1.jpg);">
@@ -153,6 +162,14 @@
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <video controls>
+                        <source src="/media/video.mp4" type="video/mp4">
+                        Your browser does not support HTML5 video.
+                    </video>
                 </div>
             </div>
         </div>
