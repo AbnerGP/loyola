@@ -9,7 +9,7 @@
             <div class="container">
                 <div class="row no-gutters slider-text align-items-center justify-content-center" data-scrollax-parent="true">
                     <div class="col-md-8 text-center ftco-animate">
-                        <h1 class="mb-4">Kinder</h1>
+                        <h1 class="mb-4">Kínder</h1>
                         <h2 class="text-white">Voluntad</h2>
                     </div>
                 </div>
@@ -21,7 +21,7 @@
             <div class="container">
                 <div class="row no-gutters slider-text align-items-center justify-content-center" data-scrollax-parent="true">
                     <div class="col-md-8 text-center ftco-animate">
-                        <h1 class="mb-4">Kinder</h1>
+                        <h1 class="mb-4">Kínder</h1>
                         <h2 class="text-white">CENDI: Clave de Incorporación a la SEP: 17PDI0394R</h2>
                     </div>
                 </div>
@@ -33,7 +33,7 @@
             <div class="container">
                 <div class="row no-gutters slider-text align-items-center justify-content-center" data-scrollax-parent="true">
                     <div class="col-md-8 text-center ftco-animate">
-                        <h1 class="mb-4">Kinder</h1>
+                        <h1 class="mb-4">Kínder</h1>
                         <h2 class="text-white">PREESCOLAR: Clave de Incorporación a la SEP: 17PJN0007E</h2>
                     </div>
                 </div>
@@ -210,7 +210,7 @@
                             <div class="services-3 d-flex">
                                 <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
                                 <div class="text">
-                                    <h3>Sistema Bilingüe.</h3>
+                                    <h3>Inglés.</h3>
                                 </div>
                             </div>
                         </div>
@@ -339,6 +339,24 @@
                         </div>
                     </a>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="ftco-intro" style="background-image: url(/images/kinder/k24.jpg);" data-stellar-background-ratio="0.5">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9">
+                    <h2>Actividades para papás:</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="ftco-gallery">
+        <div class="container-wrap">
+            <div class="row no-gutters">
                 <div class="col-md-3 ftco-animate">
                     <a href="/images/kinder/k24.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(/images/kinder/k24.jpg);">
                         <div class="icon mb-4 d-flex align-items-center justify-content-center">
@@ -389,22 +407,22 @@
                 <div class="col-md-6 course d-lg-flex ftco-animate">
                     <div class="img" style="background-image: url(/images/kinder/k2.jpg);"></div>
                     <div class="text bg-light p-4">
-                        <h3><a href="#">Concunas (Kínder 1)</a></h3>
-                        <p class="subheading"><span>Horario:</span> 8:00am - 2:00pm</p>
+                        <h3><a href="#">Cuncunas (Kínder 1)</a></h3>
+                        <p class="subheading"><span>Horario:</span> 7:50am - 2:00pm</p>
                     </div>
                 </div>
                 <div class="col-md-6 course d-lg-flex ftco-animate">
                     <div class="img" style="background-image: url(/images/kinder/k4.jpg);"></div>
                     <div class="text bg-light p-4">
                         <h3><a href="#">Monarcas (Kínder 2)</a></h3>
-                        <p class="subheading"><span>Horario:</span> 8:00am - 2:00pm</p>
+                        <p class="subheading"><span>Horario:</span> 7:50am - 2:00pm</p>
                     </div>
                 </div>
                 <div class="col-md-6 course d-lg-flex ftco-animate">
                     <div class="img" style="background-image: url(/images/kinder/k6.jpg);"></div>
                     <div class="text bg-light p-4">
                         <h3><a href="#">Santuario (Kínder 3)</a></h3>
-                        <p class="subheading"><span>Horario:</span> 8:00am - 2:00pm</p>
+                        <p class="subheading"><span>Horario:</span> 7:50am - 2:00pm</p>
                     </div>
                 </div>
                 <div class="col-lg-12 text-center">

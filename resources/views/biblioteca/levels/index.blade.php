@@ -8,7 +8,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-9">
-                    <h2>Kinder</h2>
+                    <h2>Kínder</h2>
                     <p class="mb-0">Kindergarten</p>
                 </div>
                 <div class="col-md-3 d-flex align-items-center">

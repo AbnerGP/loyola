@@ -476,7 +476,7 @@
         <div class="container-wrap">
             <div class="row no-gutters">
                 <div class="col-md-3 ftco-animate">
-                    <a href="/images/preparatoria/h14.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(/images/preparatoria/h14.jpg);">
+                    <a href="/images/preparatoria/h14.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(/images/preparatoria/h14.jpg); width: 100%;">
                         <div class="icon mb-4 d-flex align-items-center justify-content-center">
                             <span class="icon-instagram"></span>
                         </div>

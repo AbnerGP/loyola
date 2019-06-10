@@ -6405,7 +6405,9 @@ button.bg-dark:focus {
 .mx-0 {
   margin-right: 0 !important; }
 
-.mb-0,
+.mb-0 {
+  font-size: 150%;
+}
 .my-0 {
   margin-bottom: 0 !important; }
 
