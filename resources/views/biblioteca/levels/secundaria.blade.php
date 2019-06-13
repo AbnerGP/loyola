@@ -55,7 +55,7 @@
     <section class="ftco-section">
         <div class="container">
             <div class="row justify-content-center mb-5 pb-2">
-                <div class="col-md-8 text-center heading-section ftco-animate">
+                <div class="col-lg-12 text-justify heading-section ftco-animate">
                     <h2 class="mb-4"><span>Objetivo</span> Secundaria</h2>
                     <p>
                         Aquí el proceso se encamina a fortalecer la individualidad, la capacidad de observación y el desarrollo de un pensamiento analítico. La misión de nuestros docentes se enfoca el progreso del pensamiento individual llevado a cabo desde una expresión madura que conduzca a realizar en nuestros estudiantes acciones responsables, para que a través de ello, forjen su interior, desarrollen su personalidad y se asuman en su independencia de manera responsable.
@@ -86,7 +86,7 @@
     <section class="ftco-section ftco-no-pt ftc-no-pb">
         <div class="container">
             <div class="row">
-                <h2 class="mb-4">Nuestra currícula cuenta con los talleres de:</h2>
+                <h2 class="mb-4">Nuestro programa académico incluye:</h2>
                 <div class="col-lg-12 wrap-about py-5 pr-md-4 ftco-animate">
                     <div class="row mt-5">
                         <div class="col-lg-4">
@@ -110,6 +110,14 @@
                                 <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
                                 <div class="text">
                                     <h3>Arte.</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="services-3 d-flex">
+                                <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
+                                <div class="text">
+                                    <h3>Dibujo geométrico.</h3>
                                 </div>
                             </div>
                         </div>
@@ -481,7 +489,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-9">
-                    <h2>Instalaciones</h2>
+                    <h2>Instalaciones y servicios</h2>
                 </div>
             </div>
         </div>
@@ -496,7 +504,7 @@
                             <div class="services-3 d-flex">
                                 <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
                                 <div class="text">
-                                    <h3>Salones adecuados.</h3>
+                                    <h3>Salones adecuados con multimedia.</h3>
                                 </div>
                             </div>
                         </div>
@@ -601,6 +609,46 @@
                                 <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
                                 <div class="text">
                                     <h3>Espacios para el recreo y diversión de los alumnos.</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="services-3 d-flex">
+                                <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
+                                <div class="text">
+                                    <h3>Red social académica.</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="services-3 d-flex">
+                                <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
+                                <div class="text">
+                                    <h3>Enfermería.</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="services-3 d-flex">
+                                <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
+                                <div class="text">
+                                    <h3>Auditorio.</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="services-3 d-flex">
+                                <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
+                                <div class="text">
+                                    <h3>Canchas de usos múltiples.</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="services-3 d-flex">
+                                <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
+                                <div class="text">
+                                    <h3>Lockers.</h3>
                                 </div>
                             </div>
                         </div>

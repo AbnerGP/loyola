@@ -55,7 +55,7 @@
     <section class="ftco-section">
         <div class="container">
             <div class="row justify-content-center mb-5 pb-2">
-                <div class="col-md-8 text-center heading-section ftco-animate">
+                <div class="col-lg-12 text-justify heading-section ftco-animate">
                     <h2 class="mb-4"><span>Objetivo</span> Primaria</h2>
                     <p>
                         Nuestro principal objetivo es lograr que este importante momento en la vida de nuestros niños, se fortalezca a través de un desarrollo integral y formativo que los ayude a adquirir los hábitos y valores que serán bases importantes a lo largo de su vida, integrando a los padres y docentes como pilares fundamentales de la educación, asumiendo cada uno la participación y formación permanentes que impulsen su desarrollo social para crear en ellos principios que nutran su conciencia y formación, logrando así una experiencia educativa basada en valores y vanguardia académica que les permite lograr su aprendizaje de manera efectiva.
@@ -118,26 +118,18 @@
                         </p>
                         <p><strong>Acuarela, estambre, lana, ceras, barro y madera.</strong></p>
                         <img src="/images/primaria/p5.jpg" alt="" width="100%">
-                        <img src="/images/primaria/p10.jpg" alt="" width="100%">
                     </div>
                 </div>
                 <div class="col-md-7 wrap-about py-5 pr-md-4 ftco-animate">
                     <h2 class="mb-4">Sistema bilingüe</h2>
                     <p>(con opción de certificación por la Universidad de Cambridge, 6to grado certificación obligatoria sin costo por la Universidad de San Diego)</p>
+                    <h2 class="mb-4">Nuestro programa académico incluye:</h2>
                     <div class="row mt-5">
                         <div class="col-lg-6">
                             <div class="services-3 d-flex">
                                 <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
                                 <div class="text">
                                     <h3>Francés.</h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="services-3 d-flex">
-                                <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
-                                <div class="text">
-                                    <h3>Aulas multimedia.</h3>
                                 </div>
                             </div>
                         </div>
@@ -182,133 +174,19 @@
                                     </div>
                                 </a>
                             </div>
-                        </div>
-                    </div>
-
-                    <h2 class="mb-4">Festejos en la Primaria Loyola:</h2>
-                    <div class="row mt-5">
-                        <div class="col-lg-6">
-                            <div class="services-3 d-flex">
-                                <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
-                                <div class="text">
-                                    <h3>Mañanita mexicana.</h3>
-                                </div>
+                            <div class="col-md-6 ftco-animate">
+                                <a href="/images/primaria/robotica.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(/images/primaria/robotica.jpg);">
+                                    <div class="icon mb-4 d-flex align-items-center justify-content-center">
+                                        <span class="icon-instagram"></span>
+                                    </div>
+                                </a>
                             </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="services-3 d-flex">
-                                <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
-                                <div class="text">
-                                    <h3>Festejo del Día de Muertos.</h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="services-3 d-flex">
-                                <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
-                                <div class="text">
-                                    <h3>Festejo de Navidad.</h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="services-3 d-flex">
-                                <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
-                                <div class="text">
-                                    <h3>Día de Rosca de Reyes.</h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="services-3 d-flex">
-                                <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
-                                <div class="text">
-                                    <h3>Festejo del Día del Amor y la Amistad.</h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="services-3 d-flex">
-                                <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
-                                <div class="text">
-                                    <h3>Festejo de primavera.</h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="services-3 d-flex">
-                                <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
-                                <div class="text">
-                                    <h3>Festejo de la Semana del Niño.</h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="services-3 d-flex">
-                                <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
-                                <div class="text">
-                                    <h3>Festejo del Día de las Madres.</h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="services-3 d-flex">
-                                <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
-                                <div class="text">
-                                    <h3>Festejo del Día del Padre.</h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="services-3 d-flex">
-                                <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
-                                <div class="text">
-                                    <h3>Evento de Clausura y Graduación.</h3>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <h2 class="mb-4">Inglés:</h2>
-                    <div class="row mt-5">
-                        <div class="col-lg-6">
-                            <div class="services-3 d-flex">
-                                <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
-                                <div class="text">
-                                    <h3>Halloween.</h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="services-3 d-flex">
-                                <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
-                                <div class="text">
-                                    <h3>Thanks giving.</h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="services-3 d-flex">
-                                <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
-                                <div class="text">
-                                    <h3>Holidays.</h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="services-3 d-flex">
-                                <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
-                                <div class="text">
-                                    <h3>San Valentine’s Day.</h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="services-3 d-flex">
-                                <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
-                                <div class="text">
-                                    <h3>Easter Day and Sant Patrick’s Day.</h3>
-                                </div>
+                            <div class="col-md-6 ftco-animate">
+                                <a href="/images/primaria/tejido.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(/images/primaria/tejido.jpg);">
+                                    <div class="icon mb-4 d-flex align-items-center justify-content-center">
+                                        <span class="icon-instagram"></span>
+                                    </div>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -399,61 +277,11 @@
                         <p>
                             A fin de involucrar a nuestros papitos en esta importante etapa de sus hijos y que ellos se sientan contentos de compartir estas vivencias con ustedes; Se les brinda el espacio donde podrán colaborar en su formación escolar, invitándolos a participar en las siguientes actividades mismas que se llevan a cabo a lo largo del ciclo escolar:
                         </p>
-                        <img src="/images/primaria/p31.jpg" alt="" width="100%">
+                        <p>Acuarela, tejido, música, robótica, Couching... papás todo terreno, futbol para papás, talleres de cocina, tejido y gramática.</p>
+                        <img src="/images/primaria/p32.jpg" alt="" width="100%">
                     </div>
                 </div>
                 <div class="col-md-7 wrap-about py-5 pr-md-4 ftco-animate">
-                    <div class="row mt-5">
-                        <div class="col-lg-6">
-                            <div class="services-3 d-flex">
-                                <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
-                                <div class="text">
-                                    <h3>Escuela para padres.</h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="services-3 d-flex">
-                                <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
-                                <div class="text">
-                                    <h3>Open Class.</h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="services-3 d-flex">
-                                <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
-                                <div class="text">
-                                    <h3>Fútbol para papás.</h3>
-                                    <p>(Categoría libre)</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="services-3 d-flex">
-                                <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
-                                <div class="text">
-                                    <h3>Mega Posada Navideña.</h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="services-3 d-flex">
-                                <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
-                                <div class="text">
-                                    <h3>Encendido del árbol navideño.</h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="services-3 d-flex">
-                                <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
-                                <div class="text">
-                                    <h3>Entrega de las cajas de Amor.</h3>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                     <div class="container-wrap">
                         <div class="row no-gutters">
                             <div class="col-md-6 ftco-animate">
@@ -464,7 +292,7 @@
                                 </a>
                             </div>
                             <div class="col-md-6 ftco-animate">
-                                <a href="/images/primaria/p29.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(/images/primaria/p29.jpg);">
+                                <a href="/images/primaria/p31.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(/images/primaria/p31.jpg);">
                                     <div class="icon mb-4 d-flex align-items-center justify-content-center">
                                         <span class="icon-instagram"></span>
                                     </div>
@@ -514,7 +342,7 @@
                             <div class="services-3 d-flex">
                                 <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
                                 <div class="text">
-                                    <h3>Taekwando.</h3>
+                                    <h3>Taekwondo.</h3>
                                 </div>
                             </div>
                         </div>
@@ -526,14 +354,79 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-8">
+                        <div class="col-lg-4">
                             <div class="services-3 d-flex">
                                 <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
                                 <div class="text">
                                     <h3>Fútbol.</h3>
-                                    <p>
-                                        <strong>Lobos Loyola: </strong>
-                                    Para nosotros es importante promover el deporte, por ello se brinda también el espacio a nuestros alumnos de pertenecer a nuestro equipo profesional de fútbol “Lobos de Loyola”, el cual ha logrado posicionarse fuertemente como un equipo campeón, obteniendo numerosos triunfos.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="services-3 d-flex">
+                                <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
+                                <div class="text">
+                                    <h3>Masart.</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="services-3 d-flex">
+                                <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
+                                <div class="text">
+                                    <h3>Dibujo.</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="services-3 d-flex">
+                                <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
+                                <div class="text">
+                                    <h3>Baile.</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="services-3 d-flex">
+                                <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
+                                <div class="text">
+                                    <h3>Teatro.</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="services-3 d-flex">
+                                <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
+                                <div class="text">
+                                    <h3>Ajedrez.</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h2 class="mb-4">Clubs académicos:</h2>
+                    <div class="row mt-5">
+                        <div class="col-lg-4">
+                            <div class="services-3 d-flex">
+                                <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
+                                <div class="text">
+                                    <h3>Matemáticas.</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="services-3 d-flex">
+                                <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
+                                <div class="text">
+                                    <h3>Tareas.</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="services-3 d-flex">
+                                <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
+                                <div class="text">
+                                    <h3>Regularización.</h3>
                                 </div>
                             </div>
                         </div>
@@ -551,13 +444,6 @@
             <div class="row no-gutters">
                 <div class="col-md-3 ftco-animate">
                     <a href="/images/primaria/p33.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(/images/primaria/p33.jpg);">
-                        <div class="icon mb-4 d-flex align-items-center justify-content-center">
-                            <span class="icon-instagram"></span>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-3 ftco-animate">
-                    <a href="/images/primaria/p35.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(/images/primaria/p35.jpg);">
                         <div class="icon mb-4 d-flex align-items-center justify-content-center">
                             <span class="icon-instagram"></span>
                         </div>
@@ -585,13 +471,6 @@
                     </a>
                 </div>
                 <div class="col-md-3 ftco-animate">
-                    <a href="/images/primaria/p39.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(/images/primaria/p39.jpg);">
-                        <div class="icon mb-4 d-flex align-items-center justify-content-center">
-                            <span class="icon-instagram"></span>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-3 ftco-animate">
                     <a href="/images/primaria/p40.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(/images/primaria/p40.jpg);">
                         <div class="icon mb-4 d-flex align-items-center justify-content-center">
                             <span class="icon-instagram"></span>
@@ -613,21 +492,7 @@
                     </a>
                 </div>
                 <div class="col-md-3 ftco-animate">
-                    <a href="/images/primaria/p43.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(/images/primaria/p43.jpg);">
-                        <div class="icon mb-4 d-flex align-items-center justify-content-center">
-                            <span class="icon-instagram"></span>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-3 ftco-animate">
                     <a href="/images/primaria/p44.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(/images/primaria/p44.jpg);">
-                        <div class="icon mb-4 d-flex align-items-center justify-content-center">
-                            <span class="icon-instagram"></span>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-3 ftco-animate">
-                    <a href="/images/primaria/p45.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(/images/primaria/p45.jpg);">
                         <div class="icon mb-4 d-flex align-items-center justify-content-center">
                             <span class="icon-instagram"></span>
                         </div>
@@ -661,7 +526,7 @@
                     </div>
                 </div>
                 <div class="col-md-6 course d-lg-flex ftco-animate">
-                    <div class="img" style="background-image: url(/images/primaria/p14.jpg);"></div>
+                    <div class="img" style="background-image: url(/images/primaria/tejido2.jpg);"></div>
                     <div class="text bg-light p-4">
                         <h3><a href="#">Recepción</a></h3>
                         <p class="subheading">La recepción de los niños puede ser desde las 7:00 a.m. sin costo adicional.</p>
@@ -686,7 +551,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-9">
-                    <h2>Instalaciones</h2>
+                    <h2>Instalaciones y servicios</h2>
                 </div>
             </div>
         </div>
@@ -701,7 +566,7 @@
                             <div class="services-3 d-flex">
                                 <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
                                 <div class="text">
-                                    <h3>Salones amplios con mobiliario propicio.</h3>
+                                    <h3>Salones adecuados con multimedia.</h3>
                                 </div>
                             </div>
                         </div>
@@ -725,6 +590,14 @@
                             <div class="services-3 d-flex">
                                 <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
                                 <div class="text">
+                                    <h3>Salón de acuarela.</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="services-3 d-flex">
+                                <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
+                                <div class="text">
                                     <h3>Salones interactivos de inglés.</h3>
                                 </div>
                             </div>
@@ -733,7 +606,7 @@
                             <div class="services-3 d-flex">
                                 <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
                                 <div class="text">
-                                    <h3>Sala audiovisual.</h3>
+                                    <h3>Auditorio.</h3>
                                 </div>
                             </div>
                         </div>
@@ -786,6 +659,30 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="col-lg-4">
+                            <div class="services-3 d-flex">
+                                <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
+                                <div class="text">
+                                    <h3>Red social académica.</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="services-3 d-flex">
+                                <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
+                                <div class="text">
+                                    <h3>Auditorio.</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="services-3 d-flex">
+                                <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
+                                <div class="text">
+                                    <h3>Lockers.</h3>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -810,14 +707,42 @@
                     </a>
                 </div>
                 <div class="col-md-3 ftco-animate">
-                    <a href="/images/primaria/p51.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(/images/primaria/p51.jpg);">
+                    <a href="/images/primaria/salonacuarela.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(/images/primaria/salonacuarela.jpg);">
                         <div class="icon mb-4 d-flex align-items-center justify-content-center">
                             <span class="icon-instagram"></span>
                         </div>
                     </a>
                 </div>
                 <div class="col-md-3 ftco-animate">
-                    <a href="/images/primaria/p52.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(/images/primaria/p52.jpg);">
+                    <a href="/images/primaria/inst1.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(/images/primaria/inst1.jpg);">
+                        <div class="icon mb-4 d-flex align-items-center justify-content-center">
+                            <span class="icon-instagram"></span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-3 ftco-animate">
+                    <a href="/images/primaria/inst2.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(/images/primaria/inst2.jpg);">
+                        <div class="icon mb-4 d-flex align-items-center justify-content-center">
+                            <span class="icon-instagram"></span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-3 ftco-animate">
+                    <a href="/images/primaria/inst3.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(/images/primaria/inst3.jpg);">
+                        <div class="icon mb-4 d-flex align-items-center justify-content-center">
+                            <span class="icon-instagram"></span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-3 ftco-animate">
+                    <a href="/images/primaria/inst4.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(/images/primaria/inst4.jpg);">
+                        <div class="icon mb-4 d-flex align-items-center justify-content-center">
+                            <span class="icon-instagram"></span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-3 ftco-animate">
+                    <a href="/images/primaria/inst5.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(/images/primaria/inst5.jpg);">
                         <div class="icon mb-4 d-flex align-items-center justify-content-center">
                             <span class="icon-instagram"></span>
                         </div>
@@ -883,6 +808,14 @@
                                 <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
                                 <div class="text">
                                     <h3>2 fotografías tamaño infantil blanco y negro.</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="services-3 d-flex">
+                                <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
+                                <div class="text">
+                                    <h3>Carta de recomendación de los padres de la escuela de procedencia.</h3>
                                 </div>
                             </div>
                         </div>

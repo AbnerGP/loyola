@@ -41,7 +41,7 @@
     <section class="ftco-section">
         <div class="container">
             <div class="row justify-content-center mb-5 pb-2">
-                <div class="col-md-8 text-center heading-section ftco-animate">
+                <div class="col-lg-12 text-justify heading-section ftco-animate">
                     <h2 class="mb-4"><span>Idio</span>mas</h2>
                     <p>
                         Nuestro sistema de enseñanza del idioma inglés está basado en el aprendizaje interactivo por niveles con base en el Marco Común Europeo, estimulando las cuatro habilidades fundamentales para el dominio de una segunda lengua: comprensión auditiva, lectura, escritura y expresión oral.

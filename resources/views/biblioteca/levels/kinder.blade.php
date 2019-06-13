@@ -56,13 +56,187 @@
     <section class="ftco-section">
         <div class="container">
             <div class="row justify-content-center mb-5 pb-2">
-                <div class="col-md-8 text-center heading-section ftco-animate">
+                <div class="col-lg-12 text-justify heading-section ftco-animate">
                     <h2 class="mb-4"><span>Objetivo</span> Kínder</h2>
                     <p>
                         El conocimiento de los ritmos en el niño es un recurso fundamental para ayudarle a comprenderse así mismos y a su entorno. Cuando existe un ritmo bien llevado se reduce la angustia, aceleración e incertidumbre en el niño. Por ello en nuestro kínder trabajamos actividades y festivales anuales, mensuales y semanales que permiten al pequeño fortalecer lo anterior con actividades como:
                     </p>
-                    <p><strong>Horneado, tejido, modelado de cera, dibujo con ceras,  horticultura y acuarela, todos ellos con materiales especiales y basados en fibras naturales.</strong></p>
-                    <p><strong>Actividades de hogar, cuento, canto, música, yoga, estimulación temprana y movimiento.</strong></p>
+                    <div class="col-lg-12 wrap-about py-5 pr-md-4 ftco-animate">
+                        <div class="row mt-5">
+                            <div class="col-lg-3">
+                                <div class="services-3 d-flex">
+                                    <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
+                                    <div class="text">
+                                        <h3>Horneado.</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="services-3 d-flex">
+                                    <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
+                                    <div class="text">
+                                        <h3>Tejido.</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="services-3 d-flex">
+                                    <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
+                                    <div class="text">
+                                        <h3>Modelado de cera.</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="services-3 d-flex">
+                                    <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
+                                    <div class="text">
+                                        <h3>Dibujo con ceras.</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="services-3 d-flex">
+                                    <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
+                                    <div class="text">
+                                        <h3>Horticultura.</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="services-3 d-flex">
+                                    <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
+                                    <div class="text">
+                                        <h3>Acuarela.</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container-wrap">
+                        <div class="row no-gutters">
+                            <div class="col-md-3 ftco-animate">
+                                <a href="/images/kinder/acuarela1.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(/images/kinder/acuarela1.jpg);">
+                                    <div class="icon mb-4 d-flex align-items-center justify-content-center">
+                                        <span class="icon-instagram"></span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-3 ftco-animate">
+                                <a href="/images/kinder/figurasforma1.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(/images/kinder/figurasforma1.jpg);">
+                                    <div class="icon mb-4 d-flex align-items-center justify-content-center">
+                                        <span class="icon-instagram"></span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-3 ftco-animate">
+                                <a href="/images/kinder/horneadopan.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(/images/kinder/horneadopan.jpg);">
+                                    <div class="icon mb-4 d-flex align-items-center justify-content-center">
+                                        <span class="icon-instagram"></span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-3 ftco-animate">
+                                <a href="/images/kinder/hortaliza1.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(/images/kinder/hortaliza1.jpg);">
+                                    <div class="icon mb-4 d-flex align-items-center justify-content-center">
+                                        <span class="icon-instagram"></span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 wrap-about py-5 pr-md-4 ftco-animate">
+                        <div class="row mt-5">
+                            <div class="col-lg-3">
+                                <div class="services-3 d-flex">
+                                    <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
+                                    <div class="text">
+                                        <h3>Actividades de hogar.</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="services-3 d-flex">
+                                    <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
+                                    <div class="text">
+                                        <h3>Cuento.</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="services-3 d-flex">
+                                    <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
+                                    <div class="text">
+                                        <h3>Canto.</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="services-3 d-flex">
+                                    <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
+                                    <div class="text">
+                                        <h3>Música.</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="services-3 d-flex">
+                                    <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
+                                    <div class="text">
+                                        <h3>Yoga.</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="services-3 d-flex">
+                                    <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
+                                    <div class="text">
+                                        <h3>Estimulación temprana.</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="services-3 d-flex">
+                                    <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
+                                    <div class="text">
+                                        <h3>Movimiento.</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container-wrap">
+                        <div class="row no-gutters">
+                            <div class="col-md-3 ftco-animate">
+                                <a href="/images/kinder/musica.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(/images/kinder/musica1.jpg);">
+                                    <div class="icon mb-4 d-flex align-items-center justify-content-center">
+                                        <span class="icon-instagram"></span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-3 ftco-animate">
+                                <a href="/images/kinder/salonesmulti.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(/images/kinder/salonesmulti.jpg);">
+                                    <div class="icon mb-4 d-flex align-items-center justify-content-center">
+                                        <span class="icon-instagram"></span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-3 ftco-animate">
+                                <a href="/images/kinder/tejido.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(/images/kinder/tejido.jpg);">
+                                    <div class="icon mb-4 d-flex align-items-center justify-content-center">
+                                        <span class="icon-instagram"></span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-3 ftco-animate">
+                                <a href="/images/kinder/yoga.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(/images/kinder/yoga.jpg);">
+                                    <div class="icon mb-4 d-flex align-items-center justify-content-center">
+                                        <span class="icon-instagram"></span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -83,7 +257,7 @@
                     </div>
                 </div>
                 <div class="col-md-7 wrap-about py-5 pr-md-4 ftco-animate">
-                    <h2 class="mb-4">Campos formativos:</h2>
+                    <h2 class="mb-4">Nuestro programa académico incluye:</h2>
                     <div class="row mt-5">
                         <div class="col-lg-6">
                             <div class="services-3 d-flex">
@@ -437,7 +611,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-9">
-                    <h2>Instalaciones</h2>
+                    <h2>Instalaciones y servicios</h2>
                 </div>
             </div>
         </div>
@@ -526,6 +700,30 @@
                                 <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
                                 <div class="text">
                                     <h3>Juegos para diversión de los niños.</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="services-3 d-flex">
+                                <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
+                                <div class="text">
+                                    <h3>Hortaliza.</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="services-3 d-flex">
+                                <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
+                                <div class="text">
+                                    <h3>Cocina.</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="services-3 d-flex">
+                                <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
+                                <div class="text">
+                                    <h3>Salón de talleres para papás.</h3>
                                 </div>
                             </div>
                         </div>
@@ -644,6 +842,14 @@
                                 <div class="text">
                                     <h3>Boleta y carta de traslado.</h3>
                                     <p>(alumnos de inscripción extemporánea)</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="services-3 d-flex">
+                                <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
+                                <div class="text">
+                                    <h3>Carta de recomendación de los padres de la escuela de procedencia.</h3>
                                 </div>
                             </div>
                         </div>
