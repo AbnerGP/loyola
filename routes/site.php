@@ -8,8 +8,8 @@ Route::get('/niveles-educativos/kinder', 'HomeController@kinder')->name('site.le
 Route::get('/niveles-educativos/primaria', 'HomeController@primaria')->name('site.levels.primaria');
 Route::get('/niveles-educativos/secundaria', 'HomeController@secundaria')->name('site.levels.secundaria');
 Route::get('/niveles-educativos/preparatoria', 'HomeController@prepa')->name('site.levels.prepa');
-Route::get('/niveles-educativos/language-school', 'HomeController@language')->name('site.levels.language');
-Route::get('/niveles-educativos/viajes', 'HomeController@viajes')->name('site.levels.viajes');
+Route::get('/language-school', 'HomeController@language')->name('site.language');
+Route::get('/viajes', 'HomeController@viajes')->name('site.viajes');
 Route::get('/logros', 'HomeController@logros')->name('site.logros');
 Route::get('/instalaciones', 'HomeController@instalaciones')->name('site.instalaciones');
 Route::get('/contacto', 'HomeController@contact')->name('site.contact');

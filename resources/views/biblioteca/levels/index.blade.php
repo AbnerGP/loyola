@@ -115,61 +115,6 @@
     </section>
 
 
-    <section class="ftco-intro" style="background-image: url(images/idiomas/i2.jpg);" data-stellar-background-ratio="0.5">
-        <div class="overlay"></div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-9">
-                    <h2>Escuela de idiomas</h2>
-                    <p class="mb-0">Language School</p>
-                </div>
-                <div class="col-md-3 d-flex align-items-center">
-                    <p class="mb-0"><a href="{{ route('site.levels.language') }}" class="btn btn-secondary px-4 py-3">Leer más</a></p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="ftco-section">
-        <div class="container">
-            <div class="row justify-content-center mb-5 pb-2">
-                <div class="col-md-8 text-center heading-section ftco-animate">
-                    <p>
-                        Nuestro sistema de enseñanza del idioma inglés está basado en el aprendizaje interactivo por niveles con base en el Marco Común Europeo, estimulando las cuatro habilidades fundamentales para el dominio de una segunda lengua: comprensión auditiva, lectura, escritura y expresión oral.
-                    </p>
-                    <a href="{{ route('site.levels.language') }}" class="btn btn-primary">Leer más</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <section class="ftco-intro" style="background-image: url(images/viajes/v2.jpg);" data-stellar-background-ratio="0.5">
-        <div class="overlay"></div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-9">
-                    <h2>Viajes</h2>
-                </div>
-                <div class="col-md-3 d-flex align-items-center">
-                    <p class="mb-0"><a href="{{ route('site.levels.viajes') }}" class="btn btn-secondary px-4 py-3">Leer más</a></p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="ftco-section">
-        <div class="container">
-            <div class="row justify-content-center mb-5 pb-2">
-                <div class="col-md-8 text-center heading-section ftco-animate">
-                    <p>
-                        Nuestro sistema de enseñanza del idioma inglés está basado en el aprendizaje interactivo por niveles con base en el Marco Común Europeo, estimulando las cuatro habilidades fundamentales para el dominio de una segunda lengua: comprensión auditiva, lectura, escritura y expresión oral.
-                    </p>
-                    <a href="{{ route('site.levels.viajes') }}" class="btn btn-primary">Leer más</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
     <section class="ftco-intro" style="background-image: url(images/instalaciones/n8.jpg);" data-stellar-background-ratio="0.5">
         <div class="overlay"></div>
         <div class="container">

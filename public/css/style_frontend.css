@@ -11,6 +11,19 @@
     background: #f1bb00;
 }
 
+.bg-loyola-blue-circle {
+    text-align: center;
+    background: #022852;
+}
+
+/*.bg-loyola-blue-circle {
+    width: 100px;
+    height: 50px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #022852;
+}*/
 /*
 html {
     min-height: 100%;

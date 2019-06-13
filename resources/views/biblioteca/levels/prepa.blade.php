@@ -110,7 +110,7 @@
                             <div class="services-3 d-flex">
                                 <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
                                 <div class="text">
-                                    <h3>Formación de habilidades Ciencias Exactas.</h3>
+                                    <h3>Ciencias Exactas.</h3>
                                 </div>
                             </div>
                         </div>
@@ -118,7 +118,7 @@
                             <div class="services-3 d-flex">
                                 <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
                                 <div class="text">
-                                    <h3>Formación de habilidades Ciencias Naturales.</h3>
+                                    <h3>Ciencias Naturales.</h3>
                                 </div>
                             </div>
                         </div>
@@ -126,7 +126,19 @@
                             <div class="services-3 d-flex">
                                 <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
                                 <div class="text">
-                                    <h3>Formación de habilidades Ciencias Sociales y Humanidades.</h3>
+                                    <h3>Ciencias Sociales y Humanidades.</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h2 class="mb-4">Nuestro programa académico incluye:</h2>
+                    <div class="row mt-5">
+                        <div class="col-lg-4">
+                            <div class="services-3 d-flex">
+                                <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
+                                <div class="text">
+                                    <h3>Perfil vocacional.</h3>
                                 </div>
                             </div>
                         </div>
@@ -134,7 +146,7 @@
                             <div class="services-3 d-flex">
                                 <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
                                 <div class="text">
-                                    <h3>ALTO NIVEL ACADÉMICO.</h3>
+                                    <h3>Test de habilidades y aptitudes profesionales.</h3>
                                 </div>
                             </div>
                         </div>
@@ -142,7 +154,7 @@
                             <div class="services-3 d-flex">
                                 <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
                                 <div class="text">
-                                    <h3>Examen diagnóstico.</h3>
+                                    <h3>Fotografía digital.</h3>
                                 </div>
                             </div>
                         </div>
@@ -150,7 +162,7 @@
                             <div class="services-3 d-flex">
                                 <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
                                 <div class="text">
-                                    <h3>Examen de colocación en idiomas.</h3>
+                                    <h3>Inglés.</h3>
                                 </div>
                             </div>
                         </div>
@@ -158,7 +170,7 @@
                             <div class="services-3 d-flex">
                                 <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
                                 <div class="text">
-                                    <h3>Curso propedéutico.</h3>
+                                    <h3>Francés.</h3>
                                 </div>
                             </div>
                         </div>
@@ -166,7 +178,7 @@
                             <div class="services-3 d-flex">
                                 <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
                                 <div class="text">
-                                    <h3>Departamento psicopedagógico.</h3>
+                                    <h3>Modelado en barro.</h3>
                                 </div>
                             </div>
                         </div>
@@ -174,7 +186,7 @@
                             <div class="services-3 d-flex">
                                 <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
                                 <div class="text">
-                                    <h3>Coaching para padres y alumnos.</h3>
+                                    <h3>Dibujo constructivo.</h3>
                                 </div>
                             </div>
                         </div>
@@ -182,7 +194,19 @@
                             <div class="services-3 d-flex">
                                 <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
                                 <div class="text">
-                                    <h3>Tutor por grupo.</h3>
+                                    <h3>Proyecto de lectura.</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h2 class="mb-4">Nuestra currícula cuenta con los talleres:</h2>
+                    <div class="row mt-5">
+                        <div class="col-lg-4">
+                            <div class="services-3 d-flex">
+                                <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
+                                <div class="text">
+                                    <h3>Gastronomía.</h3>
                                 </div>
                             </div>
                         </div>
@@ -190,7 +214,7 @@
                             <div class="services-3 d-flex">
                                 <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
                                 <div class="text">
-                                    <h3>Aulas Multimedia.</h3>
+                                    <h3>Música.</h3>
                                 </div>
                             </div>
                         </div>
@@ -198,7 +222,15 @@
                             <div class="services-3 d-flex">
                                 <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
                                 <div class="text">
-                                    <h3>Enfermería.</h3>
+                                    <h3>Arte.</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="services-3 d-flex">
+                                <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
+                                <div class="text">
+                                    <h3>Teatro.</h3>
                                 </div>
                             </div>
                         </div>
@@ -345,6 +377,45 @@
         </div>
     </section>
 
+    <section class="ftco-intro" style="background-image: url(/images/preparatoria/padres1.jpg);" data-stellar-background-ratio="0.5">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9">
+                    <h2>Actividades para papás:</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="ftco-gallery text-center">
+        <div class="container-wrap">
+            <div class="row no-gutters">
+                <div class="col-md-4 ftco-animate">
+                    <a href="/images/secundaria/padres1.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(/images/secundaria/padres1.jpg);">
+                        <div class="icon mb-4 d-flex align-items-center justify-content-center">
+                            <span class="icon-instagram"></span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 ftco-animate">
+                    <a href="/images/preparatoria/padres2.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(/images/preparatoria/padres2.jpg);">
+                        <div class="icon mb-4 d-flex align-items-center justify-content-center">
+                            <span class="icon-instagram"></span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 ftco-animate">
+                    <a href="/images/preparatoria/padres3.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(/images/preparatoria/padres3.jpg);">
+                        <div class="icon mb-4 d-flex align-items-center justify-content-center">
+                            <span class="icon-instagram"></span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section class="ftco-section">
         <div class="container">
             <div class="row justify-content-center mb-5 pb-2">
@@ -460,6 +531,14 @@
                                 <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
                                 <div class="text">
                                     <h3>6 Fotografías t/infantil a color o blanco y negro con adherible.</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="services-3 d-flex">
+                                <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
+                                <div class="text">
+                                    <h3>Carta de recomendación de los padres de la escuela de procedencia.</h3>
                                 </div>
                             </div>
                         </div>
