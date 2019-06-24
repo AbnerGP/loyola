@@ -243,6 +243,48 @@
                         </div>
                     </a>
                 </div>
+                <div class="col-md-3 ftco-animate">
+                    <a href="/images/instalaciones/inst1.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(/images/instalaciones/inst1.jpg);">
+                        <div class="icon mb-4 d-flex align-items-center justify-content-center">
+                            <span class="icon-instagram"></span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-3 ftco-animate">
+                    <a href="/images/instalaciones/inst2.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(/images/instalaciones/inst2.jpg);">
+                        <div class="icon mb-4 d-flex align-items-center justify-content-center">
+                            <span class="icon-instagram"></span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-3 ftco-animate">
+                    <a href="/images/instalaciones/inst3.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(/images/instalaciones/inst3.jpg);">
+                        <div class="icon mb-4 d-flex align-items-center justify-content-center">
+                            <span class="icon-instagram"></span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-3 ftco-animate">
+                    <a href="/images/instalaciones/inst4.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(/images/instalaciones/inst4.jpg);">
+                        <div class="icon mb-4 d-flex align-items-center justify-content-center">
+                            <span class="icon-instagram"></span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-3 ftco-animate">
+                    <a href="/images/instalaciones/inst5.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(/images/instalaciones/inst5.jpg);">
+                        <div class="icon mb-4 d-flex align-items-center justify-content-center">
+                            <span class="icon-instagram"></span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-3 ftco-animate">
+                    <a href="/images/instalaciones/inst6.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(/images/instalaciones/inst6.jpg);">
+                        <div class="icon mb-4 d-flex align-items-center justify-content-center">
+                            <span class="icon-instagram"></span>
+                        </div>
+                    </a>
+                </div>
             </div>
         </div>
     </section>

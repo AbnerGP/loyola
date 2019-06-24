@@ -14,59 +14,19 @@
                 </div>
             </div>
         </div>
-
-        <div class="slider-item" style="background-image:url(/images/idiomas/i10.jpg); height: 600px !important;">
-            <div class="overlay"></div>
-            <div class="container">
-                <div class="row no-gutters slider-text align-items-center justify-content-center" data-scrollax-parent="true">
-                    <div class="col-md-8 text-center ftco-animate">
-                        <h1 class="mb-4">Language School</h1>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="slider-item" style="background-image:url(/images/idiomas/i9.jpg); height: 600px !important;">
-            <div class="overlay"></div>
-            <div class="container">
-                <div class="row no-gutters slider-text align-items-center justify-content-center" data-scrollax-parent="true">
-                    <div class="col-md-8 text-center ftco-animate">
-                        <h1 class="mb-4">Language School</h1>
-                    </div>
-                </div>
-            </div>
-        </div>
     </section>
 
     <section class="ftco-section">
         <div class="container">
             <div class="row justify-content-center mb-5 pb-2">
                 <div class="col-lg-12 text-justify heading-section ftco-animate">
-                    <h2 class="mb-4"><span>Idio</span>mas</h2>
+                    <h2 class="mb-4 text-center"><span>Idio</span>mas</h2>
                     <p>
                         Nuestro sistema de enseñanza del idioma inglés está basado en el aprendizaje interactivo por niveles con base en el Marco Común Europeo, estimulando las cuatro habilidades fundamentales para el dominio de una segunda lengua: comprensión auditiva, lectura, escritura y expresión oral.
                     </p>
                     <p>
                         El inglés que enseñamos es 100% británico y enfocado en su totalidad a las certificaciones de Cambridge University.
                     </p>
-                    <div class="container-wrap">
-                        <div class="row no-gutters">
-                            <div class="col-md-6 ftco-animate">
-                                <a href="/images/idiomas/i8.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(/images/idiomas/i8.jpg);">
-                                    <div class="icon mb-4 d-flex align-items-center justify-content-center">
-                                        <span class="icon-instagram"></span>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="col-md-6 ftco-animate">
-                                <a href="/images/idiomas/i9.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(/images/idiomas/i9.jpg);">
-                                    <div class="icon mb-4 d-flex align-items-center justify-content-center">
-                                        <span class="icon-instagram"></span>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
                     <p>
                         Nuestros alumnos realizan los exámenes de colocación de idioma diseñados por British Council.
                     </p>
@@ -76,14 +36,14 @@
                     <div class="container-wrap">
                         <div class="row no-gutters">
                             <div class="col-md-6 ftco-animate">
-                                <a href="/images/idiomas/i10.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(/images/idiomas/i10.jpg);">
+                                <a href="/images/idiomas/frances1.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(/images/idiomas/frances1.jpg);">
                                     <div class="icon mb-4 d-flex align-items-center justify-content-center">
                                         <span class="icon-instagram"></span>
                                     </div>
                                 </a>
                             </div>
                             <div class="col-md-6 ftco-animate">
-                                <a href="/images/idiomas/i11.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(/images/idiomas/i11.jpg);">
+                                <a href="/images/idiomas/ingles2.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(/images/idiomas/ingles2.jpg);">
                                     <div class="icon mb-4 d-flex align-items-center justify-content-center">
                                         <span class="icon-instagram"></span>
                                     </div>
@@ -112,28 +72,16 @@
         <div class="container-wrap">
             <div class="row no-gutters">
                 <div class="col-md-3 ftco-animate">
-                    <a href="/images/idiomas/i1.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(/images/idiomas/i1.jpg);">
+                </div>
+                <div class="col-md-3 ftco-animate">
+                    <a href="/images/idiomas/frances2.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(/images/idiomas/frances2.jpg);">
                         <div class="icon mb-4 d-flex align-items-center justify-content-center">
                             <span class="icon-instagram"></span>
                         </div>
                     </a>
                 </div>
                 <div class="col-md-3 ftco-animate">
-                    <a href="/images/idiomas/i12.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(/images/idiomas/i12.jpg);">
-                        <div class="icon mb-4 d-flex align-items-center justify-content-center">
-                            <span class="icon-instagram"></span>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-3 ftco-animate">
-                    <a href="/images/idiomas/i13.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(/images/idiomas/i13.jpg);">
-                        <div class="icon mb-4 d-flex align-items-center justify-content-center">
-                            <span class="icon-instagram"></span>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-3 ftco-animate">
-                    <a href="/images/idiomas/i14.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(/images/idiomas/i14.jpg);">
+                    <a href="/images/idiomas/ingles1.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(/images/idiomas/ingles1.jpg);">
                         <div class="icon mb-4 d-flex align-items-center justify-content-center">
                             <span class="icon-instagram"></span>
                         </div>
@@ -182,7 +130,7 @@
     <section class="ftco-section">
         <div class="container">
             <div class="row justify-content-center mb-5 pb-2">
-                <div class="col-md-8 text-center heading-section ftco-animate">
+                <div class="col-lg-12 text-center heading-section ftco-animate">
                     <h2 class="mb-4"><span>Coach</span>ing</h2>
                     <p><strong>PARA PADRES, MADRES E HIJOS “A TODO TERRENO”.</strong></p>
                     <p>

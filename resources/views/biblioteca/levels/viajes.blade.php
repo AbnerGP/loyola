@@ -51,6 +51,41 @@
         </div>
     </section>
 
+    <section class="ftco-gallery">
+        <div class="container-wrap">
+            <div class="row no-gutters">
+                <div class="col-md-3 ftco-animate">
+                    <a href="/images/viajes/viaje1.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(/images/viajes/viaje1.jpg);">
+                        <div class="icon mb-4 d-flex align-items-center justify-content-center">
+                            <span class="icon-instagram"></span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-3 ftco-animate">
+                    <a href="/images/viajes/viaje2.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(/images/viajes/viaje2.jpg);">
+                        <div class="icon mb-4 d-flex align-items-center justify-content-center">
+                            <span class="icon-instagram"></span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-3 ftco-animate">
+                    <a href="/images/viajes/viaje3.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(/images/viajes/viaje3.jpg);">
+                        <div class="icon mb-4 d-flex align-items-center justify-content-center">
+                            <span class="icon-instagram"></span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-3 ftco-animate">
+                    <a href="/images/viajes/viaje4.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(/images/viajes/viaje4.jpg);">
+                        <div class="icon mb-4 d-flex align-items-center justify-content-center">
+                            <span class="icon-instagram"></span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section class="ftco-section ftco-no-pt ftc-no-pb">
         <div class="container">
             <div class="row">

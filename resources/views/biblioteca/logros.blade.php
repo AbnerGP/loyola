@@ -41,7 +41,7 @@
     <section class="ftco-section">
         <div class="container">
             <div class="row justify-content-center mb-5 pb-2">
-                <div class="col-md-8 text-center heading-section ftco-animate">
+                <div class="col-lg-12 text-center heading-section ftco-animate">
                     <h2 class="mb-4"><span>Nuestros</span> logros</h2>
                     <p>
                         El Grupo Educativo Loyola, Se caracteriza por siempre campear en sus actividades extracurriculares, tanto deportivas como intelectuales, esta sección dará a nuestros deportistas y estudiantes el reconocimiento que se merecen, al participar y demostrar un desempeño sobresaliente en cada uno de nuestros talleres y en la participación de cada uno de los eventos en los que el Grupo Educativo Loyola participa.
@@ -99,6 +99,48 @@
             </div>
         </div>
     </section>
+
+    <section class="ftco-section">
+        <div class="container">
+            <div class="row justify-content-center mb-5 pb-2">
+                <div class="col-md-8 text-center heading-section ftco-animate">
+                    <p>Secundaria</p>
+                    <h2 class="mb-4"><span>Robó</span>tica</h2>
+                    <p>
+                        Tercer lugar
+                    </p>
+
+                    <img src="/images/logros/robotica.jpg" alt="" class="text-center" width="100%">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="ftco-section">
+        <div class="container">
+            <div class="row justify-content-center mb-5 pb-2">
+                <div class="col-md-8 text-center heading-section ftco-animate">
+                    <img src="/images/logros/bee.jpg" alt="" class="text-center" width="100%">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="ftco-section">
+        <div class="container">
+            <div class="row justify-content-center mb-5 pb-2">
+                <div class="col-md-8 text-center heading-section ftco-animate">
+                    <h2 class="mb-4"><span>Upa</span> Baile</h2>
+                    <p>
+                        Primer lugar
+                    </p>
+
+                    <img src="/images/logros/upa.jpg" alt="" class="text-center" width="100%">
+                </div>
+            </div>
+        </div>
+    </section>
+
 
     <section class="ftco-intro" style="background-image: url(/images/logros/estadio.jpg);" data-stellar-background-ratio="0.5">
         <div class="overlay"></div>
@@ -166,6 +208,36 @@
             <div class="row">
                 <div class="col-md-9">
                     <h2>Porristas</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="ftco-section">
+        <div class="container">
+            <div class="row justify-content-center mb-5 pb-2">
+                <div class="col-md-8 text-center heading-section ftco-animate">
+                    <h2 class="mb-4"><span>ONP</span></h2>
+                    <p>
+                        Campeonas
+                    </p>
+
+                    <img src="/images/logros/camp.jpg" alt="" class="text-center" width="100%">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="ftco-section">
+        <div class="container">
+            <div class="row justify-content-center mb-5 pb-2">
+                <div class="col-md-8 text-center heading-section ftco-animate">
+                    <h2 class="mb-4"><span>ONP</span></h2>
+                    <p>
+                        Subcampeonas
+                    </p>
+
+                    <img src="/images/logros/subcamp.jpg" alt="" class="text-center" width="100%">
                 </div>
             </div>
         </div>
