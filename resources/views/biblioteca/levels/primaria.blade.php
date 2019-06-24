@@ -56,7 +56,7 @@
         <div class="container">
             <div class="row justify-content-center mb-5 pb-2">
                 <div class="col-lg-12 text-justify heading-section ftco-animate">
-                    <h2 class="mb-4"><span>Objetivo</span> Primaria</h2>
+                    <h2 class="mb-4 text-center"><span>Objetivo</span> Primaria</h2>
                     <p>
                         Nuestro principal objetivo es lograr que este importante momento en la vida de nuestros niños, se fortalezca a través de un desarrollo integral y formativo que los ayude a adquirir los hábitos y valores que serán bases importantes a lo largo de su vida, integrando a los padres y docentes como pilares fundamentales de la educación, asumiendo cada uno la participación y formación permanentes que impulsen su desarrollo social para crear en ellos principios que nutran su conciencia y formación, logrando así una experiencia educativa basada en valores y vanguardia académica que les permite lograr su aprendizaje de manera efectiva.
                     </p>
@@ -121,8 +121,6 @@
                     </div>
                 </div>
                 <div class="col-md-7 wrap-about py-5 pr-md-4 ftco-animate">
-                    <h2 class="mb-4">Sistema bilingüe</h2>
-                    <p>(con opción de certificación por la Universidad de Cambridge, 6to grado certificación obligatoria sin costo por la Universidad de San Diego)</p>
                     <h2 class="mb-4">Nuestro programa académico incluye:</h2>
                     <div class="row mt-5">
                         <div class="col-lg-6">
@@ -158,6 +156,10 @@
                             </div>
                         </div>
                     </div>
+
+                    <h2 class="mb-4">Sistema bilingüe</h2>
+                    <p>(con opción de certificación por la Universidad de Cambridge, 6to grado certificación obligatoria sin costo por la Universidad de San Diego)</p>
+
                     <div class="container-wrap">
                         <div class="row no-gutters">
                             <div class="col-md-6 ftco-animate">
@@ -269,41 +271,73 @@
         </div>
     </section>
 
-    <section class="ftco-section ftco-no-pt ftc-no-pb">
+    <section class="ftco-section">
         <div class="container">
-            <div class="row">
-                <div class="col-md-5 order-md-last wrap-about py-5 wrap-about bg-light">
-                    <div class="text px-4 ftco-animate">
-                        <p>
-                            A fin de involucrar a nuestros papitos en esta importante etapa de sus hijos y que ellos se sientan contentos de compartir estas vivencias con ustedes; Se les brinda el espacio donde podrán colaborar en su formación escolar, invitándolos a participar en las siguientes actividades mismas que se llevan a cabo a lo largo del ciclo escolar:
-                        </p>
-                        <p>Acuarela, tejido, música, robótica, Couching... papás todo terreno, futbol para papás, talleres de cocina, tejido y gramática.</p>
-                        <img src="/images/primaria/p32.jpg" alt="" width="100%">
-                    </div>
-                </div>
-                <div class="col-md-7 wrap-about py-5 pr-md-4 ftco-animate">
-                    <div class="container-wrap">
-                        <div class="row no-gutters">
-                            <div class="col-md-6 ftco-animate">
-                                <a href="/images/primaria/p28.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(/images/primaria/p28.jpg);">
-                                    <div class="icon mb-4 d-flex align-items-center justify-content-center">
-                                        <span class="icon-instagram"></span>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="col-md-6 ftco-animate">
-                                <a href="/images/primaria/p31.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(/images/primaria/p31.jpg);">
-                                    <div class="icon mb-4 d-flex align-items-center justify-content-center">
-                                        <span class="icon-instagram"></span>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
+            <div class="row justify-content-center mb-5 pb-2">
+                <div class="col-lg-12 text-justify heading-section ftco-animate">
+                    <h2 class="mb-4 text-center"><span>Objetivo</span> Primaria</h2>
+                    <p>
+                        A fin de involucrar a nuestros papitos en esta importante etapa de sus hijos y que ellos se sientan contentos de compartir estas vivencias con ustedes; Se les brinda el espacio donde podrán colaborar en su formación escolar, invitándolos a participar en las siguientes actividades mismas que se llevan a cabo a lo largo del ciclo escolar:
+                    </p>
+                    <p>Acuarela, tejido, música, robótica, Couching... papás todo terreno, futbol para papás, talleres de cocina, tejido y gramática.</p>
                 </div>
             </div>
         </div>
     </section>
+
+    <!-- p32 p28 p31 -->
+    <section class="ftco-gallery">
+        <div class="container-wrap">
+            <div class="row no-gutters">
+                <div class="col-md-3 ftco-animate">
+                    <a href="/images/primaria/p32.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(/images/primaria/p32.jpg);">
+                        <div class="icon mb-4 d-flex align-items-center justify-content-center">
+                            <span class="icon-instagram"></span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-3 ftco-animate">
+                    <a href="/images/primaria/28.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(/images/primaria/p28.jpg);">
+                        <div class="icon mb-4 d-flex align-items-center justify-content-center">
+                            <span class="icon-instagram"></span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-3 ftco-animate">
+                    <a href="/images/primaria/p31.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(/images/primaria/p31.jpg);">
+                        <div class="icon mb-4 d-flex align-items-center justify-content-center">
+                            <span class="icon-instagram"></span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-3 ftco-animate">
+                    <a href="/images/primaria/lobospapas.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(/images/primaria/lobospapas.jpg);">
+                        <div class="icon mb-4 d-flex align-items-center justify-content-center">
+                            <span class="icon-instagram"></span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-3 ftco-animate">
+
+                </div>
+                <div class="col-md-3 ftco-animate">
+                    <a href="/images/primaria/lobospapas2.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(/images/primaria/lobospapas2.jpg);">
+                        <div class="icon mb-4 d-flex align-items-center justify-content-center">
+                            <span class="icon-instagram"></span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-3 ftco-animate">
+                    <a href="/images/secundaria/padres3.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(/images/secundaria/padres3.jpg);">
+                        <div class="icon mb-4 d-flex align-items-center justify-content-center">
+                            <span class="icon-instagram"></span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
 
     <section class="ftco-intro" style="background-image: url(/images/primaria/p34.jpg);" data-stellar-background-ratio="0.5">
         <div class="overlay"></div>

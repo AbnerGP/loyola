@@ -56,7 +56,7 @@
         <div class="container">
             <div class="row justify-content-center mb-5 pb-2">
                 <div class="col-lg-12 text-justify heading-section ftco-animate">
-                    <h2 class="mb-4"><span>Objetivo</span> Preparatoria</h2>
+                    <h2 class="mb-4 text-center"><span>Objetivo</span> Preparatoria</h2>
                     <p>
                         En esta etapa, nuestros alumnos son guiados por profesores que los acompañan desde sus diferentes especialidades. Aquí encontrarán sus propios desafíos y en último término su propia identidad. En esta etapa conducimos a los jóvenes hacia su autonomía como individuos libres, capaces de tomar decisiones con sentido de responsabilidad, perseverancia, dedicación y compromiso para que puedan situarse en el mundo de forma exitosa como sujetos receptivos y conscientes de la época que les toca vivir.
                     </p>
@@ -95,6 +95,15 @@
                             <span class="icon-instagram"></span>
                         </div>
                     </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="ftco-section ftco-no-pt ftc-no-pb">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 wrap-about py-5 pr-md-4 ftco-animate">
                 </div>
             </div>
         </div>
@@ -198,6 +207,30 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="col-lg-4">
+                            <div class="services-3 d-flex">
+                                <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
+                                <div class="text">
+                                    <h3>Etnobotánica.</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="services-3 d-flex">
+                                <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
+                                <div class="text">
+                                    <h3>Historia del arte.</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="services-3 d-flex">
+                                <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
+                                <div class="text">
+                                    <h3>Taichi.</h3>
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
                     <h2 class="mb-4">Nuestra currícula cuenta con los talleres:</h2>
@@ -222,7 +255,7 @@
                             <div class="services-3 d-flex">
                                 <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
                                 <div class="text">
-                                    <h3>Arte.</h3>
+                                    <h3>Baile.</h3>
                                 </div>
                             </div>
                         </div>
@@ -266,6 +299,23 @@
                 </div>
                 <div class="col-md-3 ftco-animate">
                     <a href="/images/preparatoria/h16.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(/images/preparatoria/h16.jpg);">
+                        <div class="icon mb-4 d-flex align-items-center justify-content-center">
+                            <span class="icon-instagram"></span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-3 ftco-animate">
+
+                </div>
+                <div class="col-md-3 ftco-animate">
+                    <a href="/images/preparatoria/teatro.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(/images/preparatoria/teatro.jpg);">
+                        <div class="icon mb-4 d-flex align-items-center justify-content-center">
+                            <span class="icon-instagram"></span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-3 ftco-animate">
+                    <a href="/images/preparatoria/teatro2.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(/images/preparatoria/teatro2.jpg);">
                         <div class="icon mb-4 d-flex align-items-center justify-content-center">
                             <span class="icon-instagram"></span>
                         </div>
@@ -456,6 +506,232 @@
             </div>
         </div>
     </section>
+
+    <section class="ftco-intro" style="background-image: url(/images/secundaria/s29.jpg);" data-stellar-background-ratio="0.5">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9">
+                    <h2>Instalaciones y servicios</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="ftco-section ftco-no-pt ftc-no-pb">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 wrap-about py-5 pr-md-4 ftco-animate">
+                    <div class="row mt-5">
+                        <div class="col-lg-4">
+                            <div class="services-3 d-flex">
+                                <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
+                                <div class="text">
+                                    <h3>Salones adecuados con multimedia.</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="services-3 d-flex">
+                                <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
+                                <div class="text">
+                                    <h3>Biblioteca.</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="services-3 d-flex">
+                                <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
+                                <div class="text">
+                                    <h3>Centro de cómputo.</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="services-3 d-flex">
+                                <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
+                                <div class="text">
+                                    <h3>Laboratorio.</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="services-3 d-flex">
+                                <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
+                                <div class="text">
+                                    <h3>Área para taller de gastronomía.</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="services-3 d-flex">
+                                <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
+                                <div class="text">
+                                    <h3>Internet inalámbrico.</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="services-3 d-flex">
+                                <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
+                                <div class="text">
+                                    <h3>Mobiliario propicio.</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="services-3 d-flex">
+                                <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
+                                <div class="text">
+                                    <h3>Cafetería.</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="services-3 d-flex">
+                                <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
+                                <div class="text">
+                                    <h3>Estacionamiento.</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="services-3 d-flex">
+                                <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
+                                <div class="text">
+                                    <h3>Alberca.</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="services-3 d-flex">
+                                <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
+                                <div class="text">
+                                    <h3>Amplios jardines.</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="services-3 d-flex">
+                                <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
+                                <div class="text">
+                                    <h3>Cancha de usos múltiples.</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="services-3 d-flex">
+                                <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
+                                <div class="text">
+                                    <h3>Baños adecuados.</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="services-3 d-flex">
+                                <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
+                                <div class="text">
+                                    <h3>Espacios para el recreo y diversión de los alumnos.</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="services-3 d-flex">
+                                <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
+                                <div class="text">
+                                    <h3>Red social académica.</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="services-3 d-flex">
+                                <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
+                                <div class="text">
+                                    <h3>Enfermería.</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="services-3 d-flex">
+                                <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
+                                <div class="text">
+                                    <h3>Auditorio.</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="services-3 d-flex">
+                                <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
+                                <div class="text">
+                                    <h3>Canchas de usos múltiples.</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="services-3 d-flex">
+                                <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
+                                <div class="text">
+                                    <h3>Lockers.</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="ftco-gallery">
+        <div class="container-wrap">
+            <div class="row no-gutters">
+                <div class="col-md-3 ftco-animate">
+                    <a href="/images/secundaria/s27.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(/images/secundaria/s27.jpg);">
+                        <div class="icon mb-4 d-flex align-items-center justify-content-center">
+                            <span class="icon-instagram"></span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-3 ftco-animate">
+                    <a href="/images/secundaria/s28.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(/images/secundaria/s28.jpg);">
+                        <div class="icon mb-4 d-flex align-items-center justify-content-center">
+                            <span class="icon-instagram"></span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-3 ftco-animate">
+                    <a href="/images/secundaria/s29.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(/images/secundaria/s29.jpg);">
+                        <div class="icon mb-4 d-flex align-items-center justify-content-center">
+                            <span class="icon-instagram"></span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-3 ftco-animate">
+                    <a href="/images/secundaria/s31.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(/images/secundaria/s31.jpg);">
+                        <div class="icon mb-4 d-flex align-items-center justify-content-center">
+                            <span class="icon-instagram"></span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-3 ftco-animate">
+                </div>
+                <div class="col-md-3 ftco-animate">
+                    <a href="/images/preparatoria/inst1.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(/images/preparatoria/inst1.jpg);">
+                        <div class="icon mb-4 d-flex align-items-center justify-content-center">
+                            <span class="icon-instagram"></span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-3 ftco-animate">
+                    <a href="/images/preparatoria/inst2.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(/images/preparatoria/inst2.jpg);">
+                        <div class="icon mb-4 d-flex align-items-center justify-content-center">
+                            <span class="icon-instagram"></span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
 
     <section class="ftco-section">
         <div class="container">

@@ -56,7 +56,7 @@
         <div class="container">
             <div class="row justify-content-center mb-5 pb-2">
                 <div class="col-lg-12 text-justify heading-section ftco-animate">
-                    <h2 class="mb-4"><span>Objetivo</span> Secundaria</h2>
+                    <h2 class="mb-4 text-center"><span>Objetivo</span> Secundaria</h2>
                     <p>
                         Aquí el proceso se encamina a fortalecer la individualidad, la capacidad de observación y el desarrollo de un pensamiento analítico. La misión de nuestros docentes se enfoca el progreso del pensamiento individual llevado a cabo desde una expresión madura que conduzca a realizar en nuestros estudiantes acciones responsables, para que a través de ello, forjen su interior, desarrollen su personalidad y se asuman en su independencia de manera responsable.
                     </p>
@@ -93,7 +93,7 @@
                             <div class="services-3 d-flex">
                                 <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
                                 <div class="text">
-                                    <h3>Gastronomía.</h3>
+                                    <h3>Música</h3>
                                 </div>
                             </div>
                         </div>
@@ -101,7 +101,7 @@
                             <div class="services-3 d-flex">
                                 <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
                                 <div class="text">
-                                    <h3>Música.</h3>
+                                    <h3>Dibujo geométrico</h3>
                                 </div>
                             </div>
                         </div>
@@ -109,7 +109,8 @@
                             <div class="services-3 d-flex">
                                 <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
                                 <div class="text">
-                                    <h3>Arte.</h3>
+                                    <h3>Inglés</h3>
+                                    <p>Certificación de Cambridge University.</p>
                                 </div>
                             </div>
                         </div>
@@ -117,10 +118,41 @@
                             <div class="services-3 d-flex">
                                 <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
                                 <div class="text">
-                                    <h3>Dibujo geométrico.</h3>
+                                    <h3>Francés</h3>
+                                    <p>Certificación DELF.</p>
                                 </div>
                             </div>
                         </div>
+                        <div class="col-lg-4">
+                            <div class="services-3 d-flex">
+                                <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
+                                <div class="text">
+                                    <h3>Primer grado</h3>
+                                    <p>Robótica, tejido, barro y música.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="services-3 d-flex">
+                                <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
+                                <div class="text">
+                                    <h3>Segundo grado</h3>
+                                    <p>Barro, dibujo geométrico y robótica.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="services-3 d-flex">
+                                <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="icon-check"></span></div>
+                                <div class="text">
+                                    <h3>Tercer grado</h3>
+                                    <p>Tallado de madera y pintura orgánica.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 text-center">
+                        <p>Todos los grupos llevan Educación Física y Taichi.</p>
                     </div>
                 </div>
             </div>
@@ -168,7 +200,6 @@
             <div class="row">
                 <div class="col-md-9">
                     <h2>Programa académico</h2>
-                    <p class="mb-0">NUESTRO PROGRAMA ACADÉMICO INCLUYE:</p>
                 </div>
             </div>
         </div>
@@ -421,6 +452,8 @@
                             <span class="icon-instagram"></span>
                         </div>
                     </a>
+                </div>
+                <div class="col-md-3 ftco-animate">
                 </div>
                 <div class="col-md-3 ftco-animate">
                     <a href="/images/secundaria/s22.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(/images/secundaria/s22.jpg);">
