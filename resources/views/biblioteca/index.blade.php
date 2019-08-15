@@ -15,7 +15,7 @@
     <div class="container-wrap">
         <div class="row justify-content-center">
             <div class="col-lg-12">
-                <img src="/images/slider-1.jpg" alt="" width="100%">
+                <img src="/images/portada.jpg" alt="" width="100%">
             </div>
         </div>
     </div>

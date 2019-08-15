@@ -34,7 +34,6 @@
                 </div>
                 <div class="col-md-7 wrap-about py-5 pr-md-4 ftco-animate">
                     <h2 class="mb-4">¿Quiénes somos?</h2>
-                    <p>On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word.</p>
                     <div class="row mt-5">
                         <div class="col-lg-12">
                             <div class="services-2 d-flex">
