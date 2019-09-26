@@ -9,7 +9,7 @@
                             <li><span class="icon icon-map-marker"></span><span class="text">Zapote No. 2, Col. Las Palmas, Cuernavaca, Morelos.</span></li>
                             <li><span class="icon icon-phone"></span><span class="text">(777) 318-1359</span></li>
                             <li><span class="icon icon-phone"></span><span class="text">(777) 318-4471</span></li>
-                            <li><span class="icon icon-envelope"></span><span class="text">info@example.com</span></li>
+                            {{--<li><span class="icon icon-envelope"></span><span class="text">info@example.com</span></li>--}}
                         </ul>
                     </div>
                 </div>
@@ -23,7 +23,7 @@
                             <li><span class="icon icon-phone"></span><span class="text">(777) 318-9170</span></li>
                             <li><span class="icon icon-phone"></span><span class="text">(777) 318-5966</span></li>
                             <li><span class="icon icon-phone"></span><span class="text">(777) 318-1317</span></li>
-                            <li><span class="icon icon-envelope"></span><span class="text">info@example.com</span></li>
+                            {{--<li><span class="icon icon-envelope"></span><span class="text">info@example.com</span></li>--}}
                         </ul>
                     </div>
                 </div>
@@ -38,6 +38,7 @@
                         <li><a href="{{ route('site.logros') }}"><span class="ion-ios-arrow-round-forward mr-2"></span>Logros</a></li>
                         <li><a href="{{ route('site.instalaciones') }}"><span class="ion-ios-arrow-round-forward mr-2"></span>Instalaciones</a></li>
                         <li><a href="{{ route('site.contact') }}"><span class="ion-ios-arrow-round-forward mr-2"></span>Contacto</a></li>
+                        <li><a href="{{ url('aviso.pdf') }}" target="_blank"><span class="ion-ios-arrow-round-forward mr-2"></span>Aviso de privacidad</a></li>
                     </ul>
                 </div>
             </div>
