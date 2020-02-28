@@ -16,6 +16,11 @@ class HomeController extends Controller
         return view('biblioteca.index');
     }
 
+    public function wp_redirect()
+    {
+        return redirect()->route('site.index');
+    }
+
     public function about()
     {
         return view('biblioteca.about');

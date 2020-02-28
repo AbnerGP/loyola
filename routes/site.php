@@ -2,6 +2,7 @@
 
 
 Route::get('/', 'HomeController@index')->name('site.index');
+Route::get('/wp', 'HomeController@wp_redirect')->name('wp.redirect');
 Route::get('/quienes-somos', 'HomeController@about')->name('site.about');
 Route::get('/niveles-educativos', 'HomeController@levels')->name('site.levels');
 Route::get('/niveles-educativos/kinder', 'HomeController@kinder')->name('site.levels.kinder');

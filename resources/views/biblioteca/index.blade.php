@@ -129,7 +129,7 @@
                             <span class="position mb-2">High School</span>
                             <div class="faded">
                                 <p>
-                                    En Secundaria, nuestros alumnos aprenden bajo un contexto dinámico y participativo en un ambiente propicio que les permite la expresión libre de sus ideas en un marco de convivencia. Nuestra Clave de Incorporación a la SEP es: 17PES0128Z / 20 de noviembre 2013.
+                                    En Secundaria, nuestros alumnos aprenden bajo un contexto dinámico y participativo en un ambiente propicio que les permite la expresión libre de sus ideas en un marco de convivencia. Nuestra Clave de incorporación a la SEP es: 17PES0128Z / 20 de noviembre 2013.
                                 </p>
                                 <ul class="ftco-social text-center">
                                     <li class="ftco-animate"><a href="{{ route('site.levels.secundaria') }}"><span class="flaticon-reading"></span> Leer más</a></li>
