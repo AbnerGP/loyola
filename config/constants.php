@@ -25,4 +25,13 @@ return [
         'restore-activity',
         'migrate-biblioteca'
     ],
+
+    'levels' => [
+        'cendi' => 'CENDI',
+        'primaria' => 'Primaria',
+        'secundaria' => 'Secundaria',
+        'preparatoria' => 'Preparatoria'
+    ],
+
+    'template_admin' => env('TEMPLATE_ADMIN', null)
 ];

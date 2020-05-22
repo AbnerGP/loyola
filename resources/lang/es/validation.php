@@ -141,6 +141,31 @@ return [
     |
     */
 
-    'attributes' => [],
+    'attributes' => [
+        'name' => 'nombre',
+        'last_name' => 'apellido paterno',
+        'mat_last_name' => 'apellido materno',
+        'type' => 'tipo',
+        'level' => 'nivel educativo',
+        'grade' => 'grado y grupo',
+        'sanguine' => 'grupo sanguíneo',
+        'place_birth' => 'lugar de nacimiento',
+        'birthday' => 'fecha de nacimiento',
+        'age' => 'edad',
+        'street' => 'calle',
+        'number' => 'número',
+        'colony' => 'colonia',
+        'town' => 'municipio',
+        'zip_code' => 'código postal',
+        'origin_school' => 'escuela de procedencia',
+        'f_name' => 'nombre del padre',
+        'f_last_name' => 'apellido paterno',
+        'f_mat_last_name' => 'apellido materno',
+        'f_company' => 'empresa donde labora',
+        'f_position' => 'cargo',
+        'm_name' => 'nombre de la madre',
+        'm_last_name' => 'apellido paterno',
+        'm_mat_last_name' => 'apellido materno'
+    ],
 
 ];

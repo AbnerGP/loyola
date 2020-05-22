@@ -48,7 +48,7 @@
         </button>
         <div class="collapse navbar-collapse" id="ftco-nav">
             <ul class="navbar-nav ml-auto text-center">
-                <li class="nav-item {{ request()->is('/') ? 'active bg-loyola-blue' : '' }}"><a href="{{ route('site.index') }}" class="nav-link">Inicio</a></li>
+                {{--<li class="nav-item {{ request()->is('/') ? 'active bg-loyola-blue' : '' }}"><a href="{{ route('site.index') }}" class="nav-link">Inicio</a></li>--}}
                 <li class="nav-item {{ request()->is('quienes-somos') ? 'text-white bg-loyola-gold' : '' }}"><a href="{{ route('site.about') }}" class="nav-link">¿Quiénes somos?</a></li>
                 <li class="nav-item {{
                 request()->is('niveles-educativos') ? 'bg-loyola-red' :
@@ -63,6 +63,7 @@
                 <li class="nav-item {{ request()->is('logros') ? 'text-white bg-loyola-gold' : '' }}"><a href="{{ route('site.logros') }}" class="nav-link">Logros</a></li>
                 <li class="nav-item {{ request()->is('instalaciones') ? 'text-white bg-loyola-red' : '' }}"><a href="{{ route('site.instalaciones') }}" class="nav-link">Instalaciones</a></li>
                 <li class="nav-item {{ request()->is('contacto') ? 'bg-loyola-yellow' : '' }}"><a href="{{ route('site.contact') }}" class="nav-link">Contacto</a></li>
+                <li class="nav-item {{ request()->is('inscripcion') ? 'active bg-loyola-blue' : '' }}"><a href="{{ route('request.new') }}" class="nav-link">Solicitud de inscripción</a></li>
             </ul>
         </div>
     </div>
@@ -178,7 +179,15 @@
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
 <script src="{{ asset('js/google-map.js') }}"></script>
 <script src="{{ asset('js/main.js') }}"></script>
+<!-- Loader -->
+<script src="https://cdn.jsdelivr.net/npm/gasparesganga-jquery-loading-overlay@2.1.6/dist/loadingoverlay.min.js" rel="stylesheet"></script>
+<script>
+    function overlay(el, action = 'show') {
+        $(el).LoadingOverlay(action);
+    }
+</script>
 
+@yield('js')
 
 </body>
 
