@@ -40,6 +40,7 @@ Route::middleware(['auth'])->group(function () {
         require __DIR__ . '/cms.php';
         require __DIR__ . '/categorias.php';
         require __DIR__ . '/libros.php';
+        require __DIR__ . '/requests.php';
     });
 
 });

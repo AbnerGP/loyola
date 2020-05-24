@@ -28,34 +28,25 @@
                     </div>--}}
 
                     @if(count($requests) > 0)
-                        <table>
+                        <table class="table">
                             <thead>
                             <tr>
                                 <th>Nombre</th>
-                                <th>Descripción</th>
+                                <th>Nivel</th>
+                                <th>Tipo</th>
                                 <th>Acciones</th>
                             </tr>
                             </thead>
                             <tbody>
 
                             @foreach($requests as $request)
-                                <tr id="row_{{ $d->id }}">
-                                    <td><div id="dv_name_{{ $d->id }}">{{ $d->name }}</div></td>
-                                    <td><div id="dv_description_{{ $d->id }}">{{ $d->description }}</div></td>
+                                <tr id="row_{{ $request->id }}">
+                                    <td><div id="dv_name_{{ $request->id }}">{{ $request->full_name() }}</div></td>
+                                    <td><div id="dv_level_{{ $request->id }}">{{ $request->get_level() }}</div></td>
+                                    <td><div id="dv_type_{{ $request->id }}">{{ $request->get_type() }}</div></td>
                                     <td class="center tooltip-demo">
-                                        @can('update', App\Models\DirectAccess::class)
-                                            <button type="button"
-                                                    class="btn btn-sm btn-link text-navy"
-                                                    title="Editar acceso directo"
-                                                    data-toggle="modal" data-target="#modal"
-                                                    onclick="loadModal('{{ $d->name }}', '{{ $d->description }}', '{{ $d->icon }}', '{{ $d->route }}', '{{ $d->url }}', '{{ route('d_access.update', $d) }}')"
-                                            >
-                                                <i class="fa fa-edit"></i>
-                                            </button>
-                                        @endcan
-
-                                        @can('delete', App\Models\DirectAccess::class)
-                                            <button type="button" class="btn btn-link delete-button" data-toggle="tooltip" data-placement="left" title="Eliminar acceso directo" onclick="return ConfirmDelete('{{ $d->id }}', '{{ route('d_access.destroy', $d) }}')"><span class="fa fa-trash text-danger"></span></button>
+                                        @can('delete', App\Models\Request::class)
+                                            <button type="button" class="btn btn-link delete-button" data-toggle="tooltip" data-placement="left" title="Eliminar solicitud" onclick="return ConfirmDelete('{{ $request->id }}', '{{ route('request.destroy', $request) }}')"><span class="fa fa-trash text-danger"></span></button>
                                         @endcan
                                     </td>
                                 </tr>
@@ -72,10 +63,8 @@
                             </tfoot>
                         </table>
                     @else
-                        <p>No se encontró ningún acceso directo.</p>
+                        <p>No se encontró ninguna solicitud.</p>
                     @endif
-
-                    @include('direct_access.modal')
                 </div>
             </div>
         </div>
@@ -106,26 +95,6 @@
                 c.disabled(false);
                 return true;
             }
-        });
-
-        function loadModal(name, description, icon, route, url, r_update) {
-            $('#form').attr('action', r_update);
-            $('#name').val(name);
-            $('#description').val(description);
-            $('#icon').val(icon);
-            $('#route').val(route);
-            $('#url').val(url);
-            $('#method').val('PUT');
-        }
-
-        $('#da_create').on('click', function () {
-            $('#name').val('');
-            $('#description').val('');
-            $('#icon').val('');
-            $('#route').val('');
-            $('#url').val('');
-            $('#form').attr('action', '{{ route('d_access.store') }}');
-            $('#method').val('POST');
         });
     </script>
 @endsection

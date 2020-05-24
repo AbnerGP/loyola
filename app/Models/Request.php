@@ -9,7 +9,7 @@ class Request extends Model
 {
     use LogSave;
 
-    static $permisos = ['update', 'create', 'view', 'delete'];
+    static $permisos = ['view', 'delete'];
     public $fillable = [
         'type', 'date', 'level', 'name', 'last_name', 'mat_last_name', 'curp', 'grade', 'sanguine', 'place_birth',
         'birthday', 'age', 'street', 'number', 'colony', 'town', 'zip_code', 'origin_school', 'f_name', 'f_last_name',
@@ -18,4 +18,23 @@ class Request extends Model
         'm_cellphone', 'm_email', 'o_name', 'o_last_name', 'o_mat_last_name', 'relationship', 'o_office_phone',
         'o_home_phone', 'o_cellphone', 'o_email', 'observations', 'authorization'
     ];
+
+    public function full_name() {
+        return $this->last_name . ' ' . $this->mat_last_name . ' ' . $this->name;
+    }
+
+    public function get_type() {
+        switch ($this->type) {
+            case 1:
+                return 'Inscripción';
+                break;
+            case 2:
+                return 'Reinscripción';
+                break;
+        }
+    }
+
+    public function get_level() {
+        return Config('constants.levels')[$this->level];
+    }
 }

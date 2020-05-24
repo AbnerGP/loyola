@@ -74,6 +74,12 @@
                         </li>
                     @endcan
 
+                    @can('view', App\Models\Request::class)
+                        <li>
+                            <a href="{{ route('request.view') }}"><i class="fa fa-pencil"></i> <span class="nav-label">Solicitudes de inscripción</span></a>
+                        </li>
+                    @endcan
+
                 </ul>
             </div>
         </nav>

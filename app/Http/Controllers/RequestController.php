@@ -7,6 +7,12 @@ use App\Models\Request;
 
 class RequestController extends Controller
 {
+    public function view() {
+        $requests = Request::paginate();
+        $paginate = $requests->render();
+        return view('requests.index', compact('requests', 'paginate'));
+    }
+
     public function new() {
         $levels = Select::create(Config('constants.levels'));
         return view('biblioteca.request', compact('levels'));
@@ -105,5 +111,11 @@ class RequestController extends Controller
         ]);
 
         return ['status' => true, 'message' => 'Solicitud de inscripción registrada con éxito.'];
+    }
+
+    public function delete(Request $request)
+    {
+        $request->delete();
+        return ['success'=>true, 'message'=>'Solicitud eliminada con éxito.'];
     }
 }
