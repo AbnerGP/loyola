@@ -33,7 +33,7 @@ Route::middleware(['auth'])->group(function () {
     Route::put('perfil', 'UserController@mod_perfil')->name('perfil.update');
 
     Route::prefix('admin')->group(function () {
-        Route::get('/', 'HomeController@index')->name('home');
+        Route::get('/', 'HomeController@admin')->name('admin');
         require __DIR__ . '/activity.php';
         require __DIR__ . '/admin.php';
         require __DIR__ . '/usuarios.php';

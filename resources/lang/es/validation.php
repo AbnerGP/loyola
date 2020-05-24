@@ -165,7 +165,12 @@ return [
         'f_position' => 'cargo',
         'm_name' => 'nombre de la madre',
         'm_last_name' => 'apellido paterno',
-        'm_mat_last_name' => 'apellido materno'
+        'm_mat_last_name' => 'apellido materno',
+        'o_name' => 'nombre del familiar',
+        'o_last_name' => 'apellido paterno',
+        'o_mat_last_name' => 'apellido materno',
+        'relationship' => 'parentesco',
+        'observations' => 'observaciones'
     ],
 
 ];

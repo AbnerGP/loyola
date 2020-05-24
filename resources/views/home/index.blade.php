@@ -1,20 +1,12 @@
-@extends('layouts.app')
+@extends('layouts.panel')
 
-@section('title', 'Main page')
+@section('title', 'Inicio')
 
-@section('content')
-    <div class="wrapper wrapper-content animated fadeInRight">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="text-center m-t-lg">
-                            <h1>
-                                Welcome in INSPINIA Laravel Starter Project
-                            </h1>
-                            <small>
-                                It is an application skeleton for a typical web app. You can use it to quickly bootstrap your webapp projects.
-                            </small>
-                        </div>
-                    </div>
-                </div>
-            </div>
+@section('var_content')
+    @if(Session::has('message'))
+        <p class="alert {{ Session::get('alert-class', 'alert-info') }}">{{ Session::get('message') }}</p>
+    @endif
+
+    <h1>Bienvenido</h1>
+    <p>{{ auth()->user()->name }}</p>
 @endsection

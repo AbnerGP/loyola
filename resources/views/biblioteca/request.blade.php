@@ -3,6 +3,8 @@
 @section('title', 'Inicio')
 
 @section('css')
+    <!-- Sweet Alert -->
+    <link href="{{ asset('css/plugins/sweetalert/sweetalert.css') }}" rel="stylesheet">
     <style>
         select option {
             color: black !important;
@@ -15,7 +17,8 @@
             <div class="row justify-content-end">
                 <div class="col-md-6 py-5 px-md-5 bg-dark">
                     <div class="heading-section heading-section-white ftco-animate mb-5">
-                        <h2 class="mb-4">Solicitud de inscripción</h2>
+                        <h4 class="mb-4 text-white text-center">Solicitud de inscripción - reinscripción</h4>
+                        <div class="text-white text-center" id="headertxt"></div>
                         <p class="text-center">Ciclo Escolar 2020 - 2021</p>
                         <p>Por favor, llene los campos solicitados.</p>
                     </div>
@@ -224,20 +227,103 @@
                             </div>
                         </div>
 
-
-
-
-
-
+                        <h5 class="text-white text-center">Nombre y teléfonos de un familiar que pueda tomar decisiones en caso de no contactar a ninguno de ustedes</h5>
 
                         <div class="d-md-flex">
                             <div class="form-group">
-                                <textarea name="" id="" cols="30" rows="2" class="form-control" placeholder="Observaciones de salud, legales y otras que debamos tener conocimiento con relación a su hijo (a)"></textarea>
+                                <input type="text" name="o_name" id="o_name" class="form-control" placeholder="Nombre del familiar" value="{{ old('o_name') }}">
+                                <small id="alert-o_name" class="text-danger alertas"></small>
                             </div>
                         </div>
                         <div class="d-md-flex">
+                            <div class="form-group">
+                                <input type="text" name="o_last_name" id="o_last_name" class="form-control" placeholder="Apellido paterno" value="{{ old('o_last_name') }}">
+                                <small id="alert-o_last_name" class="text-danger alertas"></small>
+                            </div>
                             <div class="form-group ml-md-4">
-                                <input type="submit" value="Enviar solicitud" class="btn btn-secondary py-3 px-4">
+                                <input type="text" name="o_mat_last_name" id="o_mat_last_name" class="form-control" placeholder="Apellido materno" value="{{ old('o_mat_last_name') }}">
+                                <small id="alert-o_mat_last_name" class="text-danger alertas"></small>
+                            </div>
+                        </div>
+                        <div class="d-md-flex">
+                            <div class="form-group">
+                                <input type="text" name="relationship" id="relationship" class="form-control" placeholder="Parentesco" value="{{ old('relationship') }}">
+                                <small id="alert-relationship" class="text-danger alertas"></small>
+                            </div>
+                        </div>
+
+                        <h5 class="text-white text-center">Teléfonos del familiar</h5>
+                        <div class="d-md-flex">
+                            <div class="form-group">
+                                <input type="text" name="o_office_phone" id="o_office_phone" class="form-control" placeholder="Oficina" value="{{ old('o_office_phone') }}">
+                                <small id="alert-o_office_phone" class="text-danger alertas"></small>
+                            </div>
+                            <div class="form-group ml-md-4">
+                                <input type="text" name="o_home_phone" id="o_home_phone" class="form-control" placeholder="Casa" value="{{ old('o_home_phone') }}">
+                                <small id="alert-o_home_phone" class="text-danger alertas"></small>
+                            </div>
+                        </div>
+                        <div class="d-md-flex">
+                            <div class="form-group">
+                                <input type="text" name="o_cellphone" id="o_cellphone" class="form-control" placeholder="Celular" value="{{ old('o_cellphone') }}">
+                                <small id="alert-o_cellphone" class="text-danger alertas"></small>
+                            </div>
+                            <div class="form-group ml-md-4">
+                                <input type="text" name="o_email" id="o_email" class="form-control" placeholder="Correo electrónico" value="{{ old('o_email') }}">
+                                <small id="alert-o_email" class="text-danger alertas"></small>
+                            </div>
+                        </div>
+
+                        <h5 class="text-white text-center">SEGURO DEL ALUMNO POR ACCIDENTES PERSONALES ESCOLARES</h5>
+                        <p class="text-white text-justify">
+                            Los Padres de Familia solicitan para su hijo o hija, el Seguro de Accidentes Personales escolares vigente durante
+                            el ciclo oficial escolar 2020-2021 con un costo de $450.00 (cuatrocientos cincuenta pesos 00/100 M.N.). Cobertura
+                            por evento de hasta $100,000.00 (cien mil pesos 00/100 M.N.). Los padres de familia se hacen responsables del
+                            pago de los gastos que excedan la cantidad que ampara el Seguro. El Seguro es imprescindible para todos sin
+                            excepción y cubierto en su importe al momento de la Inscripción. En un caso específico, el valor de los
+                            medicamentos será recuperable por reembolso. A solicitud del Padre de Familia la Institución orientará la gestión
+                            del reembolso.
+                        </p>
+
+                        <div class="d-md-flex">
+                            <div class="form-group">
+                                <textarea name="observations" id="observations" cols="30" rows="2" class="form-control" placeholder="Observaciones de salud, legales y otras que debamos tener conocimiento con relación a su hijo (a)">{{ old('observations') }}</textarea>
+                                <small id="alert-observations" class="text-danger alertas"></small>
+                            </div>
+                        </div>
+
+                        <p class="text-white text-justify">
+                            En caso de emergencia y no localizar a los Padres de Familia, ni a la persona autorizada por los mismos, autorizan
+                            el traslado del alumno (a) a un hospital acompañado de personal de la Institución.
+                        </p>
+
+                        <div class="d-md-flex text-center">
+                            <div class="form-control">
+                                <input class="form-check-input" type="radio" name="authorization" id="yes" value="1">
+                                <label class="form-check-label" for="yes">
+                                    SÍ
+                                </label>
+                                <small id="alert-type" class="text-danger alertas"></small>
+                            </div>
+                            <div class="form-control">
+                                <input class="form-check-input" type="radio" name="authorization" id="no" value="2">
+                                <label class="form-check-label" for="no">
+                                    NO
+                                </label>
+                            </div>
+                            <small id="alert-authorization" class="text-danger alertas"></small>
+                        </div>
+
+                        <p class="text-white text-justify">
+                            Los Padres de Familia al no cubrir en tiempo y forma el costo total del Seguro de Accidentes Personales Escolares
+                            del Colegio, aceptan y se hacen responsables del costo de los medicamentos, gastos médicos, estudios y gastos
+                            hospitalarios que se generen en caso de un accidente personal escolar, de su hijo (a), liberando de toda
+                            responsabilidad a la Institución.
+                        </p>
+
+                        <div class="d-md-flex">
+                            <div class="form-group ml-md-4">
+                                <input type="submit" value="Acepto. Enviar solicitud" class="btn btn-secondary py-3 px-4">
                             </div>
                         </div>
                     </form>
@@ -268,8 +354,26 @@
                 $.each(r.errors, function (k, v) {
                     $('#alert-' + k).html(v);
                 });
+                swal({
+                    title: 'Error de validación',
+                    text: 'Algunos campos son obligatorios, favor de revisar.',
+                    type: 'error'
+                });
                 c.disabled(false);
                 return true;
+            }
+        });
+
+        $('#level').on('change', function () {
+            switch($('#level').val()) {
+                case 'cendi': $('#headertxt').html('<h2>CENDI LOYOLA</h2><p>Incorporación SEP 17PDI0394R MATERNAL</p><p>Incorporación SEP 17PJN0007E PREESCOLAR</p>');
+                break;
+                case 'primaria': $('#headertxt').html('<h2>PRIMARIA LOYOLA</h2><p>Incorporación SEP 17PPR0191I</p>');
+                break;
+                case 'secundaria': $('#headertxt').html('<h2>SECUNDARIA LOYOLA</h2><p>Incorporación SEP 17PESO128Z</p>');
+                break;
+                case 'preparatoria': $('#headertxt').html('<h2>PREPARATORIA LOYOLA</h2><p>Incorporación UAEM 73/LXII/12.P</p>');
+                break;
             }
         });
     </script>

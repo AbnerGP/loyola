@@ -73,6 +73,7 @@ class CreateRequestTable extends Migration
             $table->string('o_office_phone')->nullable();
             $table->string('o_home_phone')->nullable();
             $table->string('o_cellphone')->nullable();
+            $table->string('o_email')->nullable();
 
             $table->longText('observations');
             /*
