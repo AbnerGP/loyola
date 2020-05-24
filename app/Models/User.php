@@ -5,7 +5,6 @@ namespace App\Models;
 use App\Http\Traits\LogSave;
 use App\Notifications\ResetPasswordNotification;
 use Bouncer;
-use Illuminate\Database\Eloquent\SoftDeletes;
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Silber\Bouncer\Database\HasRolesAndAbilities;
@@ -15,8 +14,9 @@ class User extends Authenticatable
     use Notifiable, HasRolesAndAbilities, LogSave;
 
     static $permisos = ['update', 'create', 'view', 'delete'];
-
-    protected $dates = ['deleted_at'];
+    static public $allRelations = [
+        'categorias',
+    ];
 
     /**
      * The attributes that are mass assignable.
@@ -24,12 +24,10 @@ class User extends Authenticatable
      * @var array
      */
     protected $fillable = [
-        'name', 'username', 'email', 'comentarios', 'password',
+        'name', 'username', 'email', 'comentarios', 'password', 'active'
     ];
 
-    protected $allRelations = [
-        'categorias',
-    ];
+
 
     /**
      * The attributes that should be hidden for arrays.
@@ -53,6 +51,23 @@ class User extends Authenticatable
     public function categorias()
     {
         return $this->hasMany(Categoria::class);
+    }
+
+    public function abortIfSuperadmin()
+    {
+        if($this->isSuperadmin())
+            abort(403);
+    }
+
+    public function abortIfNotSuperadmin()
+    {
+        if(!$this->isSuperadmin())
+            abort(403);
+    }
+
+    public function getRoleName()
+    {
+        return $this->roles()->first()->name;
     }
 
     /**

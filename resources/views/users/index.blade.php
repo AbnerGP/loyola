@@ -7,121 +7,130 @@
 @section('title', 'Usuarios')
 
 @section('extra_css')
-    <link href="{{ asset('css/plugins/footable/footable.core.css') }}" rel="stylesheet">
+    <!-- Sweet Alert -->
+    <link href="{{ asset('css/plugins/sweetalert/sweetalert.css') }}" rel="stylesheet">
 @endsection
 
 @section('var_content')
-    <div class="row">
+    <div class="row" id="users_content">
         <div class="col-lg-12">
-            @if(Session::has('message'))
-                <p class="alert {{ Session::get('alert-class', 'alert-info') }}">{{ Session::get('message') }}</p>
-            @endif
-            <div class="ibox">
+            <div class="ibox ">
                 <div class="ibox-title">
                     <h5>Listado de usuarios</h5>
                 </div>
                 <div class="ibox-content">
-                    {{--<input type="text" class="form-control form-control-sm m-b-xs" id="filter"
-                           placeholder="Buscar...">--}}
                     <div class="float-right">
                         @can('create', App\Models\User::class)
-                            <input type="button" class="btn btn-primary" value="Crear usuario" onclick="location.href='{{ route('usuarios.create') }}'">
+                            <input type="button" class="btn btn-primary" value="Crear usuario" onclick="location.href='{{ route('users.create') }}'">
                         @endcan
                     </div>
 
-                    <table class="footable table table-stripped" data-filter=#filter>
+                    <table class="table">
                         <thead>
                         <tr>
-                            <th>#</th>
-                            <th>Nombre</th>
-                            <th>Usuario</th>
-                            <th data-hide="phone,tablet">E-mail</th>
-                            <th>Rol</th>
-                            <th data-hide="phone,tablet">Acciones</th>
+                            <th>
+                                <i class="fa fa-database fa-fw" aria-hidden="true"></i>
+                                #
+                            </th>
+                            <th>
+                                <i class="fa fa-address-card fa-fw" aria-hidden="true"></i>
+                                Nombre
+                            </th>
+                            <th>
+                                <i class="fa fa-user-circle fa-fw" aria-hidden="true"></i>
+                                Usuario
+                            </th>
+                            <th data-hide="phone,tablet">
+                                <i class="fa fa-envelope fa-fw" aria-hidden="true"></i>
+                                E-mail
+                            </th>
+                            <th>
+                                <i class="fa fa-pied-piper-alt fa-fw" aria-hidden="true"></i>
+                                Rol
+                            </th>
+                            <th>
+                                <i class="fa fa-lock fa-fw" aria-hidden="true"></i>
+                                Estado
+                            </th>
+                            <th data-hide="phone,tablet">
+                                <i class="fa fa-gears fa-fw" aria-hidden="true"></i>
+                                Acciones
+                            </th>
                         </tr>
                         </thead>
                         <tbody>
 
                         @foreach($users as $user)
-                            <tr id="show_{{ $user->id }}">
+                            <tr id="row_{{ $user->id }}">
                                 <th>{{ $user->id }}</th>
-                                <td><div id="dv_name_{{ $user->id }}">{{ $user->name }}</div></td>
-                                <td><div id="dv_username_{{ $user->id }}">{{ $user->username }}</div></td>
-                                <td><div id="dv_email_{{ $user->id }}">{{ $user->email }}</div></td>
-                                <td class="center"><div id="dv_role_{{ $user->id }}">{{ $user->roles()->first()->title }}</div></td>
+                                <td>
+                                    <div id="dv_name_{{ $user->id }}">{{ $user->name }}</div>
+                                </td>
+                                <td>
+                                    <div id="dv_username_{{ $user->id }}">{{ $user->username }}</div>
+                                </td>
+                                <td>
+                                    <div id="dv_email_{{ $user->id }}">{{ $user->email }}</div>
+                                </td>
                                 <td class="center">
+                                    <div id="dv_role_{{ $user->id }}">{{ $user->roles()->first()->title }}</div>
+                                </td>
+                                <td>
+                                    <div id="active_{{ $user->id }}" class="text-center
+                                    @if($user->active == 1) bg-primary @else bg-danger @endif p-xs b-r-xl">
+                                        @if($user->active == 1) Activo @else Inactivo @endif
+                                    </div>
+                                </td>
+                                <td class="center tooltip-demo">
                                     @if($user->roles()->first()->name == 'superadmin')
-                                        @if(auth()->user()->isSuperadmin())
-                                            <a href="javascript: mostrar('{{ $user->id }}')" ><span class="fa fa-pencil text-navy"></span></a>
+                                        @if(currentUser()->isSuperadmin())
+                                            @if($user->id != currentUser()->id)
+                                                <button type="button"
+                                                        class="btn btn-link"
+                                                        data-toggle="modal" data-target="#editUser"
+                                                        onclick="loadModalEdit('{{ $user->name }}', '{{ $user->username }}', '{{ $user->email }}', '{{ $user->comentarios }}', '{{ $user->roles()->first()->id }}', '{{ route('users.update', $user) }}')"
+                                                >
+                                                    <i class="fa fa-pencil text-navy" data-toggle="tooltip" data-placement="left" title="Editar Usuario"></i>
+                                                </button>
+                                            @endif
                                         @endif
                                     @else
-                                        <form action="{{ route('usuarios.destroy', $user) }}" method="POST" id="form_delete_{{ $user->id }}">
-                                            {{ csrf_field() }}
-                                            {{ method_field('DELETE') }}
-                                            @can('update', App\Models\User::class)
-                                                <a href="javascript: mostrar('{{ $user->id }}')" ><span class="fa fa-pencil text-navy"></span></a>
-                                            @endcan
+                                        @can('update', App\Models\User::class)
+                                            <button type="button"
+                                                    class="btn btn-link"
+                                                    data-toggle="modal" data-target="#editUser"
+                                                    onclick="loadModalEdit('{{ $user->name }}', '{{ $user->username }}', '{{ $user->email }}', '{{ $user->comentarios }}', '{{ $user->roles()->first()->id }}', '{{ route('users.update', $user) }}')"
+                                            >
+                                                <i class="fa fa-pencil text-navy" data-toggle="tooltip" data-placement="left" title="Editar Usuario"></i>
+                                            </button>
 
-                                            @can('delete', App\Models\User::class)
-                                                @if(auth()->user()->id != $user->id)
-                                                    <button type="button" class="btn btn-link delete-button" onclick="eliminar({{ $user->id }})"><span class="fa fa-trash text-danger"></span></button>
-                                                @endif
-                                            @endcan
-                                        </form>
+                                            <a href="javascript: change_status('{{ $user->id }}', '{{ route('users.status', $user) }}')" data-toggle="tooltip" data-placement="left"
+                                               title="Desactivar Usuario" id="disable_{{ $user->id }}" style="@if($user->active == 1) display: inline @else display: none @endif">
+                                                <span class="fa fa-ban text-warning"></span>
+                                            </a>
+
+                                            <a href="javascript: change_status('{{ $user->id }}', '{{ route('users.status', $user) }}')" data-toggle="tooltip" data-placement="left"
+                                               title="Activar Usuario" id="enable_{{ $user->id }}" style="@if($user->active == 1) display: none @else display: inline @endif">
+                                                <span class="fa fa-check text-navy"></span>
+                                            </a>
+
+                                            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#modal_password" onclick="loadModal('{{ $user->username }}', '{{ route('users.password', $user) }}')">
+                                                <span class="fa fa-keyboard-o text-primary" data-toggle="tooltip" data-placement="left" title="Cambiar contraseña"></span>
+                                            </button>
+                                        @endcan
+
+                                        @can('delete', App\Models\User::class)
+                                            @if(currentUser()->id != $user->id)
+                                                <button type="button" class="btn btn-link delete-button" data-toggle="tooltip" data-placement="left" title="Eliminar Usuario" onclick="return ConfirmDelete('{{ $user->id }}', '{{ route('users.destroy', $user) }}')"><span class="fa fa-trash text-danger"></span></button>
+                                            @endif
+                                        @endcan
                                     @endif
                                 </td>
-                            </tr>
-
-                            <tr style="display: none;" id="edit_{{ $user->id }}">
-                                <th scope="row">{{ $user->id }}</th>
-                                <td>
-                                    <input id="name_{{ $user->id }}" type="text" class="form-control" value="{{ $user->name }}">
-                                    <p class="text-danger alertas" id="alert_name_{{ $user->id }}"></p>
-                                </td>
-                                <td>
-                                    <input id="username_{{ $user->id }}" type="text" class="form-control" value="{{ $user->username }}">
-                                    <p class="text-danger alertas" id="alert_username_{{ $user->id }}"></p>
-                                </td>
-                                <td>
-                                    <input id="email_{{ $user->id }}" type="text" class="form-control" value="{{ $user->email }}">
-                                    <p class="text-danger alertas" id="alert_email_{{ $user->id }}"></p>
-                                </td>
-                                <td>
-                                    @if($user->roles()->first()->name == 'superadmin' && ($user->id == auth()->user()->id))
-                                        {{ $user->roles()->first()->title }}
-                                        <input type="hidden" id="role_id_{{ $user->id }}" value="{{ $user->roles()->first()->id }}">
-                                    @else
-                                        <select id="role_id_{{ $user->id }}" class="form-control">
-                                            {!! $select[$user->id] !!}
-                                        </select>
-                                    @endif
-                                        <p class="text-danger alertas" id="alert_role_{{ $user->id }}"></p>
-                                </td>
-                                <td></td>
-                            </tr>
-                            <tr style="display: none;" id="edit2_{{ $user->id }}">
-                                <td><strong>Comentarios:</strong></td>
-                                <td colspan="4">
-                                    <textarea id="comentarios_{{ $user->id }}" class="form-control">{{ $user->comentarios }}</textarea>
-                                </td>
-                                <td>
-                                    @if($user->roles()->first()->name == 'superadmin')
-                                        @if(auth()->user()->isSuperadmin())
-                                            <input type="button" onclick="javascript: guardar('{{ $user->id }}', '{{ route('usuarios.update', $user) }}')" class="btn btn-success" id="guardar_{{ $user->id }}" value="Guardar">
-                                            <input type="button" onclick="javascript: cancelar('{{ $user->id }}')" class="btn btn-danger" id="cancelar_{{ $user->id }}" value="Cancelar">
-                                        @endif
-                                    @else
-                                        <input type="button" onclick="javascript: guardar('{{ $user->id }}', '{{ route('usuarios.update', $user) }}')" class="btn btn-success" id="guardar_{{ $user->id }}" value="Guardar">
-                                        <input type="button" onclick="javascript: cancelar('{{ $user->id }}')" class="btn btn-danger" id="cancelar_{{ $user->id }}" value="Cancelar">
-                                    @endif
-                                </td>
-
                             </tr>
                         @endforeach
                         </tbody>
                         <tfoot>
                         <tr>
-
                             <td colspan="6">
                                 {!! $paginate !!}
                                 <ul class="pagination float-right"></ul>
@@ -130,7 +139,8 @@
                         </tfoot>
                     </table>
 
-
+                    @include('users.modal_password')
+                    @include('users.modal_edit')
                 </div>
             </div>
         </div>
@@ -138,97 +148,119 @@
 @endsection
 
 @section('extra_js')
-    <script src="{{ asset('js/plugins/footable/footable.all.min.js') }}"></script>
+    <!-- Sweet alert -->
+    <script src="{{ asset('js/plugins/sweetalert/sweetalert.min.js') }}"></script>
+
+    @include('fragments.ajaxformv4')
 
     <script>
-        function eliminar(id) {
-            if(confirm('¿Estás seguro?')){
-                $('#form_delete_' + id).submit();
+        var content = '#users_content';
+
+        ajaxform.ready('#form_user', {
+            function_error: function(data, context) {
+                $('.alertas').text('');
+                $.each(data.errors, function(key, value) {
+                    $('#alert-'+key).text(value);
+                });
+                context.disabled(false);
+                return true;
+            },
+            function_success: function(data, context) {
+                if(data.status === true) {
+                    swal({
+                        title: 'Hecho',
+                        text: data.message,
+                        type: 'success'
+                    }, function () {
+                        overlay(content);
+                        location.reload();
+                    });
+                } else {
+                    alert('entraa');
+                }
+            },
+            function_pre: function () {
+                $('.alertas').text('');
             }
+        });
+
+        ajaxform.ready('#form_password', {
+            function_error: function(data, context) {
+                $('.alertas').text('');
+                $.each(data.errors, function(key, value) {
+                    $('#alert-'+key).text(value);
+                });
+                context.disabled(false);
+                return true;
+            },
+            function_success: function(data, context) {
+                if(data.status === true) {
+                    swal({
+                        title: 'Hecho',
+                        text: data.message,
+                        type: 'success'
+                    }, function () {
+                        overlay(content);
+                        location.reload();
+                    });
+                } else {
+                    alert('entraa');
+                }
+            },
+            function_pre: function () {
+                $('.alertas').text('');
+            }
+        });
+
+        function loadModalEdit(name, username, email, comments, role, route) {
+            $('#form_user').attr('action', route);
+            $('#name').val(name);
+            $('#username').val(username);
+            $('#email').val(email);
+            $('#comments').val(comments);
+            $('#role').val(role);
         }
-    </script>
 
-    <script>
-        function mostrar(id) {
-            habilitar(id);
-            $('#edit_'+id).show();
-            $('#edit2_'+id).show();
-            $('#show_'+id).hide();
+        function loadModal(username, route) {
+            $('#form_password').attr('action', route);
+            $('#modal_title').html('Usuario ' + username);
+            $('#password').val('');
+            $('#password_confirmation').val('');
         }
 
-        function cancelar(id) {
-            $('#show_'+id).show();
-            $('#edit_'+id).hide();
-            $('#edit2_'+id).hide();
-        }
-
-        function habilitar(id){
-            //$('input, select').attr('disabled', false);
-            $('#guardar_'+id).prop('disabled', false);
-            $('#cancelar_'+id).prop('disabled', false);
-            $('#name_'+id).prop('disabled', false);
-            $('#username_'+id).prop('disabled', false);
-            $('#email_'+id).prop('disabled', false);
-            $('#comentarios_'+id).prop('disabled', false);
-            $('#role_id_'+id).prop('disabled', false);
-        }
-
-        function inhabilitar(id){
-            //$('input, select').attr('disabled', true);
-            $('#guardar_'+id).prop('disabled', true);
-            $('#cancelar_'+id).prop('disabled', true);
-            $('#name_'+id).prop('disabled', true);
-            $('#username_'+id).prop('disabled', true);
-            $('#email_'+id).prop('disabled', true);
-            $('#comentarios_'+id).prop('disabled', true);
-            $('#role_id_'+id).prop('disabled', true);
-        }
-
-        function guardar(id, route) {
-            inhabilitar(id);
-
-            var name = $('#name_'+id).val();
-            var username = $('#username_'+id).val();
-            var email = $('#email_'+id).val();
-            var comentarios = $('#comentarios_'+id).val();
-            var role_id = $('#role_id_'+id).val();
-
+        function change_status(id, route) {
+            overlay(content);
             $.ajax({
                 headers: {
                     'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
                 },
                 method: "PUT",
                 url: route,
-                data: {
-                    id: id,
-                    name: name,
-                    username: username,
-                    email: email,
-                    comentarios: comentarios,
-                    role: role_id
-                },
                 success:function(data){
-                    $('.alertas').text('');
-                    if(data.cambioRol)
-                        location.reload();
-                    else{
-                        $('#dv_name_'+id).text(name);
-                        $('#dv_username_'+id).text(username);
-                        $('#dv_email_'+id).text(email);
-                        $('#dv_comentarios_'+id).text(comentarios);
-                        $('#dv_role_'+id).text(data['role']);
-                        cancelar(id);
+                    if(data.success) {
+                        overlay(content, 'hide');
+                        if (data.active == 1) {
+                            $('#active_' + id).html('Activo');
+                            $('#active_' + id).removeClass('bg-danger');
+                            $('#active_' + id).addClass('bg-primary');
+                            $('#disable_' + id).show();
+                            $('#enable_' + id).hide();
+                        } else {
+                            $('#active_' + id).html('Inactivo');
+                            $('#active_' + id).removeClass('bg-primary');
+                            $('#active_' + id).addClass('bg-danger');
+                            $('#disable_' + id).hide();
+                            $('#enable_' + id).show();
+                        }
+                    }else{
+                        overlay(content, 'hide');
+                        console.log('Error');
                     }
                 },
                 error:function(data, context){
-                    $('.alertas').text('');
-                    $.each(data.responseJSON.errors, function(key, value) {
-                        $('#alert_'+key+'_'+id).text(value);
-                    });
-                    habilitar(id);
+                    console.log('Error');
                 }
             });
         }
-
     </script>
 @endsection

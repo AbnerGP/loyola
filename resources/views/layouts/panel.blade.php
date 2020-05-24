@@ -30,7 +30,7 @@
 
                     @can('view', App\Models\User::class)
                         <li>
-                            <a href="{{ route('usuarios.view') }}"><i class="fa fa-user"></i> <span class="nav-label">Usuarios</span></a>
+                            <a href="{{ route('users.view') }}"><i class="fa fa-user"></i> <span class="nav-label">Usuarios</span></a>
                         </li>
                     @endcan
                     @can('view', App\Models\Role::class)
@@ -125,6 +125,14 @@
     <script src="{{ asset('js/plugins/flot/jquery.flot.pie.js') }}"></script>
     <script src="{{ asset('js/plugins/flot/jquery.flot.symbol.js') }}"></script>
     <script src="{{ asset('js/plugins/flot/jquery.flot.time.js') }}"></script>
+
+    <!-- Loader -->
+    <script src="https://cdn.jsdelivr.net/npm/gasparesganga-jquery-loading-overlay@2.1.6/dist/loadingoverlay.min.js" rel="stylesheet"></script>
+    <script>
+        function overlay(el, action = 'show') {
+            $(el).LoadingOverlay(action);
+        }
+    </script>
 
     @yield('extra_js')
 
