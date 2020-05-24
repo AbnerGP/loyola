@@ -49,7 +49,7 @@
                                 <small id="alert-level" class="text-danger alertas"></small>
                             </div>
                             <div class="form-group ml-md-4">
-                                <input type="text" name="name" id="name" class="form-control" placeholder="Nombre del alumno" value="{{ old('name') }}">
+                                <input type="text" name="name" id="name" class="form-control" placeholder="Nombre(s) del alumno" value="{{ old('name') }}">
                                 <small id="alert-name" class="text-danger alertas"></small>
                             </div>
                         </div>
@@ -131,7 +131,7 @@
                         <h5 class="text-white text-center">DATOS DE LOS PADRES</h5>
                         <div class="d-md-flex">
                             <div class="form-group">
-                                <input type="text" name="f_name" id="f_name" class="form-control" placeholder="Nombre del padre" value="{{ old('f_name') }}">
+                                <input type="text" name="f_name" id="f_name" class="form-control" placeholder="Nombre(s) del padre" value="{{ old('f_name') }}">
                                 <small id="alert-f_name" class="text-danger alertas"></small>
                             </div>
                         </div>
@@ -180,7 +180,7 @@
 
                         <div class="d-md-flex">
                             <div class="form-group">
-                                <input type="text" name="m_name" id="m_name" class="form-control" placeholder="Nombre de la madre" value="{{ old('m_name') }}">
+                                <input type="text" name="m_name" id="m_name" class="form-control" placeholder="Nombre(s) de la madre" value="{{ old('m_name') }}">
                                 <small id="alert-m_name" class="text-danger alertas"></small>
                             </div>
                         </div>
@@ -231,7 +231,7 @@
 
                         <div class="d-md-flex">
                             <div class="form-group">
-                                <input type="text" name="o_name" id="o_name" class="form-control" placeholder="Nombre del familiar" value="{{ old('o_name') }}">
+                                <input type="text" name="o_name" id="o_name" class="form-control" placeholder="Nombre(s) del familiar" value="{{ old('o_name') }}">
                                 <small id="alert-o_name" class="text-danger alertas"></small>
                             </div>
                         </div>
@@ -346,9 +346,19 @@
             function_pre: function () {
                 $('.alertas').html('');
             },
-            function_success: function (r, c) {
-                window.location.reload();
-                return true;
+            function_success: function (data, c) {
+                if(data.status === true) {
+                    swal({
+                        title: 'Hecho',
+                        text: data.message,
+                        type: 'success'
+                    }, function () {
+                        overlay('#form');
+                        location.reload();
+                    });
+                } else {
+                    alert('entraa');
+                }
             },
             function_error: function (r, c) {
                 $.each(r.errors, function (k, v) {
