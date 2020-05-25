@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Objects\Select;
 use App\Models\Request;
+use Barryvdh\DomPDF\Facade as PDF;
 
 class RequestController extends Controller
 {
@@ -117,5 +118,13 @@ class RequestController extends Controller
     {
         $request->delete();
         return ['success'=>true, 'message'=>'Solicitud eliminada con éxito.'];
+    }
+
+    public function pdf(Request $request)
+    {
+        $pdf = PDF::loadView('requests.pdf', compact('request'))->setPaper('legal');
+        //$pdf->set_option('isHtml5ParserEnabled', true);
+        return $pdf->download('cendi.pdf');
+        return view('requests.pdf', compact('request'));
     }
 }

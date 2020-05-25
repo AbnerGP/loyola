@@ -75,7 +75,7 @@ class CreateRequestTable extends Migration
             $table->string('o_cellphone')->nullable();
             $table->string('o_email')->nullable();
 
-            $table->longText('observations');
+            $table->string('observations', 255);
             /*
              * authorization
              * 1 = si

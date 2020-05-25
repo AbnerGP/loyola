@@ -31,6 +31,7 @@
                         <table class="table">
                             <thead>
                             <tr>
+                                <th>Id</th>
                                 <th>Nombre</th>
                                 <th>Nivel</th>
                                 <th>Tipo</th>
@@ -41,6 +42,7 @@
 
                             @foreach($requests as $request)
                                 <tr id="row_{{ $request->id }}">
+                                    <td>{{ $request->id }}</td>
                                     <td><div id="dv_name_{{ $request->id }}">{{ $request->full_name() }}</div></td>
                                     <td><div id="dv_level_{{ $request->id }}">{{ $request->get_level() }}</div></td>
                                     <td><div id="dv_type_{{ $request->id }}">{{ $request->get_type() }}</div></td>
