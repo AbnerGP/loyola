@@ -344,6 +344,7 @@
 
         ajaxform.ready('#form', {
             function_pre: function () {
+                console.log(location.protocol + "//" + location.host);
                 $('.alertas').html('');
             },
             function_success: function (data, c) {
@@ -354,7 +355,10 @@
                         type: 'success'
                     }, function () {
                         overlay('#form');
-                        location.reload();
+                        window.location.href = location.protocol + "//" + location.host + "/pdf/" + data.request;
+                        overlay('#form', 'hide');
+                        $('#form').find("input[type=text], textarea, select, input[type=radio], input[type=date]").val("");
+                        $('#form').find("input[type=radio]").prop("checked", false);
                     });
                 } else {
                     alert('entraa');

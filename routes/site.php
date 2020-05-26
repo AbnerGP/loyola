@@ -21,5 +21,6 @@ Route::get('/libro/{id}/{name}', 'BibliotecaController@ViewLibro')->name('libro.
 
 Route::get('/inscripcion', 'RequestController@new')->name('request.new');
 Route::post('/inscripcion', 'RequestController@store')->name('request.store');
+Route::get('/pdf/{request}', 'RequestController@pdf')->name('request.download');
 
 Route::get('{slug}', 'BibliotecaController@page');

@@ -65,7 +65,7 @@ class RequestController extends Controller
     public function store() {
         request()->validate($this->postValidator());
 
-        Request::create([
+        $request = Request::create([
             'date' => date('Y-m-d'),
             'type' => request('type'),
             'level' => request('level'),
@@ -111,7 +111,7 @@ class RequestController extends Controller
             'authorization' => request('authorization')
         ]);
 
-        return ['status' => true, 'message' => 'Solicitud de inscripción registrada con éxito.'];
+        return ['status' => true, 'message' => 'Solicitud de inscripción registrada con éxito.', 'request' => $request->id];
     }
 
     public function delete(Request $request)
