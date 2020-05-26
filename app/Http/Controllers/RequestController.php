@@ -57,7 +57,7 @@ class RequestController extends Controller
             'o_office_phone' => 'required_without_all:o_home_phone,o_cellphone',
             'o_home_phone' => 'required_without_all:o_office_phone,o_cellphone',
             'o_cellphone' => 'required_without_all:o_office_phone,o_home_phone',
-            'observations' => 'required',
+            'observations' => 'required|max:255',
             'authorization' => 'required'
         ];
     }
