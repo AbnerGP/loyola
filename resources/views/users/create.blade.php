@@ -4,7 +4,7 @@
 
 @section('extra_css')
     <!-- Sweet Alert -->
-    <link href="{{ templateRoute('css/plugins/sweetalert/sweetalert.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/plugins/sweetalert/sweetalert.css') }}" rel="stylesheet">
 @endsection
 
 @section('var_content')
@@ -78,7 +78,7 @@
 
 @section('extra_js')
     <!-- Sweet alert -->
-    <script src="{{ templateRoute('js/plugins/sweetalert/sweetalert.min.js') }}"></script>
+    <script src="{{ asset('js/plugins/sweetalert/sweetalert.min.js') }}"></script>
 
     @include('fragments.ajaxformv4')
     <script>
