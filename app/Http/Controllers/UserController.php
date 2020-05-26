@@ -40,7 +40,7 @@ class UserController extends Controller
     {
         $user = new User;
         $roles = Role::all();
-        return tView('users.create', compact('user', 'roles'));
+        return view('users.create', compact('user', 'roles'));
     }
 
     /**
@@ -79,7 +79,7 @@ class UserController extends Controller
     public function edit_perfil()
     {
         $user = currentUser();
-        return tView('users.perfil', compact('user'));
+        return view('users.perfil', compact('user'));
     }
 
     /**
