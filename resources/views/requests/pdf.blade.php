@@ -20,222 +20,198 @@
             position: absolute;
         }
         .form_date {
-            top: 111px;
-            left: 650px;
+            {{ $r->p('date') }}
         }
         .inscription {
-            top: 268px;
-            left: 395px;
+            {{ $r->p('inscription') }}
         }
         .reinscription {
-            top: 268px;
-            left: 596px;
+            {{ $r->p('reinscription') }}
         }
         .form_name {
-            top: 296px;
-            left: 140px;
+            {{ $r->p('name') }}
         }
         .form_last_name {
-            top: 296px;
-            left: 365px;
+            {{ $r->p('last_name') }}
         }
         .form_mat_last_name {
-            top: 296px;
-            left: 580px;
+            {{ $r->p('mat_last_name') }}
         }
         .form_curp {
-            top: 335px;
-            left: 120px;
+            {{ $r->p('curp') }}
         }
         .form_grade {
-            top: 335px;
-            left: 440px;
+            {{ $r->p('grade') }}
         }
         .form_sanguine {
-            top: 335px;
-            left: 630px;
+            {{ $r->p('sanguine') }}
         }
         .form_place_birth {
-            top: 377px;
-            left: 198px;
+            {{ $r->p('place_birth') }}
         }
         .form_birthday {
-            top: 377px;
-            left: 505px;
+            {{ $r->p('birthday') }}
         }
         .form_age {
-            top: 377px;
-            left: 677px;
+            {{ $r->p('age') }}
         }
         .form_street {
-            top: 417px;
-            left: 140px;
+            {{ $r->p('street') }}
         }
         .form_number {
-            top: 417px;
-            left: 380px;
+            {{ $r->p('number') }}
         }
         .form_colony {
-            top: 417px;
-            left: 550px;
+            {{ $r->p('colony') }}
         }
         .form_town {
-            top: 454px;
-            left: 140px;
+            {{ $r->p('town') }}
         }
         .form_zip_code {
-            top: 454px;
-            left: 320px;
+            {{ $r->p('zip_code') }}
         }
         .form_origin_school {
-            top: 454px;
-            left: 560px;
+            {{ $r->p('origin_school') }}
         }
         .form_f_name {
-            top: 523px;
-            left: 210px;
+            {{ $r->p('f_name') }}
         }
         .form_f_company {
-            top: 555px;
-            left: 210px;
+            {{ $r->p('f_company') }}
         }
         .form_f_position {
-            top: 555px;
-            left: 515px;
+            {{ $r->p('f_position') }}
         }
         .form_f_office_phone {
-            top: 585px;
-            left: 140px;
+            {{ $r->p('f_office_phone') }}
         }
         .form_f_home_phone {
-            top: 585px;
-            left: 270px;
+            {{ $r->p('f_home_phone') }}
         }
         .form_f_cellphone {
-            top: 585px;
-            left: 400px;
+            {{ $r->p('f_cellphone') }}
         }
         .form_f_email {
-            top: 585px;
-            left: 510px;
+            {{ $r->p('f_email') }}
         }
         .form_m_name {
-            top: 626px;
-            left: 210px;
+            {{ $r->p('m_name') }}
         }
         .form_m_company {
-            top: 656px;
-            left: 210px;
+            {{ $r->p('m_company') }}
         }
         .form_m_position {
-            top: 656px;
-            left: 515px;
+            {{ $r->p('m_position') }}
         }
         .form_m_office_phone {
-            top: 687px;
-            left: 140px;
+            {{ $r->p('m_office_phone') }}
         }
         .form_m_home_phone {
-            top: 687px;
-            left: 270px;
+            {{ $r->p('m_home_phone') }}
         }
         .form_m_cellphone {
-            top: 687px;
-            left: 400px;
+            {{ $r->p('m_cellphone') }}
         }
         .form_m_email {
-            top: 687px;
-            left: 510px;
+            {{ $r->p('m_email') }}
         }
         .form_o_name {
-            top: 751px;
-            left: 130px;
+            {{ $r->p('o_name') }}
         }
         .form_relationship {
-            top: 751px;
-            left: 520px;
+            {{ $r->p('relationship') }}
         }
         .form_o_office_phone {
-            top: 782px;
-            left: 140px;
+            {{ $r->p('o_office_phone') }}
         }
         .form_o_home_phone {
-            top: 782px;
-            left: 270px;
+            {{ $r->p('o_home_phone') }}
         }
         .form_o_cellphone {
-            top: 782px;
-            left: 400px;
+            {{ $r->p('o_cellphone') }}
         }
         .form_o_email {
-            top: 782px;
-            left: 510px;
+            {{ $r->p('o_email') }}
         }
         .form_observations {
-            top: 1013px;
-            left: 72px;
-            font-size: 12px;
-            width: 590px;
-            text-align: justify;
+            {{ $r->p('observations') }}
         }
         .auth {
-            top: 1080px;
-            left: 697px;
+            {{ $r->p('auth') }}
         }
         .no_auth {
-            top: 1080px;
-            left: 730px;
+            {{ $r->p('no_auth') }}
+        }
+        .full_name {
+            {{ $r->p('full_name') }}
+        }
+        .back_grade {
+            {{ $r->p('back_grade') }}
+        }
+        .day {
+           {{ $r->p('day') }}
+        }
+        .month {
+            {{ $r->p('month') }}
+        }
+        .year {
+            {{ $r->p('year') }}
         }
     </style>
 </head>
 <body>
 <div>
-    <img src="{{ url('images/pdf/cendi.jpg') }}">
-    <p class="form_date">{{ $request->date }}</p>
-    <p class="inscription" @if($request->type == 2) style="display: none;" @endif >X</p>
-    <p class="reinscription" @if($request->type == 1) style="display: none;" @endif >X</p>
-    <p class="form_name">{{ $request->name }}</p>
-    <p class="form_last_name">{{ $request->last_name }}</p>
-    <p class="form_mat_last_name">{{ $request->mat_last_name }}</p>
-    <p class="form_curp">{{ $request->curp }}</p>
-    <p class="form_grade">{{ $request->grade }}</p>
-    <p class="form_sanguine">{{ $request->sanguine }}</p>
-    <p class="form_place_birth">{{ $request->place_birth }}</p>
-    <p class="form_birthday">{{ $request->birthday }}</p>
-    <p class="form_age">{{ $request->age }}</p>
-    <p class="form_street">{{ $request->street }}</p>
-    <p class="form_number">{{ $request->number }}</p>
-    <p class="form_colony">{{ $request->colony }}</p>
-    <p class="form_town">{{ $request->town }}</p>
-    <p class="form_zip_code">{{ $request->zip_code }}</p>
-    <p class="form_origin_school">{{ $request->origin_school }}</p>
-    <p class="form_f_name">{{ $request->f_name . ' ' . $request->f_last_name . ' ' . $request->f_mat_last_name}}</p>
-    <p class="form_f_company">{{ $request->f_company }}</p>
-    <p class="form_f_position">{{ $request->f_position }}</p>
-    <p class="form_f_office_phone">{{ $request->f_office_phone }}</p>
-    <p class="form_f_home_phone">{{ $request->f_home_phone }}</p>
-    <p class="form_f_cellphone">{{ $request->f_cellphone }}</p>
-    <p class="form_f_email">{{ $request->f_email }}</p>
-    <p class="form_m_name">{{ $request->m_name . ' ' . $request->m_last_name . ' ' . $request->m_mat_last_name}}</p>
-    <p class="form_m_company">{{ $request->m_company }}</p>
-    <p class="form_m_position">{{ $request->m_position }}</p>
-    <p class="form_m_office_phone">{{ $request->m_office_phone }}</p>
-    <p class="form_m_home_phone">{{ $request->m_home_phone }}</p>
-    <p class="form_m_cellphone">{{ $request->m_cellphone }}</p>
-    <p class="form_m_email">{{ $request->m_email }}</p>
-    <p class="form_o_name">{{ $request->o_name . ' ' . $request->o_last_name . ' ' . $request->o_mat_last_name}}</p>
-    <p class="form_relationship">{{ $request->relationship }}</p>
-    <p class="form_o_office_phone">{{ $request->o_office_phone }}</p>
-    <p class="form_o_home_phone">{{ $request->o_home_phone }}</p>
-    <p class="form_o_cellphone">{{ $request->o_cellphone }}</p>
-    <p class="form_o_email">{{ $request->o_email }}</p>
-    <p class="form_observations">{{ $request->observations }}</p>
-    <p class="auth" @if($request->authorization == 2) style="display: none;" @endif >X</p>
-    <p class="no_auth" @if($request->authorization == 1) style="display: none;" @endif >X</p>
+    <img src="{{ url('images/pdf/'.$r->level.'.jpg') }}">
+    <p class="form_date">{{ $r->date }}</p>
+    <p class="inscription" @if($r->type == 2) style="display: none;" @endif >X</p>
+    <p class="reinscription" @if($r->type == 1) style="display: none;" @endif >X</p>
+    <p class="form_name">{{ $r->name }}</p>
+    <p class="form_last_name">{{ $r->last_name }}</p>
+    <p class="form_mat_last_name">{{ $r->mat_last_name }}</p>
+    <p class="form_curp">{{ $r->curp }}</p>
+    <p class="form_grade">{{ $r->grade }}</p>
+    <p class="form_sanguine">{{ $r->sanguine }}</p>
+    <p class="form_place_birth">{{ $r->place_birth }}</p>
+    <p class="form_birthday">{{ $r->birthday }}</p>
+    <p class="form_age">{{ $r->age }}</p>
+    <p class="form_street">{{ $r->street }}</p>
+    <p class="form_number">{{ $r->number }}</p>
+    <p class="form_colony">{{ $r->colony }}</p>
+    <p class="form_town">{{ $r->town }}</p>
+    <p class="form_zip_code">{{ $r->zip_code }}</p>
+    <p class="form_origin_school">{{ $r->origin_school }}</p>
+    <p class="form_f_name">{{ $r->f_name . ' ' . $r->f_last_name . ' ' . $r->f_mat_last_name}}</p>
+    <p class="form_f_company">{{ $r->f_company }}</p>
+    <p class="form_f_position">{{ $r->f_position }}</p>
+    <p class="form_f_office_phone">{{ $r->f_office_phone }}</p>
+    <p class="form_f_home_phone">{{ $r->f_home_phone }}</p>
+    <p class="form_f_cellphone">{{ $r->f_cellphone }}</p>
+    <p class="form_f_email">{{ $r->f_email }}</p>
+    <p class="form_m_name">{{ $r->m_name . ' ' . $r->m_last_name . ' ' . $r->m_mat_last_name}}</p>
+    <p class="form_m_company">{{ $r->m_company }}</p>
+    <p class="form_m_position">{{ $r->m_position }}</p>
+    <p class="form_m_office_phone">{{ $r->m_office_phone }}</p>
+    <p class="form_m_home_phone">{{ $r->m_home_phone }}</p>
+    <p class="form_m_cellphone">{{ $r->m_cellphone }}</p>
+    <p class="form_m_email">{{ $r->m_email }}</p>
+    <p class="form_o_name">{{ $r->o_name . ' ' . $r->o_last_name . ' ' . $r->o_mat_last_name}}</p>
+    <p class="form_relationship">{{ $r->relationship }}</p>
+    <p class="form_o_office_phone">{{ $r->o_office_phone }}</p>
+    <p class="form_o_home_phone">{{ $r->o_home_phone }}</p>
+    <p class="form_o_cellphone">{{ $r->o_cellphone }}</p>
+    <p class="form_o_email">{{ $r->o_email }}</p>
+    <p class="form_observations">{{ $r->observations }}</p>
+    <p class="auth" @if($r->authorization == 2) style="display: none;" @endif >X</p>
+    <p class="no_auth" @if($r->authorization == 1) style="display: none;" @endif >X</p>
 </div>
 <div class="page-break"></div>
 <div>
-    <img src="{{ url('images/pdf/cendi.jpg') }}">
+    <img src="{{ url('images/pdf/back/'.$r->level.'.jpg') }}">
+    <p class="full_name">{{ $r->name . ' ' . $r->last_name . ' ' . $r->mat_last_name }}</p>
+    <p class="back_grade">{{ $r->grade }}</p>
+    <p class="day">{{ date('d', strtotime($r->date)) }}</p>
+    <p class="month">{{ spanish_month(date('n', strtotime($r->date))) }}</p>
+    <p class="year">{{ date('Y', strtotime($r->date)) }}</p>
 </div>
 </body>
 </html>

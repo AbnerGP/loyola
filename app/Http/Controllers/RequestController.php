@@ -122,9 +122,9 @@ class RequestController extends Controller
 
     public function pdf(Request $request)
     {
-        $pdf = PDF::loadView('requests.pdf', compact('request'))->setPaper('legal');
-        //$pdf->set_option('isHtml5ParserEnabled', true);
-        return $pdf->download('cendi.pdf');
-        return view('requests.pdf', compact('request'));
+        $r = $request;
+        $pdf = PDF::loadView('requests.pdf', compact('r'))->setPaper('legal');
+        return $pdf->download($r->level . '-' . $r->full_name() . '.pdf');
+        //return view('requests.pdf', compact('r'));
     }
 }

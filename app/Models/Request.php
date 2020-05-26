@@ -37,4 +37,11 @@ class Request extends Model
     public function get_level() {
         return Config('constants.levels')[$this->level];
     }
+
+    /**
+     * Dependiendo del PDF para solicitudes devuelve la posición exacta.
+     */
+    public function p($field) {
+        return Config('constants.positions')[$this->level][$field];
+    }
 }

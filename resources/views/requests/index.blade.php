@@ -47,6 +47,11 @@
                                     <td><div id="dv_level_{{ $request->id }}">{{ $request->get_level() }}</div></td>
                                     <td><div id="dv_type_{{ $request->id }}">{{ $request->get_type() }}</div></td>
                                     <td class="center tooltip-demo">
+                                        @can('view', App\Models\Request::class)
+                                            <a href="{{ route('request.pdf', $request) }}" title="Descargar" target="_blank" download>
+                                                <span class="fa fa-file-pdf-o text-danger"></span>
+                                            </a>
+                                        @endcan
                                         @can('delete', App\Models\Request::class)
                                             <button type="button" class="btn btn-link delete-button" data-toggle="tooltip" data-placement="left" title="Eliminar solicitud" onclick="return ConfirmDelete('{{ $request->id }}', '{{ route('request.destroy', $request) }}')"><span class="fa fa-trash text-danger"></span></button>
                                         @endcan

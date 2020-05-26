@@ -114,3 +114,26 @@ function mail_templates() {
 
     return $folders;
 }
+
+/**
+ * Devuelve mes en español.
+ */
+function spanish_month($month) {
+    switch ($month) {
+        case 1:
+            return 'Enero';
+            break;
+        case 2:
+            return 'Febrero';
+            break;
+        case 3:
+            return 'Marzo';
+            break;
+        case 4:
+            return 'Abril';
+            break;
+        case 5:
+            return 'Mayo';
+            break;
+    }
+}
