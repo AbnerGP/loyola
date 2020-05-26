@@ -6,7 +6,8 @@ use App\Models\{
     Media,
     Blog,
     Libro,
-    Categoria
+    Categoria,
+    Request
 };
 
 return [
@@ -18,6 +19,7 @@ return [
         Blog::class,
         Libro::class,
         Categoria::class,
+        Request::class
     ],
 
     'functions' => [

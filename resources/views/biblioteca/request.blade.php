@@ -355,10 +355,11 @@
                         type: 'success'
                     }, function () {
                         overlay('#form');
-                        window.location.href = location.protocol + "//" + location.host + "/pdf/" + data.request;
+                        location.reload();
+                        /*window.location.href = location.protocol + "//" + location.host + "/pdf/" + data.request;
                         overlay('#form', 'hide');
                         $('#form').find("input[type=text], textarea, select, input[type=radio], input[type=date]").val("");
-                        $('#form').find("input[type=radio]").prop("checked", false);
+                        $('#form').find("input[type=radio]").prop("checked", false);*/
                     });
                 } else {
                     alert('entraa');
