@@ -29,8 +29,8 @@ $this->get('admin/password/reset/{token}', 'Auth\ResetPasswordController@showRes
 $this->post('admin/password/reset', 'Auth\ResetPasswordController@reset');
 
 Route::middleware(['auth'])->group(function () {
-    Route::get('perfil', 'UserController@edit_perfil')->name('perfil.edit');
-    Route::put('perfil', 'UserController@mod_perfil')->name('perfil.update');
+    Route::get('perfil', 'UserController@edit_perfil')->name('profile.edit');
+    Route::put('perfil', 'UserController@mod_perfil')->name('profile.update');
 
     Route::prefix('admin')->group(function () {
         Route::get('/', 'HomeController@admin')->name('admin');

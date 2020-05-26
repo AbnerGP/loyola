@@ -25,7 +25,7 @@
                     @endcan
 
                     <li>
-                        <a href="{{ route('perfil.edit') }}"><i class="fa fa-address-card"></i> <span class="nav-label">Editar perfil</span></a>
+                        <a href="{{ route('profile.edit') }}"><i class="fa fa-address-card"></i> <span class="nav-label">Editar perfil</span></a>
                     </li>
 
                     @can('view', App\Models\User::class)
