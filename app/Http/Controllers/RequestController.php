@@ -111,7 +111,31 @@ class RequestController extends Controller
             'authorization' => request('authorization')
         ]);
 
+        $msg = 'Se registró una nueva solicitud para ' . strtoupper($request->level) . '. Para descargarla, visitar el siguiente enlace: https://grupoloyola.edu.mx/pdf/' . $request->id;
+
+        $this->telegram($msg, $request->level);
+
         return ['status' => true, 'message' => 'Solicitud de inscripción registrada con éxito.', 'request' => $request->id];
+    }
+
+    public function telegram($msg, $level) {
+        $telegrambot = '1248646771:AAF50yAFiz0IFstIsgcZa8Xj5o-m4Q_a5q8';
+        $chatPrepaId = '-1001414436085';
+        $chatCPS = '-1001445407764';
+
+        switch ($level) {
+            case 'preparatoria':
+                $telegramchatid = $chatPrepaId;
+                break;
+            default:
+                $telegramchatid = $chatCPS;
+        }
+
+        $url='https://api.telegram.org/bot'.$telegrambot.'/sendMessage';$data=array('chat_id'=>$telegramchatid,'text'=>$msg);
+        $options=array('http'=>array('method'=>'POST','header'=>"Content-Type:application/x-www-form-urlencoded\r\n",'content'=>http_build_query($data),),);
+        $context=stream_context_create($options);
+        $result=file_get_contents($url,false,$context);
+        return $result;
     }
 
     public function delete(Request $request)

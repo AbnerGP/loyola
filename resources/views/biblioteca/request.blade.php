@@ -358,7 +358,7 @@
                         //location.reload();
                         window.location.href = location.protocol + "//" + location.host + "/pdf/" + data.request;
                         overlay('#form', 'hide');
-                        $('#form').find("input[type=text], textarea, select, input[type=radio], input[type=date]").val("");
+                        $('#form').find("input[type=text], textarea, select, input[type=date]").val("");
                         $('#form').find("input[type=radio]").prop("checked", false);
                     });
                 } else {
