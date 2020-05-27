@@ -121,14 +121,18 @@ class RequestController extends Controller
     public function telegram($msg, $level) {
         $telegrambot = '1248646771:AAF50yAFiz0IFstIsgcZa8Xj5o-m4Q_a5q8';
         $chatPrepaId = '-1001414436085';
-        $chatCPS = '-1001445407764';
+        $chatPrimariaId = '-1001463317215';
+        $chatCS = '-1001445407764';
 
         switch ($level) {
             case 'preparatoria':
                 $telegramchatid = $chatPrepaId;
                 break;
+            case 'primaria':
+                $telegramchatid = $chatPrimariaId;
+                break;
             default:
-                $telegramchatid = $chatCPS;
+                $telegramchatid = $chatCS;
         }
 
         $url='https://api.telegram.org/bot'.$telegrambot.'/sendMessage';$data=array('chat_id'=>$telegramchatid,'text'=>$msg);
