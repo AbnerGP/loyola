@@ -44,12 +44,14 @@ class RequestController extends Controller
             'f_office_phone' => 'required_without_all:f_home_phone,f_cellphone',
             'f_home_phone' => 'required_without_all:f_office_phone,f_cellphone',
             'f_cellphone' => 'required_without_all:f_home_phone,f_office_phone',
+            'f_email' => 'nullable|email',
             'm_name' => 'required',
             'm_last_name' => 'required',
             'm_mat_last_name' => 'required',
             'm_office_phone' => 'required_without_all:m_home_phone,m_cellphone',
             'm_home_phone' => 'required_without_all:m_office_phone,m_cellphone',
             'm_cellphone' => 'required_without_all:m_home_phone,m_office_phone',
+            'm_email' => 'nullable|email',
             'o_name' => 'required',
             'o_last_name' => 'required',
             'o_mat_last_name' => 'required',
@@ -57,6 +59,7 @@ class RequestController extends Controller
             'o_office_phone' => 'required_without_all:o_home_phone,o_cellphone',
             'o_home_phone' => 'required_without_all:o_office_phone,o_cellphone',
             'o_cellphone' => 'required_without_all:o_office_phone,o_home_phone',
+            'o_email' => 'nullable|email',
             'observations' => 'required|max:255',
             'authorization' => 'required'
         ];
@@ -92,6 +95,7 @@ class RequestController extends Controller
             'f_office_phone' => request('f_office_phone'),
             'f_home_phone' => request('f_home_phone'),
             'f_cellphone' => request('f_cellphone'),
+            'f_email' => request('f_email'),
             'm_name' => request('m_name'),
             'm_last_name' => request('m_last_name'),
             'm_mat_last_name' => request('m_mat_last_name'),
@@ -100,6 +104,7 @@ class RequestController extends Controller
             'm_office_phone' => request('m_office_phone'),
             'm_home_phone' => request('m_home_phone'),
             'm_cellphone' => request('m_cellphone'),
+            'm_email' => request('m_email'),
             'o_name' => request('o_name'),
             'o_last_name' => request('o_last_name'),
             'o_mat_last_name' => request('o_mat_last_name'),
@@ -107,6 +112,7 @@ class RequestController extends Controller
             'o_office_phone' => request('o_office_phone'),
             'o_home_phone' => request('o_home_phone'),
             'o_cellphone' => request('o_cellphone'),
+            'o_email' => request('o_email'),
             'observations' => request('observations'),
             'authorization' => request('authorization')
         ]);
