@@ -11,7 +11,7 @@ use Silber\Bouncer\Database\HasRolesAndAbilities;
 
 class User extends Authenticatable
 {
-    use Notifiable, HasRolesAndAbilities, LogSave;
+    use Notifiable, HasRolesAndAbilities;
 
     static $permisos = ['update', 'create', 'view', 'delete'];
     static public $allRelations = [

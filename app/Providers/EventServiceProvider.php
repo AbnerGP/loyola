@@ -8,7 +8,7 @@ use App\Http\Traits\Activity;
 
 class EventServiceProvider extends ServiceProvider
 {
-    use Activity;
+    //use Activity;
     /**
      * The event listener mappings for the application.
      *

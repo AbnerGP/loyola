@@ -50,20 +50,29 @@
             <ul class="navbar-nav ml-auto text-center">
                 {{--<li class="nav-item {{ request()->is('/') ? 'active bg-loyola-blue' : '' }}"><a href="{{ route('site.index') }}" class="nav-link">Inicio</a></li>--}}
                 <li class="nav-item {{ request()->is('quienes-somos') ? 'text-white bg-loyola-gold' : '' }}"><a href="{{ route('site.about') }}" class="nav-link">¿Quiénes somos?</a></li>
-                <li class="nav-item {{
-                request()->is('niveles-educativos') ? 'bg-loyola-red' :
-                request()->is('niveles-educativos/kinder') ? 'active' :
-                request()->is('niveles-educativos/primaria') ? 'active' :
-                request()->is('niveles-educativos/secundaria') ? 'active' :
-                request()->is('niveles-educativos/preparatoria') ? 'active' :
-                ''
-                }}"><a href="{{ route('site.levels') }}" class="nav-link">Niveles Educativos</a></li>
+                @php
+                    $nivelActivo = '';
+                    if (request()->is('niveles-educativos')) {
+                        $nivelActivo = 'bg-loyola-red';
+                    } elseif (
+                        request()->is('niveles-educativos/kinder') ||
+                        request()->is('niveles-educativos/primaria') ||
+                        request()->is('niveles-educativos/secundaria') ||
+                        request()->is('niveles-educativos/preparatoria')
+                    ) {
+                        $nivelActivo = 'active';
+                    }
+                @endphp
+
+                <li class="nav-item {{ $nivelActivo }}">
+                    <a href="{{ route('site.levels') }}" class="nav-link">Niveles Educativos</a>
+                </li>
                 <li class="nav-item {{ request()->is('language-school') ? 'bg-loyola-yellow' : '' }}"><a href="{{ route('site.language') }}" class="nav-link">Idiomas</a></li>
                 <li class="nav-item {{ request()->is('viajes') ? 'active bg-loyola-blue' : '' }}"><a href="{{ route('site.viajes') }}" class="nav-link">Viajes</a></li>
                 <li class="nav-item {{ request()->is('logros') ? 'text-white bg-loyola-gold' : '' }}"><a href="{{ route('site.logros') }}" class="nav-link">Logros</a></li>
                 <li class="nav-item {{ request()->is('instalaciones') ? 'text-white bg-loyola-red' : '' }}"><a href="{{ route('site.instalaciones') }}" class="nav-link">Instalaciones</a></li>
                 <li class="nav-item {{ request()->is('contacto') ? 'bg-loyola-yellow' : '' }}"><a href="{{ route('site.contact') }}" class="nav-link">Contacto</a></li>
-                <li class="nav-item {{ request()->is('inscripcion') ? 'active bg-loyola-blue' : '' }}"><a href="{{ route('request.new') }}" class="nav-link">Solicitud de inscripción</a></li>
+<!--                <li class="nav-item {{ request()->is('inscripcion') ? 'active bg-loyola-blue' : '' }}"><a href="{{ route('request.new') }}" class="nav-link">Solicitud de inscripción</a></li>-->
             </ul>
         </div>
     </div>
